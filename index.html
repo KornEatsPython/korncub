@@ -1511,25 +1511,29 @@ fill("askSugg",SUGG.map(x=>{const b=h("button",{type:"button"},x);b.onclick=()=>
 
 
 /* ---------- the bleachers (Firebase: posts, reacts, users) ---------- */
-const BL={fx:null,uid:null,me:null,admin:false,posts:[],reacts:[],hot:false,busy:false,seenT:null};
+const BL={fx:null,uid:null,me:null,admin:false,posts:[],reacts:[],reports:[],hot:false,busy:false,seenT:null};
+const BL_BAD=new RegExp("f[u*@0-9]+ck|cunt|motherf|bitch|whore|slut|pussy|asshole|nigg|n1gg|faggot|\\bfag|retard|tranny|\\bspic\\b|chink|\\bkike|wetback|\\bgook|kill yourself|kill urself|\\bkys\\b|\\brape|porn","is");
 const BL_NOTE="Banter, gripes and hot takes. Put your name in Posting as, then fire away.";
 function blAgo(t){return ago(new Date(t).toISOString())}
 function blColor(x){let n=0;for(const c of String(x||""))n=(n*31+c.charCodeAt(0))>>>0;return ["#0e3386","#cc3433","#1f6f4a","#7a4fb5","#b5651d","#2a7f9e"][n%6]}
 function blRender(){
   const all=BL.posts;blUnread(all);
   {const newest=all.filter(p=>p.uid!==BL.me).reduce((m,p)=>Math.max(m,p.t||0),0);if(BL.seenT!=null&&newest>BL.seenT)SND.play("chime");BL.seenT=Math.max(BL.seenT||0,newest)}
+  const rep={},myRep={};BL.reports.forEach(x=>{rep[x.pid]=(rep[x.pid]||0)+1;if(x.uid===BL.me)myRep[x.pid]=1});
   const counts={},mine={};BL.reacts.forEach(r=>{const c=counts[r.pid]=counts[r.pid]||{agree:0,fade:0};if(c[r.r]!=null)c[r.r]++;if(r.uid===BL.me)mine[r.pid]=r.r});
   $("blForm").hidden=!BL.fx;
   if(!all.length){fill("posts",h("div",{class:"empty"},"Nobody's said anything yet. Start the argument."));return}
-  fill("posts",all.slice(0,150).map(p=>{const isMine=!!BL.me&&p.uid===BL.me;const c=counts[p.id]||{agree:0,fade:0};
+  fill("posts",all.filter(p=>BL.admin||(rep[p.id]||0)<2).slice(0,150).map(p=>{const isMine=!!BL.me&&p.uid===BL.me;const c=counts[p.id]||{agree:0,fade:0};
     const rb=(k,label)=>{const b=h("button",{type:"button","aria-pressed":String(mine[p.id]===k)},label+(c[k]?" · "+c[k]:""));
       b.onclick=async()=>{if(!BL.fx)return;const next=mine[p.id]===k?null:k;if(next)SND.play(k==="agree"?"safe":"out");
         try{await BL.fx.react(p.id,next)}catch(e){$("blNote").textContent="Couldn't save that. Try again."}};return b};
     const del=(isMine||BL.admin)?h("button",{type:"button",class:"del"},"Delete"):null;
+    const flag=!isMine&&!BL.admin?h("button",{type:"button",class:"del","aria-pressed":String(!!myRep[p.id]),disabled:!!myRep[p.id]},myRep[p.id]?"Reported":"🚩 Report"):null;
+    if(flag&&!myRep[p.id])flag.onclick=async()=>{if(!confirm("Report this post? Two reports hide it for everyone."))return;try{await BL.fx.report(p.id)}catch(e){$("blNote").textContent="Couldn't send that report."}};
     if(del)del.onclick=async()=>{if(!confirm("Delete this post?"))return;SND.play("k3");try{await BL.fx.del(p.id)}catch(e){$("blNote").textContent="Couldn't delete that."}};
     return h("div",{class:"post"+(isMine?" mine":"")+(p.hot?" hot":"")},h("span",{class:"av",style:"background:"+blColor(p.handle),"aria-hidden":"true"},(p.handle||"?").charAt(0).toUpperCase()),
       h("div",{class:"bub"},h("div",{class:"bubTop"},h("b",{},p.handle||"Someone"),p.hot?h("span",{class:"hotTag"},"Hot take"):null,h("span",{},p.t?blAgo(p.t):"just now")),
-        h("p",{},p.text),h("div",{class:"reacts"},rb("agree","👍 Agree"),rb("fade","🙄 Bad take"),del)))}));
+        h("p",{},p.text),h("div",{class:"reacts"},rb("agree","👍 Agree"),rb("fade","🙄 Bad take"),del,flag),BL.admin&&(rep[p.id]||0)>=2?h("p",{class:"tiny muted"},"Hidden from everyone: "+rep[p.id]+" reports"):null))}));
 }
 /* ---------- app screens ---------- */
 const SCR_T={game:"Today",roster:"Stats",talk:"News",bl:"Bleachers",legends:"Legends"};
@@ -1564,6 +1568,7 @@ try{const n=localStorage.getItem("cubsHandle");if(n)$("blName").value=n}catch(e)
 $("blForm").onsubmit=async e=>{e.preventDefault();if(!BL.fx||BL.busy)return;const text=$("blBox").value.trim();if(!text)return;
   const handle=$("blName").value.trim().slice(0,24);if(!handle){$("blNote").textContent="Type your name in Posting as first.";$("blName").focus();return}
   try{localStorage.setItem("cubsHandle",handle)}catch(e){}
+  if(BL_BAD.test(text)||BL_BAD.test(handle)){$("blNote").textContent="Keep it clean. That word isn't allowed on the board.";return}
   BL.busy=true;$("blSend").disabled=true;
   try{await BL.fx.post({handle,text:text.slice(0,500),hot:BL.hot});if(BL.hot)SND.play("charge");$("blBox").value="";BL.hot=false;$("blHot").setAttribute("aria-pressed","false");$("blNote").textContent=BL_NOTE}
   catch(e){$("blNote").textContent=e&&e.code==="permission-denied"?"Easy there. One post every 20 seconds, 500 characters max.":"Couldn't post that. Check your connection and try again."}
@@ -1648,6 +1653,7 @@ else{try{
       b.set(F.doc(db,"users",me()),{handle,last:F.serverTimestamp()});await b.commit()},
     react:async(pid,r)=>{const ref=F.doc(db,"reacts",pid+"_"+me());if(r)await F.setDoc(ref,{pid,uid:me(),r});else await F.deleteDoc(ref)},
     del:async pid=>{await F.deleteDoc(F.doc(db,"posts",pid))},
+    report:async pid=>{await F.setDoc(F.doc(db,"reports",pid+"_"+me()),{pid,uid:me()})},
     owner:async()=>{await A.signInWithPopup(auth,new A.GoogleAuthProvider())}
   };
   A.onAuthStateChanged(auth,u=>{
@@ -1657,6 +1663,7 @@ else{try{
   F.onSnapshot(F.query(F.collection(db,"posts"),F.orderBy("t","desc"),F.limit(150)),snap=>{
     BL.posts=snap.docs.map(d=>{const x=d.data({serverTimestamps:"estimate"});return {id:d.id,uid:x.uid,handle:x.handle,text:x.text,hot:!!x.hot,t:x.t&&x.t.toMillis?x.t.toMillis():Date.now()}});blRender()},
     ()=>{$("blNote").textContent="Couldn't reach the board. Reload to try again."});
+  F.onSnapshot(F.collection(db,"reports"),snap=>{BL.reports=snap.docs.map(d=>d.data());blRender()},()=>{});
   F.onSnapshot(F.collection(db,"reacts"),snap=>{BL.reacts=snap.docs.map(d=>d.data());blRender()},()=>{});
 }catch(e){$("blNote").textContent="Couldn't load the board. Reload to try again."}}
 </script>

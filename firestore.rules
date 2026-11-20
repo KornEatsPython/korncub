@@ -3,10 +3,12 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
     function isOwner() {
-      return signedIn() && request.auth.token.email == 'OWNER_EMAIL'
+      return signedIn() && request.auth.token.email == 'kalex6391@gmail.com'
         && request.auth.token.email_verified == true;
     }
     function userDoc(u) { return /databases/$(database)/documents/users/$(u); }
+    // Blocked words (slurs, strong profanity, sexual content, "kill yourself" taunts). Same list lives in index.html.
+    function clean(t) { return !t.lower().matches('(?s).*(f[u*@0-9]+ck|cunt|motherf|bitch|whore|slut|pussy|asshole|nigg|n1gg|faggot|\\bfag|retard|tranny|\\bspic\\b|chink|\\bkike|wetback|\\bgook|kill yourself|kill urself|\\bkys\\b|\\brape|porn).*'); }
 
     // Bleachers posts: anyone signed in (anonymous is fine) can post.
     // Spam guards: 500 characters max, 24-character names, one post per 20 seconds per device.
@@ -20,6 +22,7 @@ service cloud.firestore {
         && request.resource.data.text is string
         && request.resource.data.text.size() > 0 && request.resource.data.text.size() <= 500
         && request.resource.data.hot is bool
+        && clean(request.resource.data.text) && clean(request.resource.data.handle)
         && request.resource.data.t == request.time
         && getAfter(userDoc(request.auth.uid)).data.last == request.time
         && (!exists(userDoc(request.auth.uid))
@@ -36,6 +39,17 @@ service cloud.firestore {
         && request.resource.data.keys().hasOnly(['handle', 'last'])
         && request.resource.data.last == request.time;
       allow delete: if false;
+    }
+
+    // Reports: one per person per post. Two reports hide a post for everyone (owner can still see and delete it).
+    match /reports/{rid} {
+      allow read: if true;
+      allow create: if signedIn()
+        && rid == request.resource.data.pid + '_' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['pid', 'uid'])
+        && request.resource.data.uid == request.auth.uid
+        && exists(/databases/$(database)/documents/posts/$(request.resource.data.pid));
+      allow update, delete: if false;
     }
 
     // Agree / Bad take: one reaction per person per post.
