@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isOwner() {
+      return signedIn() && request.auth.token.email == 'OWNER_EMAIL'
+        && request.auth.token.email_verified == true;
+    }
+    function userDoc(u) { return /databases/$(database)/documents/users/$(u); }
+
+    // Bleachers posts: anyone signed in (anonymous is fine) can post.
+    // Spam guards: 500 characters max, 24-character names, one post per 20 seconds per device.
+    match /posts/{pid} {
+      allow read: if true;
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['uid', 'handle', 'text', 'hot', 't'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.handle is string
+        && request.resource.data.handle.size() > 0 && request.resource.data.handle.size() <= 24
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0 && request.resource.data.text.size() <= 500
+        && request.resource.data.hot is bool
+        && request.resource.data.t == request.time
+        && getAfter(userDoc(request.auth.uid)).data.last == request.time
+        && (!exists(userDoc(request.auth.uid))
+            || get(userDoc(request.auth.uid)).data.last < request.time - duration.value(20, 's'));
+      allow update: if false;
+      // Authors delete their own posts; the owner can delete anything.
+      allow delete: if signedIn() && (resource.data.uid == request.auth.uid || isOwner());
+    }
+
+    // Per-device "last posted" stamp that powers the 20-second limit.
+    match /users/{u} {
+      allow read: if false;
+      allow create, update: if signedIn() && u == request.auth.uid
+        && request.resource.data.keys().hasOnly(['handle', 'last'])
+        && request.resource.data.last == request.time;
+      allow delete: if false;
+    }
+
+    // Agree / Bad take: one reaction per person per post.
+    match /reacts/{rid} {
+      allow read: if true;
+      allow create, update: if signedIn()
+        && rid == request.resource.data.pid + '_' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['pid', 'uid', 'r'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.r in ['agree', 'fade']
+        && exists(/databases/$(database)/documents/posts/$(request.resource.data.pid));
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid;
+    }
+  }
+}
