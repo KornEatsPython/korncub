@@ -537,6 +537,13 @@ body{padding-bottom:calc(70px + env(safe-area-inset-bottom,0px));overscroll-beha
 .sndBtn{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 .sndTip{bottom:calc(92px + env(safe-area-inset-bottom,0px))}
 .toTop{bottom:calc(138px + env(safe-area-inset-bottom,0px))}
+/* keep the tab bar clear of Netlify's "Powered by Netlify" badge: --nlb is the badge's height, set by the script at the end */
+:root{--nlb:0px;--botpad:max(env(safe-area-inset-bottom,0px),var(--nlb))}
+.tabbar{padding-bottom:calc(6px + var(--botpad))}
+body{padding-bottom:calc(70px + var(--botpad))}
+.sndBtn{bottom:calc(84px + var(--botpad))}
+.sndTip{bottom:calc(92px + var(--botpad))}
+.toTop{bottom:calc(138px + var(--botpad))}
 /* slim header on every screen but Game Day */
 .scrT{display:none}
 body.slim .ivy,body.slim .marquee,body.slim .band .eyebrow,body.slim .band .sub,body.slim .band .helpLink,body.slim .band .liveRow,body.slim .flag{display:none!important}
@@ -1666,5 +1673,23 @@ else{try{
   F.onSnapshot(F.collection(db,"reports"),snap=>{BL.reports=snap.docs.map(d=>d.data());blRender()},()=>{});
   F.onSnapshot(F.collection(db,"reacts"),snap=>{BL.reacts=snap.docs.map(d=>d.data());blRender()},()=>{});
 }catch(e){$("blNote").textContent="Couldn't load the board. Reload to try again."}}
+</script>
+<script>
+/* Lift the tab bar above Netlify's badge iframe while it's showing; drop back when it's hidden or gone. */
+(function(){
+  var root=document.documentElement,last=-1,queued=false;
+  function fit(){
+    queued=false;
+    var f=document.getElementById('nl-badge-frame'),h=0;
+    if(f){
+      var r=f.getBoundingClientRect(),cs=getComputedStyle(f);
+      if(cs.display!=='none'&&cs.visibility!=='hidden'&&r.height>0&&r.height<120&&r.top<innerHeight)h=Math.ceil(innerHeight-r.top)+4;
+    }
+    if(h!==last){last=h;root.style.setProperty('--nlb',h+'px');}
+  }
+  function q(){if(!queued){queued=true;requestAnimationFrame(fit);}}
+  new MutationObserver(q).observe(root,{childList:true,subtree:true,attributes:true,attributeFilter:['style','hidden','class']});
+  addEventListener('resize',q);addEventListener('load',q);q();
+})();
 </script>
 </body></html>
