@@ -478,6 +478,39 @@ html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 140px)}
 .alertBtn[aria-pressed="true"]{background:#0e3386;color:#fff;border-color:#fff}
 .alertBtn[disabled]{opacity:.6;cursor:default}
 .alertNote{color:var(--chalkdim);font-size:13.5px;line-height:1.35;max-width:34em}
+.colBtn{background:#cc3433;color:#fff;border-color:#fff}
+.colBox{max-width:720px}
+.colBody{padding:26px 22px 8px;color:var(--ink)}
+.colKick{font:800 13px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin:0 0 12px}
+.colTitle{font:700 30px/1.15 Georgia,"Times New Roman",serif;margin:0 0 10px;color:var(--ink)}
+.colDek{font:400 18px/1.45 Georgia,serif;color:var(--muted);margin:0 0 14px}
+.colBy{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted);margin:0 0 22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.colAv{width:34px;height:34px;border-radius:50%;background:var(--cubs);color:#fff;display:grid;place-items:center;font:800 13px/1 var(--display);letter-spacing:.04em;flex:none}
+.colText p{font:400 18px/1.7 Georgia,serif;margin:0 0 18px}
+.colText h3{font:800 22px/1.2 var(--display);text-transform:uppercase;letter-spacing:.03em;color:var(--cubs);margin:30px 0 12px}
+.colText blockquote{margin:24px 0;padding:4px 0 4px 18px;border-left:4px solid var(--red);font:italic 400 21px/1.5 Georgia,serif;color:var(--ink)}
+.colEnd{font:800 13px/1 var(--display);letter-spacing:.1em;color:var(--muted);text-align:center;margin:8px 0 22px}
+.colShare{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:none;color:var(--ink);border-radius:999px;padding:7px 14px;font:600 13px/1 var(--body);cursor:pointer}
+.colSec{border-top:1px solid var(--line);margin-top:22px;padding-top:18px}
+.colSec h4{font:800 15px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;margin:0 0 12px;color:var(--ink)}
+.colRx{display:flex;gap:10px;margin:0 0 16px}
+.colRx button{border:1.5px solid var(--line);background:none;color:var(--ink);border-radius:999px;padding:8px 14px;font:700 14px/1 var(--body);cursor:pointer}
+.colRx button[aria-pressed="true"]{background:var(--cubs);border-color:var(--cubs);color:#fff}
+.colCm{padding:10px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.45}
+.colCm b{color:var(--cubs)} .colCm small{color:var(--muted);margin-left:6px}
+.colCm .del{background:none;border:0;color:var(--muted);font-size:12px;text-decoration:underline;cursor:pointer;margin-left:6px}
+.colForm{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.colForm input,.colForm textarea{font:400 15px/1.4 var(--body);padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}
+.colForm textarea{min-height:80px;resize:vertical}
+.colForm button{align-self:flex-start;background:var(--cubs);color:#fff;border:0;border-radius:999px;padding:10px 18px;font:700 14px/1 var(--body);cursor:pointer}
+.colNote{font-size:13px;color:var(--muted);min-height:1em}
+.colArc button{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:12px 0;color:var(--ink);cursor:pointer}
+.colArc b{display:block;font:700 17px/1.3 Georgia,serif} .colArc span{font-size:13px;color:var(--muted)}
+.colEmpty{text-align:center;padding:26px 6px 34px}
+.colEmpty .ball{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;background:#fbfaf6;border:2px solid #d9d3c4;position:relative}
+.colEmpty .ball::before,.colEmpty .ball::after{content:"";position:absolute;top:8px;bottom:8px;width:12px;border:2px dashed #c8302f}
+.colEmpty .ball::before{left:6px;border-left:0;border-radius:0 60% 60% 0/0 50% 50% 0}
+.colEmpty .ball::after{right:6px;border-right:0;border-radius:60% 0 0 60%/50% 0 0 50%}
 body.big main .in,body.big .rail .in,body.big .tabs .in,body.big .sheetBox{zoom:1.15}
 /* legends: retired-number flags */
 .flags{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px}
@@ -813,6 +846,13 @@ body[data-scr="legends"] .rail{display:none!important}
   <div class="sheetBox" role="dialog" aria-modal="true" aria-labelledby="cardName" tabindex="-1" id="sheetBox">
     <button class="x" type="button" data-close aria-label="Close stat card">×</button>
     <div id="cardBody"></div>
+  </div>
+</div>
+<div class="sheet" id="colSheet" hidden>
+  <div class="scrim" data-colclose></div>
+  <div class="sheetBox colBox" role="dialog" aria-modal="true" aria-label="The Korn Column" tabindex="-1" id="colBox">
+    <button class="x" type="button" data-colclose aria-label="Close the column">×</button>
+    <div id="colBody" class="colBody"></div>
   </div>
 </div>
 
@@ -1676,7 +1716,17 @@ else{try{
     owner:async()=>{await A.signInWithPopup(auth,new A.GoogleAuthProvider())},
     pushKey:async()=>{const d=await F.getDoc(F.doc(db,"public","push"));return d.exists()?d.data().publicKey:null},
     pushSave:async sub=>{await F.setDoc(F.doc(db,"pushSubs",me()),{uid:me(),endpoint:sub.endpoint,keys:{p256dh:sub.keys.p256dh,auth:sub.keys.auth},t:F.serverTimestamp()})},
-    pushDrop:async()=>{await F.deleteDoc(F.doc(db,"pushSubs",me()))}
+    pushDrop:async()=>{await F.deleteDoc(F.doc(db,"pushSubs",me()))},
+    colWatch:(pid,cb)=>{
+      const st={comments:[],reacts:[]};
+      const u1=F.onSnapshot(F.query(F.collection(db,"colComments"),F.where("pid","==",pid)),snap=>{st.comments=snap.docs.map(d=>{const x=d.data({serverTimestamps:"estimate"});return {id:d.id,uid:x.uid,handle:x.handle,text:x.text,t:x.t&&x.t.toMillis?x.t.toMillis():Date.now()}}).sort((a,b)=>a.t-b.t);cb(st)},()=>{});
+      const u2=F.onSnapshot(F.query(F.collection(db,"colReacts"),F.where("pid","==",pid)),snap=>{st.reacts=snap.docs.map(d=>d.data());cb(st)},()=>{});
+      return ()=>{u1();u2()}},
+    colComment:async(pid,handle,text)=>{const ref=F.doc(F.collection(db,"colComments"));const b=F.writeBatch(db);
+      b.set(ref,{pid,uid:me(),handle,text,t:F.serverTimestamp()});
+      b.set(F.doc(db,"users",me()),{handle,last:F.serverTimestamp()});await b.commit()},
+    colReact:async(pid,r)=>{const ref=F.doc(db,"colReacts",pid+"_"+me());if(r)await F.setDoc(ref,{pid,uid:me(),r});else await F.deleteDoc(ref)},
+    colDel:async id=>{await F.deleteDoc(F.doc(db,"colComments",id))}
   };
   A.onAuthStateChanged(auth,u=>{
     if(!u){A.signInAnonymously(auth).catch(()=>{$("blNote").textContent="Couldn't connect to the board. Reload to try again."});return}
@@ -1732,6 +1782,87 @@ else{try{
     }catch(e){say("Couldn't turn on alerts. Try again in a minute.")}
     finally{btn.disabled=false}
   };
+})();
+</script>
+<script>
+/* The Korn Column: Alex's long-form pieces on anything Cubs. Posts live in column/posts.json;
+   comments and Agree / Bad take live in Firestore (colComments, colReacts). Opens at #column or #column/<id>. */
+(function(){
+  const row=document.querySelector(".alertRow");if(!row)return;
+  const btn=h("button",{type:"button",class:"alertBtn colBtn"});
+  btn.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M8 7h8M8 11h6"/></svg><span>The Korn Column</span>';
+  row.prepend(btn);
+  let COL=null,cur=null,unsub=null,st={comments:[],reacts:[]},busy=false,from=null;
+  async function load(){
+    if(COL)return COL;
+    try{const r=await fetch("column/posts.json",{cache:"no-store"});COL=await r.json()}catch(e){COL={}}
+    COL.name=COL.name||"The Korn Column";COL.author=COL.author||"Alex Korn";COL.posts=(COL.posts||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+    return COL}
+  const fmt=d=>{try{return new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}catch(e){return d}};
+  const initials=n=>String(n).split(/\s+/).map(w=>w[0]).join("").slice(0,2).toUpperCase();
+  const link=p=>location.origin+location.pathname+"#column"+(p?"/"+p.id:"");
+  function render(){
+    const kick=h("p",{class:"colKick"},COL.name);
+    if(!cur){
+      fill("colBody",kick,h("div",{class:"colEmpty"},h("div",{class:"ball","aria-hidden":"true"}),
+        h("h2",{class:"colTitle"},COL.next?"The first column drops "+COL.next:"The first column is coming soon"),
+        h("p",{class:"colDek"},COL.about||"Long-form pieces on anything Cubs: past, present and future."),
+        h("p",{class:"colBy",style:"justify-content:center;border:0"},h("span",{class:"colAv"},initials(COL.author)),"By "+COL.author)));
+      return}
+    const text=h("div",{class:"colText"});
+    (cur.body||[]).forEach(sec=>{if(sec.h)text.append(h("h3",null,sec.h));(sec.p||[]).forEach(t=>text.append(h("p",null,t)));if(sec.quote)text.append(h("blockquote",null,sec.quote))});
+    const share=h("button",{type:"button",class:"colShare"},"Share this column");
+    share.onclick=async()=>{const u=link(cur);try{if(navigator.share){await navigator.share({title:cur.title,text:cur.title+" | "+COL.name,url:u});return}await navigator.clipboard.writeText(u);share.textContent="Link copied"}catch(e){}};
+    const others=COL.posts.filter(p=>p.id!==cur.id);
+    fill("colBody",kick,h("h2",{class:"colTitle"},cur.title),cur.dek?h("p",{class:"colDek"},cur.dek):null,
+      h("div",{class:"colBy"},h("span",{class:"colAv"},initials(COL.author)),h("span",null,"By "+COL.author+" · "+fmt(cur.date)+(cur.readMin?" · "+cur.readMin+" min read":""))),
+      text,h("p",{class:"colEnd"},"— KC —"),share,
+      h("div",{class:"colSec",id:"colTalk"}),
+      others.length?h("div",{class:"colSec colArc"},h("h4",null,"More columns"),others.map(p=>{const b=h("button",{type:"button"},h("b",null,p.title),h("span",null,fmt(p.date)));b.onclick=()=>show(p.id);return b})):null);
+    talk()}
+  function talk(){
+    const box=$("colTalk");if(!box||!cur)return;
+    const me=BL.me,counts={agree:0,fade:0};let mine=null;
+    st.reacts.forEach(r=>{if(counts[r.r]!=null)counts[r.r]++;if(r.uid===me)mine=r.r});
+    const rb=(k,label)=>{const b=h("button",{type:"button","aria-pressed":String(mine===k)},label+(counts[k]?" · "+counts[k]:""));
+      b.onclick=async()=>{if(!BL.fx||!me)return;try{await BL.fx.colReact(cur.id,mine===k?null:k)}catch(e){}};return b};
+    const list=st.comments.map(c=>{const del=(c.uid===me||BL.admin)?h("button",{type:"button",class:"del"},"delete"):null;
+      if(del)del.onclick=async()=>{try{await BL.fx.colDel(c.id)}catch(e){}};
+      return h("div",{class:"colCm"},h("b",null,c.handle),h("small",null,ago(new Date(c.t).toISOString())),del,h("div",null,c.text))});
+    const name=h("input",{maxlength:"24",placeholder:"Your name","aria-label":"Your name"});
+    try{name.value=localStorage.getItem("cubsHandle")||""}catch(e){}
+    const ta=h("textarea",{maxlength:"1000",placeholder:"What did Alex get right, or wrong?","aria-label":"Your comment"});
+    const note=h("p",{class:"colNote"});
+    const send=h("button",{type:"submit"},"Post comment");
+    const form=h("form",{class:"colForm"},ta,name,send,note);
+    form.onsubmit=async e=>{e.preventDefault();if(busy)return;const t=ta.value.trim(),n=name.value.trim().slice(0,24);
+      if(!t){note.textContent="Write something first.";return}
+      if(!n){note.textContent="Add your name so people know who said it.";name.focus();return}
+      if(BL_BAD.test(t)||BL_BAD.test(n)){note.textContent="Keep it clean, it's a family ballpark.";return}
+      if(!BL.fx||!BL.me){note.textContent="Still connecting. Try again in a second.";return}
+      busy=true;send.disabled=true;
+      try{localStorage.setItem("cubsHandle",n)}catch(e){}
+      try{await BL.fx.colComment(cur.id,n,t);ta.value="";note.textContent=""}
+      catch(e){note.textContent="Couldn't post. You can comment once every 20 seconds."}
+      finally{busy=false;send.disabled=false}};
+    fill(box,h("h4",null,"What do you think?"),h("div",{class:"colRx"},rb("agree","Agree"),rb("fade","Bad take")),
+      list.length?list:h("p",{class:"colNote"},"No comments yet. Get the argument started."),form)}
+  function watch(){
+    if(unsub){unsub();unsub=null}st={comments:[],reacts:[]};if(!cur)return;const id=cur.id;
+    const go=()=>{if($("colSheet").hidden||!cur||cur.id!==id)return;if(BL.fx&&BL.fx.colWatch){unsub=BL.fx.colWatch(id,x=>{st=x;talk()})}else setTimeout(go,500)};go()}
+  async function show(id){
+    await load();cur=COL.posts.find(p=>p.id===id)||COL.posts[0]||null;
+    from=from||document.activeElement;$("colSheet").hidden=false;document.body.style.overflow="hidden";
+    render();watch();$("colBox").scrollTop=0;$("colBox").focus();
+    const want="#column"+(cur&&id&&cur.id===id?"/"+cur.id:"");if(location.hash!==want)history.replaceState(null,"",want)}
+  function close(){$("colSheet").hidden=true;document.body.style.overflow="";if(unsub){unsub();unsub=null}
+    if(location.hash.startsWith("#column"))history.replaceState(null,"",location.pathname+location.search);
+    if(from&&from.focus)from.focus();from=null}
+  btn.onclick=()=>show(null);
+  document.addEventListener("click",e=>{if(e.target.closest("[data-colclose]"))close()});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("colSheet").hidden)close()});
+  const fromHash=()=>{const m=location.hash.match(/^#column(?:\/(.+))?$/);if(m)show(m[1]?decodeURIComponent(m[1]):null)};
+  addEventListener("hashchange",fromHash);fromHash();
 })();
 </script>
 <script>

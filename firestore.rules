@@ -64,6 +64,40 @@ service cloud.firestore {
       allow delete: if signedIn() && resource.data.uid == request.auth.uid;
     }
 
+    // The Korn Column: comments under each column (same guards as Bleachers posts).
+    match /colComments/{cid} {
+      allow read: if true;
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['pid', 'uid', 'handle', 'text', 't'])
+        && request.resource.data.pid is string
+        && request.resource.data.pid.size() > 0 && request.resource.data.pid.size() <= 100
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.handle is string
+        && request.resource.data.handle.size() > 0 && request.resource.data.handle.size() <= 24
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0 && request.resource.data.text.size() <= 1000
+        && clean(request.resource.data.text) && clean(request.resource.data.handle)
+        && request.resource.data.t == request.time
+        && getAfter(userDoc(request.auth.uid)).data.last == request.time
+        && (!exists(userDoc(request.auth.uid))
+            || get(userDoc(request.auth.uid)).data.last < request.time - duration.value(20, 's'));
+      allow update: if false;
+      allow delete: if signedIn() && (resource.data.uid == request.auth.uid || isOwner());
+    }
+
+    // The Korn Column: Agree / Bad take, one per person per column.
+    match /colReacts/{rid} {
+      allow read: if true;
+      allow create, update: if signedIn()
+        && rid == request.resource.data.pid + '_' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['pid', 'uid', 'r'])
+        && request.resource.data.pid is string
+        && request.resource.data.pid.size() > 0 && request.resource.data.pid.size() <= 100
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.r in ['agree', 'fade'];
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid;
+    }
+
     // Big-move alerts: each device saves (and can remove) only its own push subscription.
     // Nobody can read them from the app; the alert checker reads them with the server key.
     match /pushSubs/{u} {
