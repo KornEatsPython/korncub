@@ -114,6 +114,12 @@ service cloud.firestore {
       allow delete: if signedIn() && u == request.auth.uid;
     }
 
+    // Daily refresh data (brief, betting, reads, etc.). Public read; written only by the sync workflow with the server key.
+    match /live/{d} {
+      allow read: if true;
+      allow write: if false;
+    }
+
     // Public push key for subscribing (written only by the alert checker).
     match /public/{d} {
       allow read: if true;

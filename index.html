@@ -1700,7 +1700,12 @@ async function liveMLB(){try{await liveStandings()}catch(e){}try{await liveRoste
   let on=false;try{on=await liveGame()}catch(e){}
   setTimeout(liveMLB,on?60000:15*60000)}
 (async()=>{let got=0;
-  await Promise.all(Object.keys(S).map(async k=>{try{const r=await fetch("data/"+k+".json",{cache:"no-cache"});if(r.ok){S[k]=await r.json();got++}}catch(e){}}));
+  // Daily data lives in Firestore (collection "live", each doc = {json: "<stringified body>"}), so a refresh never needs a Netlify deploy.
+  // Falls back to the bundled data/*.json if Firestore is unreachable or a doc is missing.
+  const FS="https://firestore.googleapis.com/v1/projects/korncub/databases/(default)/documents/live/",FK="AIzaSyCFymHBmFGEMMSbNTFU6kVVHi4zQL4ydUY";
+  await Promise.all(Object.keys(S).map(async k=>{
+    try{const r=await fetch(FS+k+"?key="+FK,{cache:"no-store"});if(r.ok){const d=await r.json();const t=d&&d.fields&&d.fields.json&&d.fields.json.stringValue;if(t){S[k]=JSON.parse(t);got++;return}}}catch(e){}
+    try{const r=await fetch("data/"+k+".json",{cache:"no-cache"});if(r.ok){S[k]=await r.json();got++}}catch(e){}}));
   if(got)queue();else setLive(false,"Couldn't load the latest data. Pull down to try again.");
   liveMLB()})();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})});

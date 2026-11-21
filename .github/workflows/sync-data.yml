@@ -1,0 +1,32 @@
+name: Sync data to Firestore
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "alerts/sync-data.mjs", ".github/workflows/sync-data.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            alerts
+            data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+        working-directory: alerts
+      - name: Write data to Firestore
+        working-directory: alerts
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node sync-data.mjs
