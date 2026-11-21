@@ -1,1 +1,558 @@
-{"players": {"571510": {"contract": "Free agent; declined his side of a $15M mutual option Oct. 29 ($2M buyout). No QO.", "minus": ["xERA in the 25th percentile", "Turns 36 in February"], "name": "Matthew Boyd", "plus": ["108 ERA+", "Changeup and slider both miss bats"], "role": "SP", "status": "Free agent · no QO · Orioles interested (Kostka)", "take": "Boyd went 10-5 with a 3.91 ERA (108 ERA+) in 22 starts around a meniscus injury, with an 18.5% strikeout rate. Then he started Game 1 of the Wild Card Series and gave up first-inning homers to Fernando Tatis Jr. and Manny Machado. He declined his option Oct. 29. No qualifying offer; one year as the No. 5 starter at most.", "verdict": "A fine regular season, a bad October, and now a free agent at 36."}, "592332": {"contract": "Free agent", "minus": ["11 HR in 50 1/3 IP", "Turns 36 in January"], "name": "Kevin Gausman", "plus": ["3.02 xFIP", "Splitter: 42.9% whiff rate", "Walk rate in the 86th percentile"], "role": "SP", "status": "Free agent", "take": "Gausman posted a 4.83 ERA in nine starts after the deadline deal, then lasted 3 1/3 innings in the elimination game. His 3.02 xFIP and 21.9% K-BB rate say he pitched better than the ERA, and the splitter is still a weapon (42.9% whiff rate). He turns 36 in January. Fine on a one-year deal; don't pay for the name.", "verdict": "A deadline buy that didn't move the needle."}, "605280": {"contract": "Free agent; declined his $12M player option Oct. 29", "minus": ["4.4% K-BB rate", "K rate in the 24th percentile"], "name": "Clay Holmes", "plus": ["Ground-ball sinker", "Barrel rate allowed in the 93rd percentile"], "role": "SP", "status": "Free agent; Hawkins says the Cubs want him back", "take": "The Cubs sent Jefferson Rojas to get Holmes. He opened with a 1.55 ERA over his first five starts, then posted an 8.24 ERA over his last four and didn't pitch in the postseason. As a Cub: 4.25 ERA, 16.2% strikeouts, 11.8% walks. Hawkins told Sharma the Cubs would like to re-sign him; MLBTR predicts three years, $45M. One year as a swingman, or let him go.", "verdict": "Cost a top prospect, collapsed in September, then walked."}, "607067": {"contract": "Free agent; Cubs declined his $7.5M club option Nov. 2 ($1M buyout)", "minus": ["4.80 FIP", "9.2% K-BB rate"], "name": "Colin Rea", "plus": ["137 innings"], "role": "SP/RP", "status": "Free agent (option declined)", "take": "Rea threw 137 innings (19 starts) with a 4.34 ERA, 4.80 FIP and 9.2% K-BB rate. At 36 next season, a $7.5M option for depth only makes sense after two real starters are signed.", "verdict": "A bottom-15% strikeout arm. Don't bring him back."}, "608324": {"contract": "5 years, $175M (2026-30)", "minus": ["Bat speed in the 19th percentile", "wOBA 31 points over xwOBA", "Turns 33 next March"], "name": "Alex Bregman", "plus": ["2026 NL Gold Glove at third and All-MLB Second Team", "1.010 OPS after the All-Star break", "Chase rate in the 87th percentile; 14.5% K rate", "28 HR, 93 RBI", "2026 NL Silver Slugger (his second)"], "role": "3B · Middle of the order", "status": "Signed through 2030 · Ninth in NL MVP voting", "take": "Bregman delivered 5.8 bWAR, a 124 OPS+ and his first Fielding Bible award at third. But his .357 wOBA sat 31 points above his .326 xwOBA, and his .391 xSLG was 73 points under his actual slugging. The glove and the plate discipline (76 walks, 102 strikeouts) are bankable. Expect his slugging closer to .420 than .464. He called the playoff exit 'a failure' after going hitless in it.", "verdict": "Year one was worth the money. The underlying numbers say year two gets harder."}, "608348": {"contract": "Free agent ($1.5M buyout)", "minus": [".638 OPS vs. righties", "Turns 33 next season"], "name": "Carson Kelly", "plus": [".871 OPS vs. lefties", "1.9 bWAR"], "role": "C", "status": "Free agent (option declined Oct. 30)", "take": "Kelly gave the Cubs a .254/.335/.402 line with 27 homers over two years on an $11.5M deal, and a 97 OPS+ with 1.9 bWAR in 2026. The Cubs declined his $7.5M mutual option Friday, so he's the best catcher on a thin market. Without him, catcher is the weakest spot in the lineup.", "verdict": "Re-sign him on two years. Nobody else on the market is better."}, "621020": {"contract": "7 years, $177M (2023-29)", "minus": [".213 AVG, .297 OBP", "xwOBA .296: it wasn't bad luck", "Three years and big money left"], "name": "Dansby Swanson", "plus": ["Gold Glove finalist (lost to Perdomo)", "19 HR, 17 SB", "3.2 bWAR despite the bat"], "role": "SS", "status": "Signed through 2029", "take": "A .213/.297/.397 line and a 90 OPS+ in his worst year as a Cub, and his .296 xwOBA says he earned most of it. He lost about a month to a left oblique strain in August and is 33 next season with three years left on his deal. The glove (Gold Glove finalist) keeps him in the lineup. He belongs at the bottom of it until the bat proves otherwise.", "verdict": "Still a plus defender. The slide at the plate is real."}, "624424": {"contract": "Free agent", "minus": ["Platoon-only", "Turns 34 in March"], "name": "Michael Conforto", "plus": ["118 OPS+ for almost nothing", "15 HR in 314 PA"], "role": "DH", "status": "Free agent", "take": "Signed to a minor-league contract in February, Conforto put up a 118 OPS+ with 15 homers in 314 plate appearances, nearly all of them against right-handers (12 PA vs. lefties). He turns 34 in March. Cheap platoon bat, not an answer.", "verdict": "A minor-league deal that paid off. A platoon DH, nothing more."}, "650633": {"contract": "Free agent; declined his player option Oct. 29, leaving $58M over two years for a $5M buyout. No draft-pick compensation.", "minus": ["21.0% strikeout rate", "9.2% walk rate", "Entering his age-32 season"], "name": "Michael King", "plus": ["185 innings in 32 starts", "3.21 ERA, 4.3 bWAR", "No qualifying offer attached"], "role": "SP", "status": "Free agent (declined Padres option)", "take": "King threw 185 innings over 32 starts with a 3.21 ERA and 4.3 bWAR, then shut out the Cubs for seven one-hit innings in the Wild Card Series. The Cubs chased him last winter, and Morosi now calls King-Cubs a pairing 'many of us have forecasted.' The catch is the strikeouts: 21.0% K and 9.2% BB with a near-average FIP. Sign him, but not as the only starter.", "verdict": "The best realistic starter on the market. A No. 2, not an ace."}, "656849": {"contract": "Free agent", "minus": ["xERA in the 22nd percentile", "10.2% walk rate"], "name": "David Peterson", "plus": ["114 ERA+ as a Cub", "4.06 FIP"], "role": "SP", "status": "Free agent; Cubs working to re-sign him, several teams interested", "take": "Acquired in June, Peterson gave the Cubs a 3.70 ERA (114 ERA+) and a 4.06 FIP over 15 starts. The expected stats are harsher (22nd-percentile xERA) and he walked 10.2% of hitters. As a No. 4 starter on a reasonable deal, he's worth bringing back. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are in, and Baltimore's lefty hunt makes him a fit there. Two years is the right deal; don't let a bidding war push it to three.", "verdict": "The one in-season rotation addition that worked, maybe more than it should have."}, "657006": {"contract": null, "minus": ["No MLB innings since April 2025", "Final year before free agency"], "name": "Justin Steele", "plus": ["When healthy, the best lefty starter in the organization"], "role": "SP", "status": "Under contract through 2027", "take": "Steele hasn't pitched in the majors since his April 7, 2025 start. He had left elbow surgery soon after, and a flexor strain took away any 2026 return. He made three rehab outings for Triple-A Iowa in September. If he's close to his old self, he's a top-three starter on this staff. The Cubs can't plan on a full season from him.", "verdict": "The rotation's biggest wild card."}, "657097": {"contract": "$2M for 2027; $4M club option for 2028 ($500K buyout); up to $500K in games-pitched bonuses", "minus": ["8 blown saves", "8.8% walk rate"], "name": "Jacob Webb", "plus": ["Whiff rate in the 96th percentile", "Changeup: 41.5% whiff rate"], "role": "RP", "status": "Re-signed", "take": "Webb led the team with nine saves and blew eight, which sums up the 2026 bullpen. The stuff is real: a 96th-percentile whiff rate and a 3.57 xFIP. The high-leverage results weren't. At $2.5M he's a fine setup man.", "verdict": "Pick up the option. Don't hand him the ninth."}, "663538": {"contract": "6 years, $141M extension (2027-32), with deferrals", "minus": ["Exit velocity in the 8th percentile", "Walk rate in the 14th percentile", "Bat speed in the 5th percentile"], "name": "Nico Hoerner", "plus": ["xBA .296 (99th percentile)", "K rate in the 99th percentile", "96th-percentile OAA; 23 steals"], "role": "2B", "status": "Signed through 2032", "take": "An 84 OPS+ and .666 OPS look like decline, but Statcast disagrees: a .296 xBA against a .263 average and a .320 xwOBA against .297. His contact skills are elite (99th-percentile K rate, 97th-percentile whiff rate), so the average should come back. The ceiling is the problem: an 85.9 mph average exit velocity and a 1.4% barrel rate cap him near league average at the plate. The extension pays for the glove and the contact, not the bat.", "verdict": "The unluckiest regular on the roster, and the one the Cubs just paid."}, "664023": {"contract": "Free agent; no qualifying offer, so no pick attached", "minus": [".484 OPS vs. lefties", "29.7% K rate", "Weak final four months (MLBTR)"], "name": "Ian Happ", "plus": ["Gold Glove finalist (lost to Chourio)", "81 walks, 24 HR", ".816 OPS vs. righties"], "role": "LF", "status": "Free agent · no QO · Mariners linked (Morosi), then cooled (Jude)", "take": "Happ is a four-time Gold Glove winner and a finalist again, with a 103 OPS+ and 2.9 bWAR. He also hit .218, struck out 189 times, and posted a .484 OPS against lefties, which put him in a platoon by September. A $23.15M qualifying offer is more than he's worth, and he might accept it. The Cubs need a better left fielder, not a pricier version of this one. The Cubs passed on the QO Monday, which tells you they thought he'd take it.", "verdict": "Let him go unless the price drops."}, "665795": {"contract": null, "minus": ["xERA in the 8th percentile", "Exit velocity allowed in the 3rd percentile", "10.3% walk rate"], "name": "Edward Cabrera", "plus": ["Fastball 96-97 mph (82nd-percentile velo)", "26.5% whiff rate"], "role": "SP", "status": "Under club control", "take": "Cabrera came from Miami for Owen Caissie and two other prospects, posted a 5.96 ERA (71 ERA+) over 15 starts around injuries, and didn't make the Wild Card roster. His 4.28 xFIP says the strikeout-walk profile is playable, but hitters squared him up: his xERA sits in the 8th percentile and his exit velocity allowed in the 3rd. He's in the 2027 rotation because he's under contract, not because he's earned it.", "verdict": "The Caissie trade hasn't paid off, and the contact data says it may not."}, "665804": {"contract": null, "minus": ["xwOBA 31 points below his wOBA", "26.4% K rate"], "name": "Miguel Amaya", "plus": [".340 OBP", "Cheap and under control"], "role": "C", "status": "Under team control", "take": "Amaya hit .237/.340/.377 (98 OPS+) in 83 games, but a .315 BABIP and a .293 xwOBA (31 points under his wOBA) point to a softer line next year. With Kelly's option declined, Amaya starts by default, with Owen Ayers the only internal push. Cubbies Crib floated him as a trade chip if Kelly returns. Hawkins at the GM meetings: 'We've all seen a little more out of Miggy offensively.' He's the starter by default unless the Cubs re-sign Kelly or buy a catcher.", "verdict": "The starting catcher by default, and the numbers flatter him."}, "665871": {"contract": "Arbitration-eligible; Cubs declined his $3.3M club option Nov. 2. MLBTR projects $2.3M. Under control through 2028.", "minus": ["4.92 FIP, 4.56 SIERA", "16.1% K rate, 1st-percentile whiff rate"], "name": "Javier Assad", "plus": ["Durable swingman", "7.1% walk rate", "One minor-league option left"], "role": "SP/RP", "status": "Under club control (option declined)", "take": "A 3.63 ERA in 94 1/3 innings looks fine until you see the 4.92 FIP, 4.37 xFIP and a 15.9% whiff rate. He has beaten his peripherals for years, with help from the best defense in baseball. The Cubs declined his $3.3M option to save about $1M through arbitration, which tells you how they value him. As a sixth starter he's useful. As a projected No. 3, he's a red flag.", "verdict": "A starter's ERA with a reliever's peripherals. The option call says the Cubs know it."}, "669020": {"contract": null, "minus": ["ERA a run under his xFIP"], "name": "Ryan Rolison", "plus": ["135 ERA+ in 63 IP"], "role": "RP", "status": "Pre-arbitration", "take": "Claimed from the White Sox in January, Rolison logged 63 innings with a 3.14 ERA (135 ERA+). The 3.93 FIP and 4.24 xFIP are more modest. Keep him in middle relief.", "verdict": "A waiver claim that became a usable lefty."}, "669373": {"contract": "Free agent; expected to clear Yamamoto's $325M pitcher record (theScore, Passan)", "minus": ["Price well past $300M, maybe $400M-plus", "29, with an elbow history (Last Word on Sports)"], "name": "Tarik Skubal", "plus": ["2.72 ERA, 186 K in 158 2/3 IP", "Two AL Cy Youngs", "Changes a short series by himself"], "role": "SP4 candidate", "status": "Free agent; Cubs reportedly sitting out the bidding (Sharma, The Athletic)", "take": "Two-time AL Cy Young winner. 12-7 with a 2.72 ERA and 186 strikeouts in 158 2/3 innings in 2026, including a 2.61 ERA in 10 starts after the August trade to the Dodgers. Passan says the Cubs badly want him but doubt they'll pay $300M-plus; the Dodgers and Mets are the other main suitors. He's expected to sign before the lockout. On Nov. 9 Sharma reported the Cubs plan to sit out the bidding, citing the lockout and the Dodgers' and Mets' budgets.", "verdict": "The only true ace on the market, and the Cubs are walking away from him."}, "669432": {"contract": "Free agent; rejected the Orioles' $23.15M QO Nov. 17. Signing him costs the Cubs their second- and fifth-highest 2027 picks plus $1M in international pool money. MLBTR predicts five years, $115M.", "minus": ["41.1% ground-ball rate in a homer-friendly park", "Costs two draft picks", "Only two strong years after a rough 2022-24"], "name": "Trevor Rogers", "plus": ["3.16 ERA over 48 starts since 2025", "6.1% walk rate", "Age 29"], "role": "SP", "status": "Free agent · rejected Orioles QO · Cubs interested (Sharma)", "take": "Rogers rebuilt himself in Baltimore: 3.16 ERA over 279 1/3 innings and 48 starts since 2025, with a 23.2% strikeout rate and a 6.1% walk rate. FanGraphs has him at 7.3 WAR over the two years, 17th among pitchers. Sharma reports the Cubs are interested. He's 29, left-handed and durable lately, which is everything the current rotation isn't. Worth the picks.", "verdict": "The best realistic No. 2 on the Cubs' list."}, "673548": {"contract": "Free agent; rejected the $23.15M qualifying offer Nov. 17. MLBTR projects four years, $105M. The Padres met him Nov. 16 and may be the favorite (Passan). Comp pick after the fourth round if he signs elsewhere.", "minus": ["wOBA 27 points over xwOBA", ".763 OPS on the road"], "name": "Seiya Suzuki", "plus": ["131 OPS+, 26 HR, .841 OPS, career-high 81 walks", "+7 fielding run value, Gold Glove finalist", ".966 OPS vs. lefties"], "role": "RF", "status": "Free agent · rejected the $23.15M QO", "take": "Suzuki posted a 131 OPS+ and a career-best 5.1 bWAR, plus +7 fielding run value in right. The bat ran a little hot (.366 wOBA, .339 xwOBA), but even the expected line is well above average. He rejected the QO Tuesday, and Passan now has the Padres as the possible favorite. Hawkins says the Cubs 'would be silly not to have interest,' but MLBTR projects four years, $105M for a 32-year-old, and that's not where this front office is spending.", "verdict": "The best right-handed bat on the team, and gone unless his market collapses."}, "676962": {"contract": "First-time arbitration (Super Two), projected $1.3M (Swartz). Controlled through 2030.", "minus": ["Cervical spine surgery Nov. 9; no MLB innings until about midseason", "Third straight season cut short by his neck"], "name": "Ben Brown", "plus": ["2.50 FIP, 24.5% K rate", "0.94 WHIP"], "role": "SP/RP", "status": "Out · neck surgery Nov. 9; return around midseason 2027", "take": "Brown was the best pitcher on the staff when healthy: a 1.70 ERA with a 25% K rate and 6.7% walk rate over 42 1/3 innings as a starter before a stress fracture in a neck vertebra ended his year in June. He had neck surgery Nov. 9. Hawkins says he'll throw early in 2027 and pitch in the majors around midseason. That's three straight seasons shortened by the same body part.", "verdict": "Can't be in the 2027 plan. Anything he gives you after the break is a bonus."}, "680757": {"contract": "Final arbitration year; projected $11.3M (MLBTR). Free agent after 2027.", "minus": ["Three home runs", "No clear lineup spot with PCA leading off", "Only one year of control"], "name": "Steven Kwan", "plus": ["Four straight Gold Gloves", "Strong second half: sixth in fWAR from June 30", "One year at about $11M"], "role": "LF", "status": "Trade target (Guardians)", "take": "Kwan hit .282/.382/.349 with three homers and 5.3 bWAR in 2026, mostly leading off, and ranked sixth in the majors in fWAR from June 30 on. He's won four straight Gold Gloves in left. Cleveland is expected to shop him with one year of control left. For about $11M he'd keep the Cubs' defense elite, but he doesn't fix a lineup that's losing a 131-OPS+ bat.", "verdict": "Elite glove, contact bat, no power. A one-year bridge in left, not a Suzuki replacement."}, "680776": {"contract": "Arbitration-eligible; projected upward of $11M for 2027 (Bleacher Nation)", "minus": ["2026 production dropped off", "Arbitration salary climbing", "Costs prospects the Cubs need for pitching"], "name": "Jarren Duran", "plus": ["Real everyday corner bat", "Boston has to move an outfielder", "No free-agent money required"], "role": "OF", "status": "Tendered by Boston, Nov. 20; trade candidate", "take": "Mooney (The Athletic) says the Cubs have evaluated him as a change-of-scenery add before Friday's tender deadline. Boston's Bauers deal leaves no spot, and Bleacher Nation expects a non-tender. That's the Cubs' price: free agent money, no prospect. At $11M plus a chip, pass. As a cheap lefty bat against righties in left, he's worth it.", "verdict": "Wait for the non-tender. Don't pay a prospect for him."}, "682634": {"contract": "Pre-arbitration", "minus": ["39.3% K rate in the majors", "77 OPS+, -0.2 bWAR in a small sample"], "name": "Kevin Alcántara", "plus": ["91.1 mph average exit velocity", "Raw power and length (106.1 max EV)"], "role": "RF candidate", "status": "On the 40-man roster", "take": "The 6-foot-6, 24-year-old outfielder got 28 plate appearances in 2026: .240/.286/.360, a 77 OPS+ and a 39.3% strikeout rate. His expected line (.234 xBA, .355 xSLG) says that's about what he was. He's a depth option and a trade chip, not a starter.", "verdict": "Tools without results yet. Not the answer in right field for a contender."}, "683737": {"contract": null, "minus": ["xBA in the 23rd percentile", "Bat speed in the 10th percentile", ".393 slugging at first base"], "name": "Michael Busch", "plus": ["Walk rate in the 91st percentile (13.0%)", "Chase rate in the 80th percentile", "20 HR"], "role": "1B", "status": "Under team control", "take": "Busch walked 92 times and got on base at .352, but a .242 average and .393 slugging made for a 106 OPS+, a step back for a first baseman. His xwOBA (.330) matched his wOBA (.333), so this is who he was. First base was also the only position where the Cubs had negative DRS (-2). He's a fine regular. He isn't the middle-of-the-order bat they need if Suzuki leaves.", "verdict": "Patient, solid, and stuck in neutral."}, "684007": {"contract": "Free agent (not QO-eligible)", "minus": ["35 HR allowed", "Fastball velo in the 10th percentile"], "name": "Shota Imanaga", "plus": ["32 starts, 174 1/3 IP", "Walk rate in the 95th percentile", "Splitter: 41.4% whiff rate"], "role": "SP", "status": "Free agent", "take": "Imanaga made all 32 starts with a 3.77 ERA (112 ERA+) and a 5.2% walk rate. His FIP (4.47) is ugly because he allowed 35 homers, but his xFIP (3.74) and 95th-percentile walk rate say the skills held. The fastball sits 91.6 mph (10th percentile), so the homers aren't a fluke either. On a two- or three-year deal, he's the most reliable starter they can bring back.", "verdict": "Re-sign him at the right price. He's better than his FIP."}, "689196": {"contract": null, "minus": ["No MLB experience"], "name": "Owen Ayers", "plus": ["No. 2 Cubs prospect (MLB Pipeline)"], "role": "C · Prospect", "status": "Prospect", "take": "MLB Pipeline ranks Ayers the Cubs' No. 2 prospect and No. 88 overall. He spent the last couple of weeks of the season with the big-league club without playing, and Bleacher Nation calls him a recent breakout. Plan on a partial 2027 at most. If Kelly leaves, Hawkins' fallback is Ayers sharing the job with Amaya.", "verdict": "The catcher of the future. Not the catcher of April."}, "691718": {"contract": "6 years, $115M extension (2027-32), escalators to $133M", "minus": ["Squared-up rate in the 15th percentile; 25.8% K rate", "xBA .263 vs. .280 actual", ".846 OPS on the road vs. 1.045 at Wrigley"], "name": "Pete Crow-Armstrong", "plus": ["2026 NL MVP, unanimous (30 of 30 first-place votes, 420 points); also the Hank Aaron Award and All-MLB First Team", "MLB-best 10.6 fWAR; seventh 40-40 season ever (45 HR, 41 SB)", "NL Platinum Glove and Gold Glove in center (+26 OAA, most in MLB; +63 since 2024)", "Walk rate up from 4.5% to 11.4%, the biggest jump among qualified hitters", "1.004 OPS and 171 wRC+ from May 1 on", "2026 NL Silver Slugger"], "role": "CF · Leadoff", "status": "Signed through 2032 · 2026 NL MVP (unanimous) · Hank Aaron Award · All-MLB First Team · Platinum Glove", "take": "A unanimous MVP: 45 homers, 41 steals, 119 runs, 357 total bases and the best defensive season in baseball (+26 OAA). First Cub in the 40-40 club and the first unanimous Cubs MVP. He hit .225 through May 20, then .302/.400/.658 with 40 homers over his last 112 games. The bat ran hot: a .400 wOBA against a .372 xwOBA and a .327 BABIP. Even with some regression he's elite, but treat 2026 as the ceiling, not the floor. He was hitless in the Wild Card round.", "verdict": "The MVP was earned. The expected stats say 'great,' not 'otherworldly,' and great at $19M a year is the best contract in the sport."}, "694037": {"contract": null, "minus": ["29 2/3 IP around an elbow injury"], "name": "Daniel Palencia", "plus": ["Velocity"], "role": "RP", "status": "Pre-arbitration", "take": "Palencia threw only 29 2/3 innings around a flexor strain and gave up the back-breaking hit to Gavin Sheets in the elimination game. MLBTR notes he struggled to miss bats around the elbow injury. He has to earn high-leverage work in spring.", "verdict": "Big arm, not enough missed bats."}, "699393": {"contract": null, "minus": ["Biggest wOBA-over-xwOBA gap on the team", ".662 OPS vs. righties"], "name": "Pedro Ramírez", "plus": ["Switch-hitter, plays all over the infield", "22 years old"], "role": "UT", "status": "Pre-arbitration", "take": "The 22-year-old switch-hitter covered short while Swanson was out and hit .261/.321/.402 (99 OPS+). His .315 wOBA sat 32 points above his .283 xwOBA, the biggest gap among Cubs regulars. He's a nice depth piece at 22. Penciling him in as a starting corner outfielder would be a mistake. Hawkins sees him as an outfielder but says he 'will need to put himself in a better position defensively.' He's barely played there. Hawkins now names him first among the in-house corner options.", "verdict": "Useful and versatile, riding the luckiest bat on the team."}, "807713": {"contract": null, "minus": [".640 OPS vs. righties", "xSLG .353"], "name": "Matt Shaw", "plus": [".841 OPS vs. lefties", "Versatile"], "role": "UT · Corner OF candidate", "status": "Pre-arbitration", "take": "Shaw played 77 games around the diamond and hit .237/.327/.410 (102 OPS+). Statcast thinks that was generous: a .303 xwOBA and .353 xSLG. He hit lefties (.841 OPS) and struggled against righties (.640). Hoyer says the Cubs will lean on him more, which is a polite way of saying the outfield budget may go to pitching. As an everyday corner bat, he's a downgrade from Happ or Suzuki.", "verdict": "Gets the first crack at a corner. Hasn't earned it yet."}, "663698": {"name": "Joey Bart", "status": "Claimed off waivers from the White Sox, Nov. 20; agreed to a 2027 deal, terms not disclosed", "role": "C", "contract": "One year left of arbitration control (MLBTR projected $2.9M)", "verdict": "Backup, not the starter. Bring Kelly back anyway.", "take": "The former No. 2 overall pick hit .214/.305/.357 with an 82 OPS+ in 128 plate appearances for three teams in 2026, then broke his left hand Aug. 6. His one good stretch was 2024 in Pittsburgh: 13 homers and a 120 wRC+ in 80 games. Paired with Amaya, he gives the Cubs a cheap floor at catcher and nothing more.", "plus": ["120 wRC+ with the 2024 Pirates", "Cheap and controllable for 2027"], "minus": ["82 OPS+ and 27.3% K rate in 2026", "Minus-2 DRS behind the plate in 2026"]}}, "updatedAt": "2026-11-20T22:45-05:00"}
+{
+ "players": {
+  "571510": {
+   "contract": "Free agent; declined his side of a $15M mutual option Oct. 29 ($2M buyout). No QO.",
+   "minus": [
+    "xERA in the 25th percentile",
+    "Turns 36 in February"
+   ],
+   "name": "Matthew Boyd",
+   "plus": [
+    "108 ERA+",
+    "Changeup and slider both miss bats"
+   ],
+   "role": "SP",
+   "status": "Free agent · no QO · Orioles interested (Kostka)",
+   "take": "Boyd went 10-5 with a 3.91 ERA (108 ERA+) in 22 starts around a meniscus injury, with an 18.5% strikeout rate. Then he started Game 1 of the Wild Card Series and gave up first-inning homers to Fernando Tatis Jr. and Manny Machado. He declined his option Oct. 29. No qualifying offer; one year as the No. 5 starter at most.",
+   "verdict": "A fine regular season, a bad October, and now a free agent at 36."
+  },
+  "592332": {
+   "contract": "Free agent",
+   "minus": [
+    "11 HR in 50 1/3 IP",
+    "Turns 36 in January"
+   ],
+   "name": "Kevin Gausman",
+   "plus": [
+    "3.02 xFIP",
+    "Splitter: 42.9% whiff rate",
+    "Walk rate in the 86th percentile"
+   ],
+   "role": "SP",
+   "status": "Free agent",
+   "take": "Gausman posted a 4.83 ERA in nine starts after the deadline deal, then lasted 3 1/3 innings in the elimination game. His 3.02 xFIP and 21.9% K-BB rate say he pitched better than the ERA, and the splitter is still a weapon (42.9% whiff rate). He turns 36 in January. Fine on a one-year deal; don't pay for the name.",
+   "verdict": "A deadline buy that didn't move the needle."
+  },
+  "605280": {
+   "contract": "Free agent; declined his $12M player option Oct. 29",
+   "minus": [
+    "4.4% K-BB rate",
+    "K rate in the 24th percentile"
+   ],
+   "name": "Clay Holmes",
+   "plus": [
+    "Ground-ball sinker",
+    "Barrel rate allowed in the 93rd percentile"
+   ],
+   "role": "SP",
+   "status": "Free agent; Hawkins says the Cubs want him back",
+   "take": "The Cubs sent Jefferson Rojas to get Holmes. He opened with a 1.55 ERA over his first five starts, then posted an 8.24 ERA over his last four and didn't pitch in the postseason. As a Cub: 4.25 ERA, 16.2% strikeouts, 11.8% walks. Hawkins told Sharma the Cubs would like to re-sign him; MLBTR predicts three years, $45M. One year as a swingman, or let him go.",
+   "verdict": "Cost a top prospect, collapsed in September, then walked."
+  },
+  "607067": {
+   "contract": "Free agent; Cubs declined his $7.5M club option Nov. 2 ($1M buyout)",
+   "minus": [
+    "4.80 FIP",
+    "9.2% K-BB rate"
+   ],
+   "name": "Colin Rea",
+   "plus": [
+    "137 innings"
+   ],
+   "role": "SP/RP",
+   "status": "Free agent (option declined)",
+   "take": "Rea threw 137 innings (19 starts) with a 4.34 ERA, 4.80 FIP and 9.2% K-BB rate. At 36 next season, a $7.5M option for depth only makes sense after two real starters are signed.",
+   "verdict": "A bottom-15% strikeout arm. Don't bring him back."
+  },
+  "608324": {
+   "contract": "5 years, $175M (2026-30)",
+   "minus": [
+    "Bat speed in the 19th percentile",
+    "wOBA 31 points over xwOBA",
+    "Turns 33 next March"
+   ],
+   "name": "Alex Bregman",
+   "plus": [
+    "2026 NL Gold Glove at third and All-MLB Second Team",
+    "1.010 OPS after the All-Star break",
+    "Chase rate in the 87th percentile; 14.5% K rate",
+    "28 HR, 93 RBI",
+    "2026 NL Silver Slugger (his second)"
+   ],
+   "role": "3B · Middle of the order",
+   "status": "Signed through 2030 · Ninth in NL MVP voting",
+   "take": "Bregman delivered 5.8 bWAR, a 124 OPS+ and his first Fielding Bible award at third. But his .357 wOBA sat 31 points above his .326 xwOBA, and his .391 xSLG was 73 points under his actual slugging. The glove and the plate discipline (76 walks, 102 strikeouts) are bankable. Expect his slugging closer to .420 than .464. He called the playoff exit 'a failure' after going hitless in it.",
+   "verdict": "Year one was worth the money. The underlying numbers say year two gets harder."
+  },
+  "608348": {
+   "contract": "Free agent ($1.5M buyout)",
+   "minus": [
+    ".638 OPS vs. righties",
+    "Turns 33 next season"
+   ],
+   "name": "Carson Kelly",
+   "plus": [
+    ".871 OPS vs. lefties",
+    "1.9 bWAR"
+   ],
+   "role": "C",
+   "status": "Free agent (option declined Oct. 30)",
+   "take": "Kelly gave the Cubs a .254/.335/.402 line with 27 homers over two years on an $11.5M deal, and a 97 OPS+ with 1.9 bWAR in 2026. The Cubs declined his $7.5M mutual option Friday, so he's the best catcher on a thin market. Without him, catcher is the weakest spot in the lineup.",
+   "verdict": "Re-sign him on two years. Nobody else on the market is better."
+  },
+  "621020": {
+   "contract": "7 years, $177M (2023-29)",
+   "minus": [
+    ".213 AVG, .297 OBP",
+    "xwOBA .296: it wasn't bad luck",
+    "Three years and big money left"
+   ],
+   "name": "Dansby Swanson",
+   "plus": [
+    "Gold Glove finalist (lost to Perdomo)",
+    "19 HR, 17 SB",
+    "3.2 bWAR despite the bat"
+   ],
+   "role": "SS",
+   "status": "Signed through 2029",
+   "take": "A .213/.297/.397 line and a 90 OPS+ in his worst year as a Cub, and his .296 xwOBA says he earned most of it. He lost about a month to a left oblique strain in August and is 33 next season with three years left on his deal. The glove (Gold Glove finalist) keeps him in the lineup. He belongs at the bottom of it until the bat proves otherwise.",
+   "verdict": "Still a plus defender. The slide at the plate is real."
+  },
+  "624424": {
+   "contract": "Free agent",
+   "minus": [
+    "Platoon-only",
+    "Turns 34 in March"
+   ],
+   "name": "Michael Conforto",
+   "plus": [
+    "118 OPS+ for almost nothing",
+    "15 HR in 314 PA"
+   ],
+   "role": "DH",
+   "status": "Free agent",
+   "take": "Signed to a minor-league contract in February, Conforto put up a 118 OPS+ with 15 homers in 314 plate appearances, nearly all of them against right-handers (12 PA vs. lefties). He turns 34 in March. Cheap platoon bat, not an answer.",
+   "verdict": "A minor-league deal that paid off. A platoon DH, nothing more."
+  },
+  "650633": {
+   "contract": "Free agent; declined his player option Oct. 29, leaving $58M over two years for a $5M buyout. No draft-pick compensation.",
+   "minus": [
+    "21.0% strikeout rate",
+    "9.2% walk rate",
+    "Entering his age-32 season"
+   ],
+   "name": "Michael King",
+   "plus": [
+    "185 innings in 32 starts",
+    "3.21 ERA, 4.3 bWAR",
+    "No qualifying offer attached"
+   ],
+   "role": "SP",
+   "status": "Free agent (declined Padres option)",
+   "take": "King threw 185 innings over 32 starts with a 3.21 ERA and 4.3 bWAR, then shut out the Cubs for seven one-hit innings in the Wild Card Series. The Cubs chased him last winter, and Morosi now calls King-Cubs a pairing 'many of us have forecasted.' The catch is the strikeouts: 21.0% K and 9.2% BB with a near-average FIP. Sign him, but not as the only starter.",
+   "verdict": "The best realistic starter on the market. A No. 2, not an ace."
+  },
+  "656849": {
+   "contract": "Free agent",
+   "minus": [
+    "xERA in the 22nd percentile",
+    "10.2% walk rate"
+   ],
+   "name": "David Peterson",
+   "plus": [
+    "114 ERA+ as a Cub",
+    "4.06 FIP"
+   ],
+   "role": "SP",
+   "status": "Free agent; Cubs working to re-sign him, several teams interested",
+   "take": "Acquired in June, Peterson gave the Cubs a 3.70 ERA (114 ERA+) and a 4.06 FIP over 15 starts. The expected stats are harsher (22nd-percentile xERA) and he walked 10.2% of hitters. As a No. 4 starter on a reasonable deal, he's worth bringing back. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are in, and Baltimore's lefty hunt makes him a fit there. Two years is the right deal; don't let a bidding war push it to three.",
+   "verdict": "The one in-season rotation addition that worked, maybe more than it should have."
+  },
+  "657006": {
+   "contract": null,
+   "minus": [
+    "No MLB innings since April 2025",
+    "Final year before free agency"
+   ],
+   "name": "Justin Steele",
+   "plus": [
+    "When healthy, the best lefty starter in the organization"
+   ],
+   "role": "SP",
+   "status": "Under contract through 2027",
+   "take": "Steele hasn't pitched in the majors since his April 7, 2025 start. He had left elbow surgery soon after, and a flexor strain took away any 2026 return. He made three rehab outings for Triple-A Iowa in September. If he's close to his old self, he's a top-three starter on this staff. The Cubs can't plan on a full season from him.",
+   "verdict": "The rotation's biggest wild card."
+  },
+  "657097": {
+   "contract": "$2M for 2027; $4M club option for 2028 ($500K buyout); up to $500K in games-pitched bonuses",
+   "minus": [
+    "8 blown saves",
+    "8.8% walk rate"
+   ],
+   "name": "Jacob Webb",
+   "plus": [
+    "Whiff rate in the 96th percentile",
+    "Changeup: 41.5% whiff rate"
+   ],
+   "role": "RP",
+   "status": "Re-signed",
+   "take": "Webb led the team with nine saves and blew eight, which sums up the 2026 bullpen. The stuff is real: a 96th-percentile whiff rate and a 3.57 xFIP. The high-leverage results weren't. At $2.5M he's a fine setup man.",
+   "verdict": "Pick up the option. Don't hand him the ninth."
+  },
+  "663538": {
+   "contract": "6 years, $141M extension (2027-32), with deferrals",
+   "minus": [
+    "Exit velocity in the 8th percentile",
+    "Walk rate in the 14th percentile",
+    "Bat speed in the 5th percentile"
+   ],
+   "name": "Nico Hoerner",
+   "plus": [
+    "xBA .296 (99th percentile)",
+    "K rate in the 99th percentile",
+    "96th-percentile OAA; 23 steals"
+   ],
+   "role": "2B",
+   "status": "Signed through 2032",
+   "take": "An 84 OPS+ and .666 OPS look like decline, but Statcast disagrees: a .296 xBA against a .263 average and a .320 xwOBA against .297. His contact skills are elite (99th-percentile K rate, 97th-percentile whiff rate), so the average should come back. The ceiling is the problem: an 85.9 mph average exit velocity and a 1.4% barrel rate cap him near league average at the plate. The extension pays for the glove and the contact, not the bat.",
+   "verdict": "The unluckiest regular on the roster, and the one the Cubs just paid."
+  },
+  "663698": {
+   "contract": "One year left of arbitration control (MLBTR projected $2.9M)",
+   "minus": [
+    "82 OPS+ and 27.3% K rate in 2026",
+    "Minus-2 DRS behind the plate in 2026"
+   ],
+   "name": "Joey Bart",
+   "plus": [
+    "120 wRC+ with the 2024 Pirates",
+    "Cheap and controllable for 2027"
+   ],
+   "role": "C",
+   "status": "Claimed off waivers from the White Sox, Nov. 20; agreed to a 2027 deal, terms not disclosed",
+   "take": "The former No. 2 overall pick hit .214/.305/.357 with an 82 OPS+ in 128 plate appearances for three teams in 2026, then broke his left hand Aug. 6. His one good stretch was 2024 in Pittsburgh: 13 homers and a 120 wRC+ in 80 games. Paired with Amaya, he gives the Cubs a cheap floor at catcher and nothing more.",
+   "verdict": "Backup, not the starter. Bring Kelly back anyway."
+  },
+  "664023": {
+   "contract": "Free agent; no qualifying offer, so no pick attached",
+   "minus": [
+    ".484 OPS vs. lefties",
+    "29.7% K rate",
+    "Weak final four months (MLBTR)"
+   ],
+   "name": "Ian Happ",
+   "plus": [
+    "Gold Glove finalist (lost to Chourio)",
+    "81 walks, 24 HR",
+    ".816 OPS vs. righties"
+   ],
+   "role": "LF",
+   "status": "Free agent · no QO · Mariners linked (Morosi), then cooled (Jude)",
+   "take": "Happ is a four-time Gold Glove winner and a finalist again, with a 103 OPS+ and 2.9 bWAR. He also hit .218, struck out 189 times, and posted a .484 OPS against lefties, which put him in a platoon by September. A $23.15M qualifying offer is more than he's worth, and he might accept it. The Cubs need a better left fielder, not a pricier version of this one. The Cubs passed on the QO Monday, which tells you they thought he'd take it.",
+   "verdict": "Let him go unless the price drops."
+  },
+  "665795": {
+   "contract": null,
+   "minus": [
+    "xERA in the 8th percentile",
+    "Exit velocity allowed in the 3rd percentile",
+    "10.3% walk rate"
+   ],
+   "name": "Edward Cabrera",
+   "plus": [
+    "Fastball 96-97 mph (82nd-percentile velo)",
+    "26.5% whiff rate"
+   ],
+   "role": "SP",
+   "status": "Under club control",
+   "take": "Cabrera came from Miami for Owen Caissie and two other prospects, posted a 5.96 ERA (71 ERA+) over 15 starts around injuries, and didn't make the Wild Card roster. His 4.28 xFIP says the strikeout-walk profile is playable, but hitters squared him up: his xERA sits in the 8th percentile and his exit velocity allowed in the 3rd. He's in the 2027 rotation because he's under contract, not because he's earned it.",
+   "verdict": "The Caissie trade hasn't paid off, and the contact data says it may not."
+  },
+  "665804": {
+   "contract": null,
+   "minus": [
+    "xwOBA 31 points below his wOBA",
+    "26.4% K rate"
+   ],
+   "name": "Miguel Amaya",
+   "plus": [
+    ".340 OBP",
+    "Cheap and under control"
+   ],
+   "role": "C",
+   "status": "Under team control",
+   "take": "Amaya hit .237/.340/.377 (98 OPS+) in 83 games, but a .315 BABIP and a .293 xwOBA (31 points under his wOBA) point to a softer line next year. With Kelly's option declined, Amaya starts by default, with Owen Ayers the only internal push. Cubbies Crib floated him as a trade chip if Kelly returns. Hawkins at the GM meetings: 'We've all seen a little more out of Miggy offensively.' He's the starter by default unless the Cubs re-sign Kelly or buy a catcher.",
+   "verdict": "The starting catcher by default, and the numbers flatter him."
+  },
+  "665871": {
+   "contract": "Arbitration-eligible; Cubs declined his $3.3M club option Nov. 2. MLBTR projects $2.3M. Under control through 2028.",
+   "minus": [
+    "4.92 FIP, 4.56 SIERA",
+    "16.1% K rate, 1st-percentile whiff rate"
+   ],
+   "name": "Javier Assad",
+   "plus": [
+    "Durable swingman",
+    "7.1% walk rate",
+    "One minor-league option left"
+   ],
+   "role": "SP/RP",
+   "status": "Under club control (option declined)",
+   "take": "A 3.63 ERA in 94 1/3 innings looks fine until you see the 4.92 FIP, 4.37 xFIP and a 15.9% whiff rate. He has beaten his peripherals for years, with help from the best defense in baseball. The Cubs declined his $3.3M option to save about $1M through arbitration, which tells you how they value him. As a sixth starter he's useful. As a projected No. 3, he's a red flag.",
+   "verdict": "A starter's ERA with a reliever's peripherals. The option call says the Cubs know it."
+  },
+  "669020": {
+   "contract": null,
+   "minus": [
+    "ERA a run under his xFIP"
+   ],
+   "name": "Ryan Rolison",
+   "plus": [
+    "135 ERA+ in 63 IP"
+   ],
+   "role": "RP",
+   "status": "Pre-arbitration",
+   "take": "Claimed from the White Sox in January, Rolison logged 63 innings with a 3.14 ERA (135 ERA+). The 3.93 FIP and 4.24 xFIP are more modest. Keep him in middle relief.",
+   "verdict": "A waiver claim that became a usable lefty."
+  },
+  "669373": {
+   "contract": "Free agent; expected to clear Yamamoto's $325M pitcher record (theScore, Passan)",
+   "minus": [
+    "Price well past $300M, maybe $400M-plus",
+    "29, with an elbow history (Last Word on Sports)"
+   ],
+   "name": "Tarik Skubal",
+   "plus": [
+    "2.72 ERA, 186 K in 158 2/3 IP",
+    "Two AL Cy Youngs",
+    "Changes a short series by himself"
+   ],
+   "role": "SP4 candidate",
+   "status": "Free agent; Cubs reportedly sitting out the bidding (Sharma, The Athletic)",
+   "take": "Two-time AL Cy Young winner. 12-7 with a 2.72 ERA and 186 strikeouts in 158 2/3 innings in 2026, including a 2.61 ERA in 10 starts after the August trade to the Dodgers. Passan says the Cubs badly want him but doubt they'll pay $300M-plus; the Dodgers and Mets are the other main suitors. He's expected to sign before the lockout. On Nov. 9 Sharma reported the Cubs plan to sit out the bidding, citing the lockout and the Dodgers' and Mets' budgets.",
+   "verdict": "The only true ace on the market, and the Cubs are walking away from him."
+  },
+  "669432": {
+   "contract": "Free agent; rejected the Orioles' $23.15M QO Nov. 17. Signing him costs the Cubs their second- and fifth-highest 2027 picks plus $1M in international pool money. MLBTR predicts five years, $115M.",
+   "minus": [
+    "41.1% ground-ball rate in a homer-friendly park",
+    "Costs two draft picks",
+    "Only two strong years after a rough 2022-24"
+   ],
+   "name": "Trevor Rogers",
+   "plus": [
+    "3.16 ERA over 48 starts since 2025",
+    "6.1% walk rate",
+    "Age 29"
+   ],
+   "role": "SP",
+   "status": "Free agent · rejected Orioles QO · Cubs interested (Sharma)",
+   "take": "Rogers rebuilt himself in Baltimore: 3.16 ERA over 279 1/3 innings and 48 starts since 2025, with a 23.2% strikeout rate and a 6.1% walk rate. FanGraphs has him at 7.3 WAR over the two years, 17th among pitchers. Sharma reports the Cubs are interested. He's 29, left-handed and durable lately, which is everything the current rotation isn't. Worth the picks.",
+   "verdict": "The best realistic No. 2 on the Cubs' list."
+  },
+  "673548": {
+   "contract": "Free agent; rejected the $23.15M qualifying offer Nov. 17. MLBTR projects four years, $105M. The Padres met him Nov. 16 and may be the favorite (Passan). Comp pick after the fourth round if he signs elsewhere.",
+   "minus": [
+    "wOBA 27 points over xwOBA",
+    "Hard-hit rate fell 10 points, a top-five drop in MLB",
+    ".763 OPS on the road"
+   ],
+   "name": "Seiya Suzuki",
+   "plus": [
+    "131 OPS+, 26 HR, .841 OPS, career-high 81 walks",
+    "+7 fielding run value, Gold Glove finalist",
+    "63rd-percentile bat speed, 89th-percentile chase rate (Statcast, via Petriello)",
+    ".966 OPS vs. lefties"
+   ],
+   "role": "RF",
+   "status": "Free agent · rejected the $23.15M QO",
+   "take": "Suzuki posted a 131 OPS+ and a career-best 5.1 bWAR, plus +7 fielding run value in right. The bat ran a little hot (.366 wOBA, .339 xwOBA), and his hard-hit rate fell 10 points. Petriello (MLB.com, Nov. 21) still rates him the better four-year bet than Arozarena on bat speed and chase. MLBTR projects four years, $105M, and the Padres may be the favorite. The Cubs aren't spending there.",
+   "verdict": "The best right-handed bat on the team, and gone unless his market collapses."
+  },
+  "676962": {
+   "contract": "First-time arbitration (Super Two), projected $1.3M (Swartz). Controlled through 2030.",
+   "minus": [
+    "Cervical spine surgery Nov. 9; no MLB innings until about midseason",
+    "Third straight season cut short by his neck"
+   ],
+   "name": "Ben Brown",
+   "plus": [
+    "2.50 FIP, 24.5% K rate",
+    "0.94 WHIP"
+   ],
+   "role": "SP/RP",
+   "status": "Out · neck surgery Nov. 9; return around midseason 2027",
+   "take": "Brown was the best pitcher on the staff when healthy: a 1.70 ERA with a 25% K rate and 6.7% walk rate over 42 1/3 innings as a starter before a stress fracture in a neck vertebra ended his year in June. He had neck surgery Nov. 9. Hawkins says he'll throw early in 2027 and pitch in the majors around midseason. That's three straight seasons shortened by the same body part.",
+   "verdict": "Can't be in the 2027 plan. Anything he gives you after the break is a bonus."
+  },
+  "680757": {
+   "contract": "Final arbitration year; projected $11.3M (MLBTR). Free agent after 2027.",
+   "minus": [
+    "Three home runs",
+    "No clear lineup spot with PCA leading off",
+    "Only one year of control"
+   ],
+   "name": "Steven Kwan",
+   "plus": [
+    "Four straight Gold Gloves",
+    "Strong second half: sixth in fWAR from June 30",
+    "One year at about $11M"
+   ],
+   "role": "LF",
+   "status": "Trade target (Guardians)",
+   "take": "Kwan hit .282/.382/.349 with three homers and 5.3 bWAR in 2026, mostly leading off, and ranked sixth in the majors in fWAR from June 30 on. He's won four straight Gold Gloves in left. Cleveland is expected to shop him with one year of control left. For about $11M he'd keep the Cubs' defense elite, but he doesn't fix a lineup that's losing a 131-OPS+ bat.",
+   "verdict": "Elite glove, contact bat, no power. A one-year bridge in left, not a Suzuki replacement."
+  },
+  "680776": {
+   "contract": "Arbitration-eligible; projected upward of $11M for 2027 (Bleacher Nation)",
+   "minus": [
+    "2026 production dropped off",
+    "Arbitration salary climbing",
+    "Costs prospects the Cubs need for pitching"
+   ],
+   "name": "Jarren Duran",
+   "plus": [
+    "Real everyday corner bat",
+    "Boston has to move an outfielder",
+    "No free-agent money required"
+   ],
+   "role": "OF",
+   "status": "Tendered by Boston, Nov. 20; trade candidate",
+   "take": "Mooney (The Athletic) says the Cubs have evaluated him as a change-of-scenery add before Friday's tender deadline. Boston's Bauers deal leaves no spot, and Bleacher Nation expects a non-tender. That's the Cubs' price: free agent money, no prospect. At $11M plus a chip, pass. As a cheap lefty bat against righties in left, he's worth it.",
+   "verdict": "Wait for the non-tender. Don't pay a prospect for him."
+  },
+  "682634": {
+   "contract": "Pre-arbitration",
+   "minus": [
+    "39.3% K rate in the majors",
+    "77 OPS+, -0.2 bWAR in a small sample"
+   ],
+   "name": "Kevin Alcántara",
+   "plus": [
+    "91.1 mph average exit velocity",
+    "Raw power and length (106.1 max EV)"
+   ],
+   "role": "RF candidate",
+   "status": "On the 40-man roster",
+   "take": "The 6-foot-6, 24-year-old outfielder got 28 plate appearances in 2026: .240/.286/.360, a 77 OPS+ and a 39.3% strikeout rate. His expected line (.234 xBA, .355 xSLG) says that's about what he was. He's a depth option and a trade chip, not a starter.",
+   "verdict": "Tools without results yet. Not the answer in right field for a contender."
+  },
+  "683737": {
+   "contract": null,
+   "minus": [
+    "xBA in the 23rd percentile",
+    "Bat speed in the 10th percentile",
+    ".393 slugging at first base"
+   ],
+   "name": "Michael Busch",
+   "plus": [
+    "Walk rate in the 91st percentile (13.0%)",
+    "Chase rate in the 80th percentile",
+    "20 HR"
+   ],
+   "role": "1B",
+   "status": "Under team control",
+   "take": "Busch walked 92 times and got on base at .352, but a .242 average and .393 slugging made for a 106 OPS+, a step back for a first baseman. His xwOBA (.330) matched his wOBA (.333), so this is who he was. First base was also the only position where the Cubs had negative DRS (-2). He's a fine regular. He isn't the middle-of-the-order bat they need if Suzuki leaves.",
+   "verdict": "Patient, solid, and stuck in neutral."
+  },
+  "684007": {
+   "contract": "Free agent (not QO-eligible)",
+   "minus": [
+    "35 HR allowed",
+    "Fastball velo in the 10th percentile"
+   ],
+   "name": "Shota Imanaga",
+   "plus": [
+    "32 starts, 174 1/3 IP",
+    "Walk rate in the 95th percentile",
+    "Splitter: 41.4% whiff rate"
+   ],
+   "role": "SP",
+   "status": "Free agent",
+   "take": "Imanaga made all 32 starts with a 3.77 ERA (112 ERA+) and a 5.2% walk rate. His FIP (4.47) is ugly because he allowed 35 homers, but his xFIP (3.74) and 95th-percentile walk rate say the skills held. The fastball sits 91.6 mph (10th percentile), so the homers aren't a fluke either. On a two- or three-year deal, he's the most reliable starter they can bring back.",
+   "verdict": "Re-sign him at the right price. He's better than his FIP."
+  },
+  "689196": {
+   "contract": null,
+   "minus": [
+    "No MLB experience"
+   ],
+   "name": "Owen Ayers",
+   "plus": [
+    "No. 2 Cubs prospect (MLB Pipeline)"
+   ],
+   "role": "C · Prospect",
+   "status": "Prospect",
+   "take": "MLB Pipeline ranks Ayers the Cubs' No. 2 prospect and No. 88 overall. He spent the last couple of weeks of the season with the big-league club without playing, and Bleacher Nation calls him a recent breakout. Plan on a partial 2027 at most. If Kelly leaves, Hawkins' fallback is Ayers sharing the job with Amaya.",
+   "verdict": "The catcher of the future. Not the catcher of April."
+  },
+  "691718": {
+   "contract": "6 years, $115M extension (2027-32), escalators to $133M",
+   "minus": [
+    "Squared-up rate in the 15th percentile; 25.8% K rate",
+    "xBA .263 vs. .280 actual",
+    ".846 OPS on the road vs. 1.045 at Wrigley"
+   ],
+   "name": "Pete Crow-Armstrong",
+   "plus": [
+    "2026 NL MVP, unanimous (30 of 30 first-place votes, 420 points); also the Hank Aaron Award and All-MLB First Team",
+    "MLB-best 10.6 fWAR; seventh 40-40 season ever (45 HR, 41 SB)",
+    "NL Platinum Glove and Gold Glove in center (+26 OAA, most in MLB; +63 since 2024)",
+    "Walk rate up from 4.5% to 11.4%, the biggest jump among qualified hitters",
+    "1.004 OPS and 171 wRC+ from May 1 on",
+    "2026 NL Silver Slugger"
+   ],
+   "role": "CF · Leadoff",
+   "status": "Signed through 2032 · 2026 NL MVP (unanimous) · Hank Aaron Award · All-MLB First Team · Platinum Glove",
+   "take": "A unanimous MVP: 45 homers, 41 steals, 119 runs, 357 total bases and the best defensive season in baseball (+26 OAA). First Cub in the 40-40 club and the first unanimous Cubs MVP. He hit .225 through May 20, then .302/.400/.658 with 40 homers over his last 112 games. The bat ran hot: a .400 wOBA against a .372 xwOBA and a .327 BABIP. Even with some regression he's elite, but treat 2026 as the ceiling, not the floor. He was hitless in the Wild Card round.",
+   "verdict": "The MVP was earned. The expected stats say 'great,' not 'otherworldly,' and great at $19M a year is the best contract in the sport."
+  },
+  "694037": {
+   "contract": null,
+   "minus": [
+    "29 2/3 IP around an elbow injury"
+   ],
+   "name": "Daniel Palencia",
+   "plus": [
+    "Velocity"
+   ],
+   "role": "RP",
+   "status": "Pre-arbitration",
+   "take": "Palencia threw only 29 2/3 innings around a flexor strain and gave up the back-breaking hit to Gavin Sheets in the elimination game. MLBTR notes he struggled to miss bats around the elbow injury. He has to earn high-leverage work in spring.",
+   "verdict": "Big arm, not enough missed bats."
+  },
+  "699393": {
+   "contract": null,
+   "minus": [
+    "Biggest wOBA-over-xwOBA gap on the team",
+    ".662 OPS vs. righties"
+   ],
+   "name": "Pedro Ramírez",
+   "plus": [
+    "Switch-hitter, plays all over the infield",
+    "22 years old"
+   ],
+   "role": "UT",
+   "status": "Pre-arbitration",
+   "take": "The 22-year-old switch-hitter covered short while Swanson was out and hit .261/.321/.402 (99 OPS+). His .315 wOBA sat 32 points above his .283 xwOBA, the biggest gap among Cubs regulars. He's a nice depth piece at 22. Penciling him in as a starting corner outfielder would be a mistake. Hawkins sees him as an outfielder but says he 'will need to put himself in a better position defensively.' He's barely played there. Hawkins now names him first among the in-house corner options.",
+   "verdict": "Useful and versatile, riding the luckiest bat on the team."
+  },
+  "807713": {
+   "contract": null,
+   "minus": [
+    ".640 OPS vs. righties",
+    "xSLG .353"
+   ],
+   "name": "Matt Shaw",
+   "plus": [
+    ".841 OPS vs. lefties",
+    "Versatile"
+   ],
+   "role": "UT · Corner OF candidate",
+   "status": "Pre-arbitration",
+   "take": "Shaw played 77 games around the diamond and hit .237/.327/.410 (102 OPS+). Statcast thinks that was generous: a .303 xwOBA and .353 xSLG. He hit lefties (.841 OPS) and struggled against righties (.640). Hoyer says the Cubs will lean on him more, which is a polite way of saying the outfield budget may go to pitching. As an everyday corner bat, he's a downgrade from Happ or Suzuki.",
+   "verdict": "Gets the first crack at a corner. Hasn't earned it yet."
+  }
+ },
+ "updatedAt": "2026-11-21T09:43-05:00"
+}

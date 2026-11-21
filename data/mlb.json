@@ -1,1 +1,86 @@
-{"updatedAt": "2026-11-20T22:39-05:00", "date": "2026-11-20", "games": [], "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.", "next": {"date": "2027-02-19", "count": 17, "first": "Toronto Blue Jays at Pittsburgh Pirates"}, "headline": "Tender day reshuffled the market: Royce Lewis is a Dodger, Bailey Ober and Nolan Gorman are free agents, and Skubal has a mystery fifth suitor.", "news": [{"title": "Twins trade Royce Lewis to Dodgers, non-tender Ober and Larnach", "source": "MLB.com", "date": "2026-11-20", "url": "https://www.mlb.com/news/royce-lewis-traded-from-twins-to-dodgers", "note": "The 2017 No. 1 pick goes to L.A. for Bobby Miller and catching prospect Francisco Espinoza. Minnesota also cut Bailey Ober and Trevor Larnach."}, {"title": "Complete list of non-tendered players", "source": "MLB.com", "date": "2026-11-20", "url": "https://www.mlb.com/news/non-tendered-mlb-free-agents-2026-2027", "note": "Nolan Gorman (Cardinals), Luis Gil (Yankees), David Fry (Guardians), Luke Raley (Mariners) and Matt Vierling (Tigers) are among the new free agents. Jarren Duran was tendered."}, {"title": "Yankees bring back Jonathan Loáisiga", "source": "Fox Sports", "date": "2026-11-20", "url": "https://www.foxsports.com/stories/mlb/mlb-free-agency-skubal-offseason-signings", "note": "Two years with a 2029 club option, per ESPN. He had a 2.42 ERA and 172 ERA+ for Arizona in 2026."}, {"title": "Mystery team meets Skubal; Peralta has six-plus suitors", "source": "MLB.com", "date": "2026-11-20", "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20", "note": "A fifth, undisclosed team met Skubal over Zoom (Heyman). Bowden counts more than six teams on Peralta, and Morosi says the White Sox are in on King and Peralta."}, {"title": "Cubs claim Joey Bart, add Braxton Roxby", "source": "MLB.com", "date": "2026-11-20", "url": "https://www.mlb.com/news/joey-bart-deal-with-cubs", "note": "Chicago's North Side club took the former No. 2 pick off waivers from the White Sox and got Roxby from Washington for cash."}], "sources": [{"title": "MLB.com: Twins trade Royce Lewis to Dodgers, non-tender Ober and Larnach", "url": "https://www.mlb.com/news/royce-lewis-traded-from-twins-to-dodgers"}, {"title": "MLB.com: Complete list of non-tendered players", "url": "https://www.mlb.com/news/non-tendered-mlb-free-agents-2026-2027"}, {"title": "Fox Sports: Yankees bring back Jonathan Loáisiga", "url": "https://www.foxsports.com/stories/mlb/mlb-free-agency-skubal-offseason-signings"}, {"title": "MLB.com: Mystery team meets Skubal; Peralta has six-plus suitors", "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20"}, {"title": "MLB.com: Cubs claim Joey Bart, add Braxton Roxby", "url": "https://www.mlb.com/news/joey-bart-deal-with-cubs"}]}
+{
+ "updatedAt": "2026-11-21T09:40-05:00",
+ "date": "2026-11-21",
+ "games": [],
+ "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
+ "next": {
+  "date": "2027-02-19",
+  "count": 17,
+  "first": "Toronto Blue Jays at Pittsburgh Pirates"
+ },
+ "headline": "The Mets put nearly $400 million in front of Skubal, and the rest of the pitching market is waiting on his answer.",
+ "news": [
+  {
+   "title": "Giants keep Doval for one year, trade Koss to the Rays",
+   "source": "MLB.com",
+   "date": "2026-11-21",
+   "url": "https://www.mlb.com/news/camilo-doval-giants-contract-christian-koss-traded-to-rays",
+   "note": "Doval avoided arbitration at a reported $6.3M after a 4.30 ERA between the Yankees and Pirates. Koss went to Tampa Bay for minor-league RHP Cole Stokes."
+  },
+  {
+   "title": "Mets reportedly offer Skubal nine years, almost $400M",
+   "source": "MLB.com",
+   "date": "2026-11-20",
+   "url": "https://www.mlb.com/news/tarik-skubal-rumors",
+   "note": "Jim Duquette reported the offer; it would be the highest AAV ever for a free-agent starter. Skubal has met the Mets, Dodgers, Blue Jays, Padres and a fifth team over Zoom, and is expected to pick by Dec. 1."
+  },
+  {
+   "title": "Morosi: King and Peralta wait on Skubal; White Sox in on both",
+   "source": "MLB.com",
+   "date": "2026-11-20",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20",
+   "note": "Morosi expects the next tier of starters to sign after Skubal. The Giants want Boyd or Pivetta, and the Mets are on Ty France."
+  },
+  {
+   "title": "Tigers extend Troy Melton six years, $46.5M",
+   "source": "MLB.com",
+   "date": "2026-11-20",
+   "url": "https://www.mlb.com/tigers/news/tigers-troy-melton-contract-extension",
+   "note": "The deal can reach $98M with an option and incentives. Melton had a 2.76 ERA in 20 starts after moving to the rotation."
+  },
+  {
+   "title": "D-backs get Johan Oviedo from Boston",
+   "source": "MLB.com",
+   "date": "2026-11-20",
+   "url": "https://www.mlb.com/redsox/news/johan-oviedo-traded-to-d-backs-from-red-sox",
+   "note": "Arizona gave up minor-league LHP Luke Dotson plus a PTBNL or cash. Oviedo missed most of 2026 with an elbow sprain."
+  },
+  {
+   "title": "Union pitches international changes; MLB drops high school draft idea",
+   "source": "MLB Trade Rumors",
+   "date": "2026-11-20",
+   "url": "https://www.mlbtraderumors.com/2026/11/mlbpa-makes-proposal-related-to-international-bonus-pool.html",
+   "note": "The MLBPA wants to keep bonus pools, with soft caps and penalties for early deals, rather than an international draft. MLB dropped its plan to keep high schoolers out of the draft."
+  }
+ ],
+ "sources": [
+  {
+   "title": "MLB.com: Giants keep Doval for one year, trade Koss to the Rays",
+   "url": "https://www.mlb.com/news/camilo-doval-giants-contract-christian-koss-traded-to-rays"
+  },
+  {
+   "title": "MLB.com: Mets reportedly offer Skubal nine years, almost $400M",
+   "url": "https://www.mlb.com/news/tarik-skubal-rumors"
+  },
+  {
+   "title": "MLB.com: Morosi: King and Peralta wait on Skubal; White Sox in on both",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20"
+  },
+  {
+   "title": "MLB.com: Tigers extend Troy Melton six years, $46.5M",
+   "url": "https://www.mlb.com/tigers/news/tigers-troy-melton-contract-extension"
+  },
+  {
+   "title": "MLB.com: D-backs get Johan Oviedo from Boston",
+   "url": "https://www.mlb.com/redsox/news/johan-oviedo-traded-to-d-backs-from-red-sox"
+  },
+  {
+   "title": "MLBTR: Union pitches international changes; MLB drops high school draft idea",
+   "url": "https://www.mlbtraderumors.com/2026/11/mlbpa-makes-proposal-related-to-international-bonus-pool.html"
+  },
+  {
+   "title": "MLB Stats API schedule",
+   "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1"
+  }
+ ]
+}

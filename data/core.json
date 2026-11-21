@@ -1,1 +1,762 @@
-{"updatedAt": "2026-11-20T22:38-05:00", "mode": "offseason", "statsSeason": 2026, "today": "2026-11-20", "record": {"season": 2026, "w": 89, "l": 73, "pct": ".549", "divRank": "2", "gb": "14.0", "wcRank": "2", "wcgb": "+1.0", "rs": 850, "ra": 703, "diff": 147, "xw": 95, "xl": 67, "streak": "W1", "home": "46-35", "away": "43-38", "l10": "5-5", "oneRun": "23-21", "extra": "11-9", "vsL": "27-19", "vsR": "62-54", "clinch": "w", "gp": 162}, "standings": {"division": [{"team": "Brewers", "id": 158, "w": 103, "l": 59, "pct": ".636", "gb": "-", "diff": 214, "streak": "W5", "l10": "8-2", "clinch": "z"}, {"team": "Cubs", "id": 112, "w": 89, "l": 73, "pct": ".549", "gb": "14.0", "diff": 147, "streak": "W1", "l10": "5-5", "clinch": "w"}, {"team": "Pirates", "id": 134, "w": 82, "l": 80, "pct": ".506", "gb": "21.0", "diff": 28, "streak": "W1", "l10": "7-3", "clinch": null}, {"team": "Cardinals", "id": 138, "w": 77, "l": 85, "pct": ".475", "gb": "26.0", "diff": -29, "streak": "L4", "l10": "2-8", "clinch": null}, {"team": "Reds", "id": 113, "w": 75, "l": 87, "pct": ".463", "gb": "28.0", "diff": -160, "streak": "L1", "l10": "4-6", "clinch": null}], "wildcard": [{"team": "Padres", "id": 135, "w": 91, "l": 71, "pct": ".562", "wcgb": "+3.0", "clinch": "w"}, {"team": "Cubs", "id": 112, "w": 89, "l": 73, "pct": ".549", "wcgb": "+1.0", "clinch": "w"}, {"team": "Phillies", "id": 143, "w": 88, "l": 74, "pct": ".543", "wcgb": "-", "clinch": "w"}, {"team": "D-backs", "id": 109, "w": 86, "l": 76, "pct": ".531", "wcgb": "2.0", "clinch": null}, {"team": "Pirates", "id": 134, "w": 82, "l": 80, "pct": ".506", "wcgb": "6.0", "clinch": null}, {"team": "Marlins", "id": 146, "w": 80, "l": 82, "pct": ".494", "wcgb": "8.0", "clinch": null}, {"team": "Cardinals", "id": 138, "w": 77, "l": 85, "pct": ".475", "wcgb": "11.0", "clinch": null}]}, "ranks": {"hitting.runs": {"value": 850, "rank": 1, "of": 30}, "hitting.ops": {"value": ".767", "rank": 1, "of": 30}, "hitting.homeRuns": {"value": 220, "rank": 3, "of": 30}, "pitching.era": {"value": "4.12", "rank": 14, "of": 30}, "pitching.homeRuns": {"value": 231, "rank": 29, "of": 30}, "pitching.strikeOuts": {"value": 1260, "rank": 26, "of": 30}}, "splits": {"hitting.h": {"gamesPlayed": 81, "runs": 424, "avg": ".256", "obp": ".347", "slg": ".442", "ops": ".789", "homeRuns": 115, "strikeOuts": 633, "baseOnBalls": 358}, "hitting.a": {"gamesPlayed": 81, "runs": 426, "avg": ".247", "obp": ".331", "slg": ".416", "ops": ".747", "homeRuns": 105, "strikeOuts": 712, "baseOnBalls": 316}, "hitting.vl": {"gamesPlayed": 138, "avg": ".263", "obp": ".349", "slg": ".447", "ops": ".796", "homeRuns": 61, "strikeOuts": 353, "baseOnBalls": 177}, "hitting.vr": {"gamesPlayed": 161, "avg": ".247", "obp": ".335", "slg": ".422", "ops": ".757", "homeRuns": 159, "strikeOuts": 992, "baseOnBalls": 497}, "hitting.sp": {"gamesPlayed": 162, "avg": ".254", "obp": ".335", "slg": ".433", "ops": ".768", "homeRuns": 118, "strikeOuts": 761, "baseOnBalls": 347}, "hitting.rp": {"gamesPlayed": 162, "avg": ".249", "obp": ".343", "slg": ".424", "ops": ".767", "homeRuns": 102, "strikeOuts": 584, "baseOnBalls": 327}, "pitching.h": {"gamesPlayed": 81, "runs": 362, "avg": ".242", "obp": ".308", "slg": ".408", "ops": ".716", "homeRuns": 123, "era": "4.10", "whip": "1.25", "inningsPitched": "745.0", "strikeOuts": 673, "baseOnBalls": 246, "saves": 16, "saveOpportunities": 28, "blownSaves": 12, "holds": 22, "inheritedRunners": 120, "inheritedRunnersScored": 41, "homeRunsPer9": "1.49", "battersFaced": 3116}, "pitching.a": {"gamesPlayed": 81, "runs": 341, "avg": ".243", "obp": ".316", "slg": ".409", "ops": ".725", "homeRuns": 108, "era": "4.14", "whip": "1.27", "inningsPitched": "702.0", "strikeOuts": 587, "baseOnBalls": 254, "saves": 20, "saveOpportunities": 36, "blownSaves": 16, "holds": 35, "inheritedRunners": 114, "inheritedRunnersScored": 38, "homeRunsPer9": "1.38", "battersFaced": 2946}, "pitching.vl": {"gamesPlayed": 162, "avg": ".246", "obp": ".325", "slg": ".408", "ops": ".733", "homeRuns": 99, "whip": "1.37", "inningsPitched": "632.0", "strikeOuts": 569, "baseOnBalls": 269, "homeRunsPer9": "1.41", "battersFaced": 2749}, "pitching.vr": {"gamesPlayed": 162, "avg": ".240", "obp": ".302", "slg": ".409", "ops": ".711", "homeRuns": 132, "whip": "1.19", "inningsPitched": "801.1", "strikeOuts": 691, "baseOnBalls": 231, "homeRunsPer9": "1.48", "battersFaced": 3313}, "pitching.sp": {"gamesPlayed": 162, "runs": 422, "avg": ".244", "obp": ".308", "slg": ".413", "ops": ".721", "homeRuns": 142, "era": "4.27", "whip": "1.25", "inningsPitched": "848.2", "strikeOuts": 735, "baseOnBalls": 273, "saves": 0, "saveOpportunities": 0, "blownSaves": 0, "holds": 0, "inheritedRunners": 0, "inheritedRunnersScored": 0, "homeRunsPer9": "1.51", "battersFaced": 3536}, "pitching.rp": {"gamesPlayed": 162, "runs": 281, "avg": ".241", "obp": ".318", "slg": ".402", "ops": ".720", "homeRuns": 89, "era": "3.90", "whip": "1.28", "inningsPitched": "598.1", "strikeOuts": 525, "baseOnBalls": 227, "saves": 36, "saveOpportunities": 64, "blownSaves": 28, "holds": 57, "inheritedRunners": 234, "inheritedRunnersScored": 79, "homeRunsPer9": "1.34", "battersFaced": 2526}}, "nextGame": {"gamePk": 868345, "date": "2027-02-19", "kickoff": "2027-02-19T15:05-05:00", "timeTBD": false, "type": "S", "competition": "Spring Training", "opponent": "Athletics", "oppId": 133, "venue": "Away", "stadium": "Hohokam Stadium", "venueId": 2507, "status": "Scheduled", "cubsSP": null, "oppSP": null, "doubleHeader": "N", "gameNumber": 1}, "events": [{"label": "First spring training game", "gamePk": 868345, "date": "2027-02-19", "kickoff": "2027-02-19T15:05-05:00", "timeTBD": false, "type": "S", "competition": "Spring Training", "opponent": "Athletics", "oppId": 133, "venue": "Away", "stadium": "Hohokam Stadium", "venueId": 2507, "status": "Scheduled", "cubsSP": null, "oppSP": null, "doubleHeader": "N", "gameNumber": 1}, {"label": "Opening Day", "gamePk": 854131, "date": "2027-03-25", "kickoff": "2027-03-25T04:33-04:00", "timeTBD": true, "type": "R", "competition": "Regular Season", "opponent": "Cleveland Guardians", "oppId": 114, "venue": "Home", "stadium": "Wrigley Field", "venueId": 17, "status": "Scheduled", "cubsSP": null, "oppSP": null, "doubleHeader": "N", "gameNumber": 1}], "lastGame": {"date": "2026-09-30", "gamePk": 849842, "type": "F", "competition": "NL Wild Card Series", "opponent": "San Diego Padres", "venue": "Away", "park": "Petco Park", "score": "4-1", "outcome": "L", "line": {"innings": [{"n": 1, "a": 0, "h": 0}, {"n": 2, "a": 0, "h": 2}, {"n": 3, "a": 0, "h": 0}, {"n": 4, "a": 1, "h": 2}, {"n": 5, "a": 0, "h": 0}, {"n": 6, "a": 0, "h": 0}, {"n": 7, "a": 0, "h": 0}, {"n": 8, "a": 0, "h": 0}, {"n": 9, "a": 0, "h": null}], "totals": {"away": {"r": 1, "h": 5, "e": 0}, "home": {"r": 4, "h": 8, "e": 0}}, "away": "Chicago Cubs", "home": "San Diego Padres"}, "decisions": {"winner": "Bradgley Rodriguez", "loser": "Kevin Gausman", "save": "Mason Miller"}, "box": {"batting": [{"id": 691718, "n": "Pete Crow-Armstrong", "pos": "CF", "ab": 4, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 0, "k": 1}, {"id": 608324, "n": "Alex Bregman", "pos": "DH", "ab": 4, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 0, "k": 1}, {"id": 699393, "n": "Pedro Ramírez", "pos": "3B", "ab": 0, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 0, "k": 0}, {"id": 673548, "n": "Seiya Suzuki", "pos": "RF", "ab": 4, "r": 1, "h": 1, "hr": 0, "rbi": 0, "bb": 0, "k": 2}, {"id": 664023, "n": "Ian Happ", "pos": "LF", "ab": 3, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 1, "k": 1}, {"id": 663538, "n": "Nico Hoerner", "pos": "2B", "ab": 4, "r": 0, "h": 2, "hr": 0, "rbi": 1, "bb": 0, "k": 0}, {"id": 624424, "n": "Michael Conforto", "pos": "PH", "ab": 1, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 0, "k": 1}, {"id": 608348, "n": "Carson Kelly", "pos": "C", "ab": 3, "r": 0, "h": 1, "hr": 0, "rbi": 0, "bb": 0, "k": 0}, {"id": 621020, "n": "Dansby Swanson", "pos": "SS", "ab": 3, "r": 0, "h": 0, "hr": 0, "rbi": 0, "bb": 0, "k": 1}], "pitching": [{"id": 592332, "n": "Kevin Gausman", "ip": "3.1", "h": 5, "er": 3, "bb": 0, "k": 1, "hr": 0, "pc": 54, "note": "(L, 0-1)"}, {"id": 694037, "n": "Daniel Palencia", "ip": "1.2", "h": 1, "er": 1, "bb": 0, "k": 2, "hr": 1, "pc": 28, "note": null}, {"id": 656849, "n": "David Peterson", "ip": "1.2", "h": 1, "er": 0, "bb": 0, "k": 1, "hr": 0, "pc": 28, "note": null}, {"id": 666171, "n": "Ryan Zeferjahn", "ip": "1.1", "h": 1, "er": 0, "bb": 1, "k": 2, "hr": 0, "pc": 30, "note": null}]}, "hpUmp": "Erich Bacchus"}, "recent": [{"date": "2026-09-30", "gamePk": 849842, "type": "F", "competition": "NL Wild Card Series", "opponent": "San Diego Padres", "venue": "Away", "park": "Petco Park", "score": "4-1", "outcome": "L"}, {"date": "2026-09-29", "gamePk": 849843, "type": "F", "competition": "NL Wild Card Series", "opponent": "San Diego Padres", "venue": "Away", "park": "Petco Park", "score": "8-0", "outcome": "L"}, {"date": "2026-09-27", "gamePk": 824705, "type": "R", "competition": "Regular Season", "opponent": "Boston Red Sox", "venue": "Away", "park": "Tropicana Field", "score": "2-6", "outcome": "W"}, {"date": "2026-09-25", "gamePk": 824706, "type": "R", "competition": "Regular Season", "opponent": "Boston Red Sox", "venue": "Away", "park": "Fenway Park", "score": "2-0", "outcome": "L"}, {"date": "2026-09-25", "gamePk": 824703, "type": "R", "competition": "Regular Season", "opponent": "Boston Red Sox", "venue": "Away", "park": "Fenway Park", "score": "4-3", "outcome": "L"}], "il": [], "homePark": {"id": 17, "name": "Wrigley Field", "city": "Chicago", "state": "IL", "lat": 41.948171, "lon": -87.655503, "azimuth": 37.0, "elev": 595, "roof": "Open", "turf": "Grass", "dims": {"leftLine": 355, "leftCenter": 368, "center": 400, "rightCenter": 368, "rightLine": 353}, "capacity": 41298, "factors": {"years": "2024-2026", "runs": 96.0, "hr": 106.0, "woba": 98.0, "hits": 96.0, "d2": 81.0, "d3": 122.0, "bb": 102.0, "so": 101.0}}, "openingDay": "2027-03-25"}
+{
+ "updatedAt": "2026-11-21T09:39-05:00",
+ "mode": "offseason",
+ "statsSeason": 2026,
+ "today": "2026-11-21",
+ "record": {
+  "season": 2026,
+  "w": 89,
+  "l": 73,
+  "pct": ".549",
+  "divRank": "2",
+  "gb": "14.0",
+  "wcRank": "2",
+  "wcgb": "+1.0",
+  "rs": 850,
+  "ra": 703,
+  "diff": 147,
+  "xw": 95,
+  "xl": 67,
+  "streak": "W1",
+  "home": "46-35",
+  "away": "43-38",
+  "l10": "5-5",
+  "oneRun": "23-21",
+  "extra": "11-9",
+  "vsL": "27-19",
+  "vsR": "62-54",
+  "clinch": "w",
+  "gp": 162
+ },
+ "standings": {
+  "division": [
+   {
+    "team": "Brewers",
+    "id": 158,
+    "w": 103,
+    "l": 59,
+    "pct": ".636",
+    "gb": "-",
+    "diff": 214,
+    "streak": "W5",
+    "l10": "8-2",
+    "clinch": "z"
+   },
+   {
+    "team": "Cubs",
+    "id": 112,
+    "w": 89,
+    "l": 73,
+    "pct": ".549",
+    "gb": "14.0",
+    "diff": 147,
+    "streak": "W1",
+    "l10": "5-5",
+    "clinch": "w"
+   },
+   {
+    "team": "Pirates",
+    "id": 134,
+    "w": 82,
+    "l": 80,
+    "pct": ".506",
+    "gb": "21.0",
+    "diff": 28,
+    "streak": "W1",
+    "l10": "7-3",
+    "clinch": null
+   },
+   {
+    "team": "Cardinals",
+    "id": 138,
+    "w": 77,
+    "l": 85,
+    "pct": ".475",
+    "gb": "26.0",
+    "diff": -29,
+    "streak": "L4",
+    "l10": "2-8",
+    "clinch": null
+   },
+   {
+    "team": "Reds",
+    "id": 113,
+    "w": 75,
+    "l": 87,
+    "pct": ".463",
+    "gb": "28.0",
+    "diff": -160,
+    "streak": "L1",
+    "l10": "4-6",
+    "clinch": null
+   }
+  ],
+  "wildcard": [
+   {
+    "team": "Padres",
+    "id": 135,
+    "w": 91,
+    "l": 71,
+    "pct": ".562",
+    "wcgb": "+3.0",
+    "clinch": "w"
+   },
+   {
+    "team": "Cubs",
+    "id": 112,
+    "w": 89,
+    "l": 73,
+    "pct": ".549",
+    "wcgb": "+1.0",
+    "clinch": "w"
+   },
+   {
+    "team": "Phillies",
+    "id": 143,
+    "w": 88,
+    "l": 74,
+    "pct": ".543",
+    "wcgb": "-",
+    "clinch": "w"
+   },
+   {
+    "team": "D-backs",
+    "id": 109,
+    "w": 86,
+    "l": 76,
+    "pct": ".531",
+    "wcgb": "2.0",
+    "clinch": null
+   },
+   {
+    "team": "Pirates",
+    "id": 134,
+    "w": 82,
+    "l": 80,
+    "pct": ".506",
+    "wcgb": "6.0",
+    "clinch": null
+   },
+   {
+    "team": "Marlins",
+    "id": 146,
+    "w": 80,
+    "l": 82,
+    "pct": ".494",
+    "wcgb": "8.0",
+    "clinch": null
+   },
+   {
+    "team": "Cardinals",
+    "id": 138,
+    "w": 77,
+    "l": 85,
+    "pct": ".475",
+    "wcgb": "11.0",
+    "clinch": null
+   }
+  ]
+ },
+ "ranks": {
+  "hitting.runs": {
+   "value": 850,
+   "rank": 1,
+   "of": 30
+  },
+  "hitting.ops": {
+   "value": ".767",
+   "rank": 1,
+   "of": 30
+  },
+  "hitting.homeRuns": {
+   "value": 220,
+   "rank": 3,
+   "of": 30
+  },
+  "pitching.era": {
+   "value": "4.12",
+   "rank": 14,
+   "of": 30
+  },
+  "pitching.homeRuns": {
+   "value": 231,
+   "rank": 29,
+   "of": 30
+  },
+  "pitching.strikeOuts": {
+   "value": 1260,
+   "rank": 26,
+   "of": 30
+  }
+ },
+ "splits": {
+  "hitting.h": {
+   "gamesPlayed": 81,
+   "runs": 424,
+   "avg": ".256",
+   "obp": ".347",
+   "slg": ".442",
+   "ops": ".789",
+   "homeRuns": 115,
+   "strikeOuts": 633,
+   "baseOnBalls": 358
+  },
+  "hitting.a": {
+   "gamesPlayed": 81,
+   "runs": 426,
+   "avg": ".247",
+   "obp": ".331",
+   "slg": ".416",
+   "ops": ".747",
+   "homeRuns": 105,
+   "strikeOuts": 712,
+   "baseOnBalls": 316
+  },
+  "hitting.vl": {
+   "gamesPlayed": 138,
+   "avg": ".263",
+   "obp": ".349",
+   "slg": ".447",
+   "ops": ".796",
+   "homeRuns": 61,
+   "strikeOuts": 353,
+   "baseOnBalls": 177
+  },
+  "hitting.vr": {
+   "gamesPlayed": 161,
+   "avg": ".247",
+   "obp": ".335",
+   "slg": ".422",
+   "ops": ".757",
+   "homeRuns": 159,
+   "strikeOuts": 992,
+   "baseOnBalls": 497
+  },
+  "hitting.sp": {
+   "gamesPlayed": 162,
+   "avg": ".254",
+   "obp": ".335",
+   "slg": ".433",
+   "ops": ".768",
+   "homeRuns": 118,
+   "strikeOuts": 761,
+   "baseOnBalls": 347
+  },
+  "hitting.rp": {
+   "gamesPlayed": 162,
+   "avg": ".249",
+   "obp": ".343",
+   "slg": ".424",
+   "ops": ".767",
+   "homeRuns": 102,
+   "strikeOuts": 584,
+   "baseOnBalls": 327
+  },
+  "pitching.h": {
+   "gamesPlayed": 81,
+   "runs": 362,
+   "avg": ".242",
+   "obp": ".308",
+   "slg": ".408",
+   "ops": ".716",
+   "homeRuns": 123,
+   "era": "4.10",
+   "whip": "1.25",
+   "inningsPitched": "745.0",
+   "strikeOuts": 673,
+   "baseOnBalls": 246,
+   "saves": 16,
+   "saveOpportunities": 28,
+   "blownSaves": 12,
+   "holds": 22,
+   "inheritedRunners": 120,
+   "inheritedRunnersScored": 41,
+   "homeRunsPer9": "1.49",
+   "battersFaced": 3116
+  },
+  "pitching.a": {
+   "gamesPlayed": 81,
+   "runs": 341,
+   "avg": ".243",
+   "obp": ".316",
+   "slg": ".409",
+   "ops": ".725",
+   "homeRuns": 108,
+   "era": "4.14",
+   "whip": "1.27",
+   "inningsPitched": "702.0",
+   "strikeOuts": 587,
+   "baseOnBalls": 254,
+   "saves": 20,
+   "saveOpportunities": 36,
+   "blownSaves": 16,
+   "holds": 35,
+   "inheritedRunners": 114,
+   "inheritedRunnersScored": 38,
+   "homeRunsPer9": "1.38",
+   "battersFaced": 2946
+  },
+  "pitching.vl": {
+   "gamesPlayed": 162,
+   "avg": ".246",
+   "obp": ".325",
+   "slg": ".408",
+   "ops": ".733",
+   "homeRuns": 99,
+   "whip": "1.37",
+   "inningsPitched": "632.0",
+   "strikeOuts": 569,
+   "baseOnBalls": 269,
+   "homeRunsPer9": "1.41",
+   "battersFaced": 2749
+  },
+  "pitching.vr": {
+   "gamesPlayed": 162,
+   "avg": ".240",
+   "obp": ".302",
+   "slg": ".409",
+   "ops": ".711",
+   "homeRuns": 132,
+   "whip": "1.19",
+   "inningsPitched": "801.1",
+   "strikeOuts": 691,
+   "baseOnBalls": 231,
+   "homeRunsPer9": "1.48",
+   "battersFaced": 3313
+  },
+  "pitching.sp": {
+   "gamesPlayed": 162,
+   "runs": 422,
+   "avg": ".244",
+   "obp": ".308",
+   "slg": ".413",
+   "ops": ".721",
+   "homeRuns": 142,
+   "era": "4.27",
+   "whip": "1.25",
+   "inningsPitched": "848.2",
+   "strikeOuts": 735,
+   "baseOnBalls": 273,
+   "saves": 0,
+   "saveOpportunities": 0,
+   "blownSaves": 0,
+   "holds": 0,
+   "inheritedRunners": 0,
+   "inheritedRunnersScored": 0,
+   "homeRunsPer9": "1.51",
+   "battersFaced": 3536
+  },
+  "pitching.rp": {
+   "gamesPlayed": 162,
+   "runs": 281,
+   "avg": ".241",
+   "obp": ".318",
+   "slg": ".402",
+   "ops": ".720",
+   "homeRuns": 89,
+   "era": "3.90",
+   "whip": "1.28",
+   "inningsPitched": "598.1",
+   "strikeOuts": 525,
+   "baseOnBalls": 227,
+   "saves": 36,
+   "saveOpportunities": 64,
+   "blownSaves": 28,
+   "holds": 57,
+   "inheritedRunners": 234,
+   "inheritedRunnersScored": 79,
+   "homeRunsPer9": "1.34",
+   "battersFaced": 2526
+  }
+ },
+ "nextGame": {
+  "gamePk": 868345,
+  "date": "2027-02-19",
+  "kickoff": "2027-02-19T15:05-05:00",
+  "timeTBD": false,
+  "type": "S",
+  "competition": "Spring Training",
+  "opponent": "Athletics",
+  "oppId": 133,
+  "venue": "Away",
+  "stadium": "Hohokam Stadium",
+  "venueId": 2507,
+  "status": "Scheduled",
+  "cubsSP": null,
+  "oppSP": null,
+  "doubleHeader": "N",
+  "gameNumber": 1
+ },
+ "events": [
+  {
+   "label": "First spring training game",
+   "gamePk": 868345,
+   "date": "2027-02-19",
+   "kickoff": "2027-02-19T15:05-05:00",
+   "timeTBD": false,
+   "type": "S",
+   "competition": "Spring Training",
+   "opponent": "Athletics",
+   "oppId": 133,
+   "venue": "Away",
+   "stadium": "Hohokam Stadium",
+   "venueId": 2507,
+   "status": "Scheduled",
+   "cubsSP": null,
+   "oppSP": null,
+   "doubleHeader": "N",
+   "gameNumber": 1
+  },
+  {
+   "label": "Opening Day",
+   "gamePk": 854131,
+   "date": "2027-03-25",
+   "kickoff": "2027-03-25T04:33-04:00",
+   "timeTBD": true,
+   "type": "R",
+   "competition": "Regular Season",
+   "opponent": "Cleveland Guardians",
+   "oppId": 114,
+   "venue": "Home",
+   "stadium": "Wrigley Field",
+   "venueId": 17,
+   "status": "Scheduled",
+   "cubsSP": null,
+   "oppSP": null,
+   "doubleHeader": "N",
+   "gameNumber": 1
+  }
+ ],
+ "lastGame": {
+  "date": "2026-09-30",
+  "gamePk": 849842,
+  "type": "F",
+  "competition": "NL Wild Card Series",
+  "opponent": "San Diego Padres",
+  "venue": "Away",
+  "park": "Petco Park",
+  "score": "4-1",
+  "outcome": "L",
+  "line": {
+   "innings": [
+    {
+     "n": 1,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 2,
+     "a": 0,
+     "h": 2
+    },
+    {
+     "n": 3,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 4,
+     "a": 1,
+     "h": 2
+    },
+    {
+     "n": 5,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 6,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 7,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 8,
+     "a": 0,
+     "h": 0
+    },
+    {
+     "n": 9,
+     "a": 0,
+     "h": null
+    }
+   ],
+   "totals": {
+    "away": {
+     "r": 1,
+     "h": 5,
+     "e": 0
+    },
+    "home": {
+     "r": 4,
+     "h": 8,
+     "e": 0
+    }
+   },
+   "away": "Chicago Cubs",
+   "home": "San Diego Padres"
+  },
+  "decisions": {
+   "winner": "Bradgley Rodriguez",
+   "loser": "Kevin Gausman",
+   "save": "Mason Miller"
+  },
+  "box": {
+   "batting": [
+    {
+     "id": 691718,
+     "n": "Pete Crow-Armstrong",
+     "pos": "CF",
+     "ab": 4,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 1
+    },
+    {
+     "id": 608324,
+     "n": "Alex Bregman",
+     "pos": "DH",
+     "ab": 4,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 1
+    },
+    {
+     "id": 699393,
+     "n": "Pedro Ramírez",
+     "pos": "3B",
+     "ab": 0,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 0
+    },
+    {
+     "id": 673548,
+     "n": "Seiya Suzuki",
+     "pos": "RF",
+     "ab": 4,
+     "r": 1,
+     "h": 1,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 2
+    },
+    {
+     "id": 664023,
+     "n": "Ian Happ",
+     "pos": "LF",
+     "ab": 3,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 1,
+     "k": 1
+    },
+    {
+     "id": 663538,
+     "n": "Nico Hoerner",
+     "pos": "2B",
+     "ab": 4,
+     "r": 0,
+     "h": 2,
+     "hr": 0,
+     "rbi": 1,
+     "bb": 0,
+     "k": 0
+    },
+    {
+     "id": 624424,
+     "n": "Michael Conforto",
+     "pos": "PH",
+     "ab": 1,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 1
+    },
+    {
+     "id": 608348,
+     "n": "Carson Kelly",
+     "pos": "C",
+     "ab": 3,
+     "r": 0,
+     "h": 1,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 0
+    },
+    {
+     "id": 621020,
+     "n": "Dansby Swanson",
+     "pos": "SS",
+     "ab": 3,
+     "r": 0,
+     "h": 0,
+     "hr": 0,
+     "rbi": 0,
+     "bb": 0,
+     "k": 1
+    }
+   ],
+   "pitching": [
+    {
+     "id": 592332,
+     "n": "Kevin Gausman",
+     "ip": "3.1",
+     "h": 5,
+     "er": 3,
+     "bb": 0,
+     "k": 1,
+     "hr": 0,
+     "pc": 54,
+     "note": "(L, 0-1)"
+    },
+    {
+     "id": 694037,
+     "n": "Daniel Palencia",
+     "ip": "1.2",
+     "h": 1,
+     "er": 1,
+     "bb": 0,
+     "k": 2,
+     "hr": 1,
+     "pc": 28,
+     "note": null
+    },
+    {
+     "id": 656849,
+     "n": "David Peterson",
+     "ip": "1.2",
+     "h": 1,
+     "er": 0,
+     "bb": 0,
+     "k": 1,
+     "hr": 0,
+     "pc": 28,
+     "note": null
+    },
+    {
+     "id": 666171,
+     "n": "Ryan Zeferjahn",
+     "ip": "1.1",
+     "h": 1,
+     "er": 0,
+     "bb": 1,
+     "k": 2,
+     "hr": 0,
+     "pc": 30,
+     "note": null
+    }
+   ]
+  },
+  "hpUmp": "Erich Bacchus"
+ },
+ "recent": [
+  {
+   "date": "2026-09-30",
+   "gamePk": 849842,
+   "type": "F",
+   "competition": "NL Wild Card Series",
+   "opponent": "San Diego Padres",
+   "venue": "Away",
+   "park": "Petco Park",
+   "score": "4-1",
+   "outcome": "L"
+  },
+  {
+   "date": "2026-09-29",
+   "gamePk": 849843,
+   "type": "F",
+   "competition": "NL Wild Card Series",
+   "opponent": "San Diego Padres",
+   "venue": "Away",
+   "park": "Petco Park",
+   "score": "8-0",
+   "outcome": "L"
+  },
+  {
+   "date": "2026-09-27",
+   "gamePk": 824705,
+   "type": "R",
+   "competition": "Regular Season",
+   "opponent": "Boston Red Sox",
+   "venue": "Away",
+   "park": "Tropicana Field",
+   "score": "2-6",
+   "outcome": "W"
+  },
+  {
+   "date": "2026-09-25",
+   "gamePk": 824706,
+   "type": "R",
+   "competition": "Regular Season",
+   "opponent": "Boston Red Sox",
+   "venue": "Away",
+   "park": "Fenway Park",
+   "score": "2-0",
+   "outcome": "L"
+  },
+  {
+   "date": "2026-09-25",
+   "gamePk": 824703,
+   "type": "R",
+   "competition": "Regular Season",
+   "opponent": "Boston Red Sox",
+   "venue": "Away",
+   "park": "Fenway Park",
+   "score": "4-3",
+   "outcome": "L"
+  }
+ ],
+ "il": [],
+ "homePark": {
+  "id": 17,
+  "name": "Wrigley Field",
+  "city": "Chicago",
+  "state": "IL",
+  "lat": 41.948171,
+  "lon": -87.655503,
+  "azimuth": 37.0,
+  "elev": 595,
+  "roof": "Open",
+  "turf": "Grass",
+  "dims": {
+   "leftLine": 355,
+   "leftCenter": 368,
+   "center": 400,
+   "rightCenter": 368,
+   "rightLine": 353
+  },
+  "capacity": 41298,
+  "factors": {
+   "years": "2024-2026",
+   "runs": 96.0,
+   "hr": 106.0,
+   "woba": 98.0,
+   "hits": 96.0,
+   "d2": 81.0,
+   "d3": 122.0,
+   "bb": 102.0,
+   "so": 101.0
+  }
+ },
+ "openingDay": "2027-03-25"
+}
