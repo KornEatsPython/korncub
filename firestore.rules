@@ -63,5 +63,27 @@ service cloud.firestore {
         && exists(/databases/$(database)/documents/posts/$(request.resource.data.pid));
       allow delete: if signedIn() && resource.data.uid == request.auth.uid;
     }
+
+    // Big-move alerts: each device saves (and can remove) only its own push subscription.
+    // Nobody can read them from the app; the alert checker reads them with the server key.
+    match /pushSubs/{u} {
+      allow read: if false;
+      allow create, update: if signedIn() && u == request.auth.uid
+        && request.resource.data.keys().hasOnly(['uid', 'endpoint', 'keys', 't'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.endpoint is string
+        && request.resource.data.endpoint.matches('https://.*')
+        && request.resource.data.endpoint.size() < 1000
+        && request.resource.data['keys'] is map
+        && request.resource.data['keys'].keys().hasOnly(['p256dh', 'auth'])
+        && request.resource.data.t == request.time;
+      allow delete: if signedIn() && u == request.auth.uid;
+    }
+
+    // Public push key for subscribing (written only by the alert checker).
+    match /public/{d} {
+      allow read: if true;
+      allow write: if false;
+    }
   }
 }

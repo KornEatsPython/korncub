@@ -472,6 +472,12 @@ html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 140px)}
 .hb.hball{background:#fbfaf6;color:#1a2233;border:1.5px solid #d9d3c4;border-radius:999px}
 .hb.hname{background:none;color:var(--ink);border-bottom:1.5px dotted var(--muted);border-radius:0;padding:0 2px;font-family:var(--body);text-transform:none;letter-spacing:0;font-size:15px;font-weight:600}
 .helpLink{background:none;border:0;color:var(--chalkdim);text-decoration:underline;font-size:13.5px;cursor:pointer;padding:0}
+.alertRow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:10px}
+.alertBtn{display:inline-flex;align-items:center;gap:8px;font:700 14px/1 var(--body);color:#1a2233;background:#fbfaf6;border:2px solid #d9d3c4;border-radius:999px;padding:8px 14px 8px 10px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.alertBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.alertBtn[aria-pressed="true"]{background:#0e3386;color:#fff;border-color:#fff}
+.alertBtn[disabled]{opacity:.6;cursor:default}
+.alertNote{color:var(--chalkdim);font-size:13.5px;line-height:1.35;max-width:34em}
 body.big main .in,body.big .rail .in,body.big .tabs .in,body.big .sheetBox{zoom:1.15}
 /* legends: retired-number flags */
 .flags{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px}
@@ -1667,7 +1673,10 @@ else{try{
     react:async(pid,r)=>{const ref=F.doc(db,"reacts",pid+"_"+me());if(r)await F.setDoc(ref,{pid,uid:me(),r});else await F.deleteDoc(ref)},
     del:async pid=>{await F.deleteDoc(F.doc(db,"posts",pid))},
     report:async pid=>{await F.setDoc(F.doc(db,"reports",pid+"_"+me()),{pid,uid:me()})},
-    owner:async()=>{await A.signInWithPopup(auth,new A.GoogleAuthProvider())}
+    owner:async()=>{await A.signInWithPopup(auth,new A.GoogleAuthProvider())},
+    pushKey:async()=>{const d=await F.getDoc(F.doc(db,"public","push"));return d.exists()?d.data().publicKey:null},
+    pushSave:async sub=>{await F.setDoc(F.doc(db,"pushSubs",me()),{uid:me(),endpoint:sub.endpoint,keys:{p256dh:sub.keys.p256dh,auth:sub.keys.auth},t:F.serverTimestamp()})},
+    pushDrop:async()=>{await F.deleteDoc(F.doc(db,"pushSubs",me()))}
   };
   A.onAuthStateChanged(auth,u=>{
     if(!u){A.signInAnonymously(auth).catch(()=>{$("blNote").textContent="Couldn't connect to the board. Reload to try again."});return}
@@ -1679,6 +1688,51 @@ else{try{
   F.onSnapshot(F.collection(db,"reports"),snap=>{BL.reports=snap.docs.map(d=>d.data());blRender()},()=>{});
   F.onSnapshot(F.collection(db,"reacts"),snap=>{BL.reacts=snap.docs.map(d=>d.data());blRender()},()=>{});
 }catch(e){$("blNote").textContent="Couldn't load the board. Reload to try again."}}
+</script>
+<script>
+/* Big-move alerts: opt-in push notifications for official Cubs moves (trades, MLB signings, claims, DFAs, releases).
+   Off until the person turns them on; the same button turns them off. */
+(function(){
+  const row=document.createElement("div");row.className="alertRow";
+  const btn=document.createElement("button");btn.type="button";btn.className="alertBtn";btn.setAttribute("aria-pressed","false");
+  btn.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg><span>Big-move alerts: Off</span>';
+  const note=document.createElement("span");note.className="alertNote";note.hidden=true;
+  row.append(btn,note);
+  const lr=document.querySelector(".liveRow");if(lr)lr.after(row);else return;
+  const lab=btn.querySelector("span");
+  const say=t=>{note.textContent=t||"";note.hidden=!t};
+  const setOn=on=>{btn.setAttribute("aria-pressed",on?"true":"false");lab.textContent="Big-move alerts: "+(on?"On":"Off")};
+  const iOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+  const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+  const can="serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
+  const b64=k=>{const p="=".repeat((4-k.length%4)%4),r=atob((k+p).replace(/-/g,"+").replace(/_/g,"/"));return Uint8Array.from(r,c=>c.charCodeAt(0))};
+  const ready=()=>new Promise(res=>{const t=setInterval(()=>{if(BL.fx&&BL.fx.pushSave&&BL.uid){clearInterval(t);res()}},250);setTimeout(()=>{clearInterval(t);res()},15000)});
+  async function current(){if(!can)return null;const reg=await navigator.serviceWorker.ready;return reg.pushManager.getSubscription()}
+  if(can)current().then(s=>setOn(!!s&&Notification.permission==="granted")).catch(()=>{});
+  btn.onclick=async()=>{
+    say("");
+    if(iOS&&!standalone){say("On iPhone, add KornCub to your Home Screen first (Share, then Add to Home Screen), open it from there, and tap this again.");return}
+    if(!can){say("This browser can't do alerts. Try Safari on iPhone (from the Home Screen) or Chrome on Android.");return}
+    btn.disabled=true;
+    try{
+      await ready();
+      if(!BL.fx||!BL.uid){say("Couldn't connect. Check your connection and try again.");return}
+      const reg=await navigator.serviceWorker.ready;
+      const sub=await reg.pushManager.getSubscription();
+      if(sub&&btn.getAttribute("aria-pressed")==="true"){
+        await sub.unsubscribe().catch(()=>{});await BL.fx.pushDrop().catch(()=>{});
+        setOn(false);say("Alerts are off.");return}
+      const perm=await Notification.requestPermission();
+      if(perm!=="granted"){say(perm==="denied"?"Notifications are blocked for KornCub. Turn them on in your phone's Settings, then try again.":"No problem. Tap again whenever you want alerts.");return}
+      const key=await BL.fx.pushKey();
+      if(!key){say("Alerts are still being set up. Try again in a little while.");return}
+      const s2=sub||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(key)});
+      await BL.fx.pushSave(s2.toJSON());
+      setOn(true);say("You'll get a notification when the Cubs make a trade, sign a big-league player, claim someone or cut someone. Tap again to turn it off.");
+    }catch(e){say("Couldn't turn on alerts. Try again in a minute.")}
+    finally{btn.disabled=false}
+  };
+})();
 </script>
 <script>
 /* Lift the tab bar above Netlify's badge iframe while it's showing; drop back when it's hidden or gone. */
