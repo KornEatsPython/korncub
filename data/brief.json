@@ -123,7 +123,7 @@
     "slot": "DH"
    }
   ],
-  "note": "As of Nov. 21. Still no starters. Tender day: claimed C Joey Bart, got RHP Braxton Roxby for cash, non-tendered Gabriel Arias and Ethan Roberts. 40-man at 37. Suzuki is a free agent; Brown (neck surgery) out until about midseason.",
+  "note": "As of Nov. 21 (evening). Still no starters. Tender day: claimed C Joey Bart, got RHP Braxton Roxby for cash, non-tendered Gabriel Arias and Ethan Roberts. 40-man at 37. Suzuki is a free agent; Brown (neck surgery) out until about midseason. Giants now open to Webb offers.",
   "rotation": [
    {
     "id": 665795,
@@ -146,6 +146,14 @@
    {
     "candidates": [
      {
+      "id": 657277,
+      "name": "Logan Webb (trade, Giants)"
+     },
+     {
+      "id": 642547,
+      "name": "Freddy Peralta (free agent)"
+     },
+     {
       "id": 650633,
       "name": "Michael King (free agent)"
      },
@@ -167,7 +175,7 @@
      }
     ],
     "name": "Open",
-    "note": "All five 2026 finishers are gone and Brown is out until midseason. Still linked: King (Morosi), Peralta (Bowden: six-plus teams), Rogers (Sharma; costs two picks), Taira (Levine; Mets in too), Itoh (visited Nov. 20). Morosi expects King and Peralta to wait until Skubal signs. May, Gray and the Mariners' trade arms are gone.",
+    "note": "All five 2026 finishers are gone and Brown is out until midseason. New: the Giants will listen on Webb (Murray, Nov. 21). Still linked: Peralta (Rosenthal/Sammon: seven teams, Cubs included), King (Morosi), Rogers (Sharma; costs two picks), Taira (Levine), Itoh (visited Nov. 20). May, Gray and the Mariners' trade arms are gone.",
     "open": true,
     "slot": "SP4"
    },
@@ -193,7 +201,7 @@
    }
   ]
  },
- "headline": "The Mets put nearly $400 million in front of Skubal, and Morosi says King and Peralta won't sign until he does. The Cubs' window is shrinking toward Dec. 1.",
+ "headline": "The Giants just put Logan Webb on the market, and he's the one front-line arm the Cubs can get without waiting on Skubal.",
  "injuries": [
   {
    "id": 690990,
@@ -251,9 +259,9 @@
  "lastSummary": "The Padres finished a two-game sweep with a 4-1 win at Petco. Kevin Gausman lasted 3 1/3 innings and took the loss, and Daniel Palencia gave up the back-breaking hit to Gavin Sheets. Bregman and Crow-Armstrong went a combined 0-for-15 with eight strikeouts in the series, and the highest-scoring offense in baseball managed one run in 18 innings.",
  "parkNote": "Wrigley has played slightly pitcher-friendly overall (96 run factor, 2024-26) while boosting homers (106). The Cubs posted an .789 OPS at home and .747 on the road.",
  "preview": [
-  "Now: Skubal has a nine-year, near-$400M Mets offer (Duquette) and is expected to pick by Dec. 1. Morosi says King and Peralta sign after he does.",
-  "Now: Itoh visited Chicago Friday (Jorge Castillo, ESPN). He, Taira and Sato must sign by Dec. 1 no matter what Skubal does. That's the lane the Cubs control.",
-  "Next: Monday's market for fresh non-tenders. Ober, Larnach and Gorman are free agents.",
+  "Now: the Giants are open to Webb offers (Robert Murray, FanSided). Two years, $47M left, and the deal doesn't depend on Skubal's timeline.",
+  "Now: Rosenthal and Sammon list the Cubs among seven Peralta suitors and say he could sign before Skubal does. Morosi still thinks he waits.",
+  "Now: Itoh visited Chicago Friday, but MLBTR notes the Cubs haven't been publicly tied to him. Taira and Sato are the other NPB arms on the Dec. 1 clock.",
   "Dec. 1: CBA expires. Every rotation slot past Cabrera, Steele and Assad still has to be bought before then."
  ],
  "roster": [
@@ -688,6 +696,38 @@
  ],
  "sources": [
   {
+   "title": "MLB.com: Hot Stove Rumors: Webb, Peralta, Mets, Yankees, Cubs, White Sox (Nov. 21)",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
+  },
+  {
+   "title": "Bleacher Nation: Giants open to trading Logan Webb",
+   "url": "https://www.bleachernation.com/cubs/2026/11/21/logan-webb-cubs-giants/"
+  },
+  {
+   "title": "Bleacher Nation: Cubs Bullets, Nov. 21 (Bart, Ayers, Itoh, Duran)",
+   "url": "https://www.bleachernation.com/cubs/2026/11/21/cubs-bullets-112126/"
+  },
+  {
+   "title": "MLBTR: Latest on Freddy Peralta",
+   "url": "https://www.mlbtraderumors.com/2026/11/latest-on-freddy-peralta.html"
+  },
+  {
+   "title": "MLBTR: Hiromi Itoh reportedly visited Chicago",
+   "url": "https://www.mlbtraderumors.com/2026/11/hiromi-itoh-reportedly-visited-chicago.html"
+  },
+  {
+   "title": "FanSided: Ranking 8 teams that should call the Giants about Logan Webb",
+   "url": "https://fansided.com/mlb/ranking-8-teams-that-should-call-the-giants-about-logan-webb"
+  },
+  {
+   "title": "Heavy: Cubs trade chip to land Logan Webb",
+   "url": "https://heavy.com/sports/mlb/chicago-cubs/cubs-have-perfect-trade-chip-to-dangle-to-land-logan-webb/"
+  },
+  {
+   "title": "CBS Sports: MLB rumors, Nov. 21 (Peralta, Itoh, Vientos)",
+   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-freddy-peralta-hiromi-itoh-mark-vientos-mets-cubs-white-sox/"
+  },
+  {
    "title": "MLB.com: Hot Stove Rumors: Skubal, Mets, King, Peralta, Braves, Pivetta",
    "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20"
   },
@@ -782,44 +822,37 @@
   {
    "title": "North Side Baseball: Is Jarren Duran the right kind of problem for the Cubs?",
    "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/is-jarren-duran-the-right-kind-of-problem-for-cubs-to-try-to-solve-r3571"
-  },
-  {
-   "title": "Baseball-Reference: Chayce McDermott",
-   "url": "https://www.baseball-reference.com/players/m/mcderch01.shtml"
-  },
-  {
-   "title": "Baseball-Reference: Eric Orze",
-   "url": "https://www.baseball-reference.com/players/o/orzeer01.shtml"
-  },
-  {
-   "title": "MLB.com: Hot Stove rumors, Nov. 19 (Lowe, Cubs, Sato, Duran)",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-19"
-  },
-  {
-   "title": "CBS Sports: MLB rumors, Nov. 19 (Taira, Cubs scouting Sato)",
-   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/"
-  },
-  {
-   "title": "Bleacher Nation: Cubs among nine teams in on Taira",
-   "url": "https://www.bleachernation.com/cubs/2026/11/19/cubs-among-nine-teams-reportedly-in-on-kaima-taira/"
-  },
-  {
-   "title": "Bleacher Nation: Another Jarren Duran mention with the Cubs",
-   "url": "https://www.bleachernation.com/cubs/2026/11/19/another-jarren-duran-mention-in-connection-with-the-cubs/"
   }
  ],
  "stats": [
   {
    "value": "0",
-   "label": "Starting pitchers added this offseason. Tender day brought a backup catcher and a Triple-A reliever."
+   "label": "Starting pitchers added this offseason, with ten days to the lockout."
   },
   {
-   "value": "~$400M",
-   "label": "The Mets' reported nine-year offer to Skubal (Duquette). Morosi says King and Peralta wait on his answer."
+   "value": "$47M",
+   "label": "What Logan Webb is owed over his last two years (FanSided). The Giants are now listening (Murray)."
   }
  ],
  "stove": {
   "items": [
+   {
+    "kind": "Ideas floated",
+    "name": "Logan Webb (trade, Giants)",
+    "id": 657277,
+    "heat": "Hot",
+    "date": "2026-11-21",
+    "detail": "Robert Murray (FanSided, Nov. 21): the Giants are 'open to listening' on Webb, per multiple rival executives, after refusing to engage before the deadline (via MLB.com). 30, three-time All-Star; signed through 2028 with $47M left (FanSided). 2026: 4.31 ERA, 3.45 FIP, 160 1/3 innings in 27 starts with IL stints for knee bursitis and a blister. 3.19 ERA over 968 innings in 2021-25 (Heavy). FanSided ranks the Cubs the No. 1 fit; Bleacher Nation names Shaw or Ramírez as the kind of piece it takes.",
+    "call": "Make the call tonight. Two cheap years of a 3.45-FIP workhorse is the best value on the board, and it runs on the Cubs' clock, not Skubal's. Pay in Shaw or Ramírez. Not Ayers, and not by moving Hoerner for a pitcher who's gone after 2028."
+   },
+   {
+    "kind": "League moves",
+    "name": "Mets extend A.J. Ewing; Yankees take calls on Spencer Jones and Domínguez",
+    "heat": "Cold",
+    "date": "2026-11-21",
+    "detail": "The Mets agreed to an eight-year extension with the 22-year-old Ewing, control through 2035 (MLB.com). Cashman says teams are 'asking a lot' about Jones and also Jasson Domínguez (Kuty, The Athletic, via MLB.com). The Mets are also getting calls on Mark Vientos.",
+    "call": "Jones is a real left-field idea for a club without one, but every Cubs chip should buy pitching first. Watch, don't chase."
+   },
    {
     "call": "Petriello's read is right: over four years Suzuki is the better bet. Letting him go for a comp pick only works if the money buys arms this week.",
     "date": "2026-11-21",
@@ -828,6 +861,22 @@
     "id": 673548,
     "kind": "Free agents",
     "name": "Padres may be the favorite for Suzuki"
+   },
+   {
+    "call": "Still the right No. 5 if the price holds, but the White Sox are the known suitor here. Don't let him become the plan while Peralta and Webb are live.",
+    "date": "2026-11-21",
+    "detail": "Visited Chicago Friday, per ESPN's Jorge Castillo (via CubsHQ); both Chicago clubs need arms, and the White Sox had already been linked (Romero, Nov. 15). 29, 2025 Sawamura winner; 3.18 ERA, 159 K, 34 BB over 172 2/3 innings in 2026. MLBTR projects two years, $20M. Has to sign before the Dec. 1 lockout. Nov. 21: MLBTR notes the Cubs haven't been publicly tied to him, while the White Sox are; it's unclear which club he met (Yamada). CBS calls him a seven-pitch, low-90s back-end starter.",
+    "heat": "Warm",
+    "kind": "Targets linked so far",
+    "name": "Hiromi Itoh (NPB, posted)"
+   },
+   {
+    "call": "This is the one to win, and Rosenthal just handed the Cubs the opening: he may not wait on Skubal. Put four years at a premium AAV in front of him with a deadline this week.",
+    "date": "2026-11-21",
+    "detail": "Nov. 21: Rosenthal and Sammon (The Athletic) list seven suitors: the Rays ('seriously engaged'), White Sox, Cubs, Padres, Blue Jays and two unknown clubs, and say he could sign before Skubal does (via MLB.com, MLBTR). Morosi (Nov. 20) still expects him to wait. Bowden (Nov. 20) had more than six teams in. Rosenthal (Nov. 13) called him an 'obvious fit' because Counsell managed him. MLBTR projects five years, $110M; FanGraphs four years, $92M. 2026: 5.01 ERA in 21 Mets starts, then 0.79 over his last six for Tampa Bay; 3.30 ERA and a 29.6% K rate for Milwaukee in 2021-25.",
+    "heat": "Hot",
+    "kind": "Targets linked so far",
+    "name": "Freddy Peralta (free agent)"
    },
    {
     "call": "Fine as the backup. Wrong if it's the Kelly replacement. Amaya plus Bart is the weakest catching pair the Cubs have run in years, and Kelly is still sitting there on a two-year deal.",
@@ -856,14 +905,6 @@
     "name": "Gabriel Arias, Ethan Roberts non-tendered"
    },
    {
-    "call": "Sign him as the No. 5. Two years at that price is the cheapest real starter on the board, and a 5% walk rate plays. He's the floor, not the answer.",
-    "date": "2026-11-20",
-    "detail": "Visited Chicago Friday, per ESPN's Jorge Castillo (via CubsHQ); both Chicago clubs need arms, and the White Sox had already been linked (Romero, Nov. 15). 29, 2025 Sawamura winner; 3.18 ERA, 159 K, 34 BB over 172 2/3 innings in 2026. MLBTR projects two years, $20M. Must sign by Dec. 1.",
-    "heat": "Warm",
-    "kind": "Targets linked so far",
-    "name": "Hiromi Itoh (NPB, posted)"
-   },
-   {
     "call": "Larnach was on Adams' cheap-LF list, and now he costs nothing but money. Ober is a one-year rotation flier. Make calls Monday.",
     "date": "2026-11-20",
     "detail": "Minnesota non-tendered Bailey Ober and Trevor Larnach, released Matt Wallner, and traded Lewis for Bobby Miller and a catching prospect (MLB.com). St. Louis cut Nolan Gorman; Boston cut Connor Wong. Duran and Burger were tendered.",
@@ -872,12 +913,12 @@
     "name": "Tender day: Ober, Larnach, Wallner, Gorman hit the market; Royce Lewis to the Dodgers"
    },
    {
-    "kind": "League moves",
-    "name": "Oviedo to Arizona, Melton extended, Doval stays in San Francisco",
+    "call": "Oviedo for a Class A lefty is the kind of cheap rotation flier the Cubs should be scooping. Another one gone.",
     "date": "2026-11-20",
-    "heat": "Cold",
     "detail": "Arizona got RHP Johan Oviedo from Boston for minor-league LHP Luke Dotson and a PTBNL or cash; he missed most of 2026 with an elbow sprain (MLB.com). Detroit extended Troy Melton six years, $46.5M guaranteed, after a 2.76 ERA in 20 starts. The Giants kept Camilo Doval for one year, reportedly $6.3M, and sent Christian Koss to the Rays.",
-    "call": "Oviedo for a Class A lefty is the kind of cheap rotation flier the Cubs should be scooping. Another one gone."
+    "heat": "Cold",
+    "kind": "League moves",
+    "name": "Oviedo to Arizona, Melton extended, Doval stays in San Francisco"
    },
    {
     "call": "This is the internal-options pitch for the corners. It lines up with Hawkins' Nov. 13 comments. Fine for one spot. Not for two, and not if it means the Suzuki money never gets spent.",
@@ -921,14 +962,6 @@
     "id": 650633,
     "kind": "Targets linked so far",
     "name": "Michael King (free agent)"
-   },
-   {
-    "call": "This is the one to win. Don't wait for Skubal: put four years at a premium AAV in front of him with a deadline, before the Jays, Dodgers or Padres lose the Skubal race and pivot.",
-    "date": "2026-11-20",
-    "detail": "Jim Bowden (Nov. 20): more than six teams are in, including the Padres, both Chicago clubs and the Rays, maybe the Braves (via SI, MLB.com). Morosi says the White Sox are on King and Peralta too. Rosenthal (Nov. 13) called him an 'obvious fit' because Counsell managed him. MLBTR projects five years, $110M; FanGraphs four years, $92M. Morosi (Nov. 20): Peralta and King likely sign after Skubal does.",
-    "heat": "Hot",
-    "kind": "Targets linked so far",
-    "name": "Freddy Peralta (free agent)"
    },
    {
     "call": "Fine as a development plan, dangerous as a roster plan. A blister-prone 5.96 ERA is not one of the two arms they need. If the front office counts a fixed Cabrera as an addition, the winter already failed.",
@@ -1248,7 +1281,7 @@
     "value": "Dec. 1"
    }
   ],
-  "summary": "Still no starters with 10 days left. The Mets reportedly offered Skubal nine years and almost $400 million, and Morosi says King and Peralta will wait until Skubal picks, which crams the Cubs' two biggest targets into the last days before the lockout. Itoh visited Friday; the NPB arms are the only lane not tied to Skubal's clock."
+  "summary": "Still no starters with ten days left. The new name is Logan Webb: the Giants are listening (Murray), and a two-year, $47M ace-caliber arm is the one target whose timing the Cubs control. Rosenthal and Sammon also have the Cubs among seven Peralta suitors and say he might not wait for Skubal. Itoh visited Friday, but the White Sox are the club tied to him."
  },
- "updatedAt": "2026-11-21T09:43-05:00"
+ "updatedAt": "2026-11-21T22:55-05:00"
 }

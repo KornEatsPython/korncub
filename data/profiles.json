@@ -552,7 +552,43 @@
    "status": "Pre-arbitration",
    "take": "Shaw played 77 games around the diamond and hit .237/.327/.410 (102 OPS+). Statcast thinks that was generous: a .303 xwOBA and .353 xSLG. He hit lefties (.841 OPS) and struggled against righties (.640). Hoyer says the Cubs will lean on him more, which is a polite way of saying the outfield budget may go to pitching. As an everyday corner bat, he's a downgrade from Happ or Suzuki.",
    "verdict": "Gets the first crack at a corner. Hasn't earned it yet."
+  },
+  "657277": {
+   "name": "Logan Webb",
+   "status": "Trade target · Giants open to offers (Murray, Nov. 21)",
+   "role": "SP",
+   "contract": "Five-year, $90M extension through 2028; $47M left over two years (FanSided).",
+   "verdict": "The best arm the Cubs can actually get this winter. A No. 1 on their staff.",
+   "take": "Webb had his worst ERA since 2021 (4.31) but a 3.45 FIP, and he still made 27 starts around knee bursitis and a blister. From 2021 to 2025 he ran a 3.19 ERA over 968 innings and led the NL in innings three straight years. Two years at $23M-ish a year is cheaper than Peralta or King, with no Skubal wait attached. Trade for him.",
+   "plus": [
+    "3.45 FIP in 2026",
+    "3.19 ERA over 968 innings, 2021-25",
+    "Two cheap years left; no free-agent bidding"
+   ],
+   "minus": [
+    "4.31 ERA in 2026",
+    "Two IL stints (knee bursitis, blister)",
+    "Costs prospects the Cubs have already thinned"
+   ]
+  },
+  "642547": {
+   "name": "Freddy Peralta",
+   "status": "Free agent · Cubs among seven suitors (Rosenthal/Sammon, Nov. 21)",
+   "role": "SP",
+   "contract": "Free agent. MLBTR projects five years, $110M; FanGraphs four years, $92M.",
+   "verdict": "The best free-agent starter the Cubs can realistically sign. Worth a premium on four years.",
+   "take": "Peralta posted a 5.01 ERA in 21 Mets starts, got traded to Tampa Bay and finished with a 0.79 ERA over his last six starts; 4.42 ERA in 169 innings overall. The Brewers years are the real résumé: a 3.30 ERA and a 29.6% strikeout rate from 2021 to 2025, under Counsell. Seven teams are in. Sign him before Skubal's losers pivot.",
+   "plus": [
+    "29.6% K rate, 3.30 ERA in 2021-25",
+    "0.79 ERA over his last six 2026 starts",
+    "Pitched for Counsell in Milwaukee"
+   ],
+   "minus": [
+    "4.42 ERA, 63 walks in 2026",
+    "Age-31 season in 2027",
+    "Seven-team market drives the price"
+   ]
   }
  },
- "updatedAt": "2026-11-21T09:43-05:00"
+ "updatedAt": "2026-11-21T22:55-05:00"
 }
