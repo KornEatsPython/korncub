@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-21T22:39-05:00",
- "date": "2026-11-21",
+ "updatedAt": "2026-11-22T09:39-05:00",
+ "date": "2026-11-22",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
  "next": {
@@ -8,42 +8,42 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "The Giants opened the door on Logan Webb, and now the pitching market has a second ace that doesn't wait on Skubal.",
+ "headline": "Skubal's clock, a Marte deal that looks close and Webb on the block: nine days to the lockout and the stove is finally hot.",
  "news": [
   {
-   "title": "Giants open to trading Logan Webb",
+   "title": "Angels sale to Stan Kroenke expected in early January",
+   "source": "Bleacher Nation",
+   "date": "2026-11-22",
+   "url": "https://www.bleachernation.com/cubs/2026/11/22/cubs-bullets-112226/",
+   "note": "Arte Moreno is selling to the Rams and Nuggets owner. Manfred said the deal should close in early January."
+  },
+  {
+   "title": "Marte trade 'inevitable if not imminent'",
+   "source": "ClutchPoints (via The Athletic)",
+   "date": "2026-11-21",
+   "url": "https://clutchpoints.com/mlb/mlb-rumors-diamondbacks-ketel-marte-trade-inevitable-imminent",
+   "note": "Rosenthal and Sammon say Arizona will move its second baseman as it cuts payroll. Marte has 10-and-5 rights and can veto; the Orioles, Blue Jays, Red Sox and Rays are named."
+  },
+  {
+   "date": "2026-11-21",
+   "note": "San Francisco will now listen on its three-time All-Star, a reversal from the deadline. He's signed through 2028.",
    "source": "MLB.com (via FanSided's Robert Murray)",
-   "date": "2026-11-21",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21",
-   "note": "San Francisco will now listen on its three-time All-Star, a reversal from the deadline. He's signed through 2028."
+   "title": "Giants open to trading Logan Webb",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
+   "date": "2026-11-21",
+   "note": "The 22-year-old outfielder is now under control through 2035. It's the Mets' first big long-term extension under Stearns.",
+   "source": "MLB.com",
    "title": "Mets extend A.J. Ewing for eight years",
-   "source": "MLB.com",
-   "date": "2026-11-21",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21",
-   "note": "The 22-year-old outfielder is now under control through 2035. It's the Mets' first big long-term extension under Stearns."
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
+   "date": "2026-11-21",
+   "note": "Rosenthal and Sammon list the Rays, White Sox, Cubs, Padres, Blue Jays and two unknown clubs. He could sign before Skubal does.",
+   "source": "MLB.com (via The Athletic)",
    "title": "Seven teams chase Freddy Peralta",
-   "source": "MLB.com (via The Athletic)",
-   "date": "2026-11-21",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21",
-   "note": "Rosenthal and Sammon list the Rays, White Sox, Cubs, Padres, Blue Jays and two unknown clubs. He could sign before Skubal does."
-  },
-  {
-   "title": "Yankees fielding calls on Spencer Jones and Jasson Domínguez",
-   "source": "MLB.com (via The Athletic)",
-   "date": "2026-11-21",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21",
-   "note": "Cashman says teams are 'asking a lot' about Jones, who's in line to start in center."
-  },
-  {
-   "date": "2026-11-21",
-   "note": "Doval avoided arbitration at a reported $6.3M after a 4.30 ERA between the Yankees and Pirates. Koss went to Tampa Bay for minor-league RHP Cole Stokes.",
-   "source": "MLB.com",
-   "title": "Giants keep Doval for one year, trade Koss to the Rays",
-   "url": "https://www.mlb.com/news/camilo-doval-giants-contract-christian-koss-traded-to-rays"
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
    "date": "2026-11-20",
@@ -55,36 +55,28 @@
  ],
  "sources": [
   {
-   "title": "MLB.com: Hot Stove Rumors, Nov. 21",
+   "title": "Angels sale to Stan Kroenke expected in early January",
+   "url": "https://www.bleachernation.com/cubs/2026/11/22/cubs-bullets-112226/"
+  },
+  {
+   "title": "Marte trade 'inevitable if not imminent'",
+   "url": "https://clutchpoints.com/mlb/mlb-rumors-diamondbacks-ketel-marte-trade-inevitable-imminent"
+  },
+  {
+   "title": "Giants open to trading Logan Webb",
    "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
-   "title": "Bleacher Nation: Giants open to trading Logan Webb",
-   "url": "https://www.bleachernation.com/cubs/2026/11/21/logan-webb-cubs-giants/"
+   "title": "Mets extend A.J. Ewing for eight years",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
-   "title": "MLB.com: Giants keep Doval for one year, trade Koss to the Rays",
-   "url": "https://www.mlb.com/news/camilo-doval-giants-contract-christian-koss-traded-to-rays"
+   "title": "Seven teams chase Freddy Peralta",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21"
   },
   {
-   "title": "MLB.com: Mets reportedly offer Skubal nine years, almost $400M",
+   "title": "Mets reportedly offer Skubal nine years, almost $400M",
    "url": "https://www.mlb.com/news/tarik-skubal-rumors"
-  },
-  {
-   "title": "MLB.com: Morosi: King and Peralta wait on Skubal; White Sox in on both",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-20"
-  },
-  {
-   "title": "MLB.com: Tigers extend Troy Melton six years, $46.5M",
-   "url": "https://www.mlb.com/tigers/news/tigers-troy-melton-contract-extension"
-  },
-  {
-   "title": "MLB.com: D-backs get Johan Oviedo from Boston",
-   "url": "https://www.mlb.com/redsox/news/johan-oviedo-traded-to-d-backs-from-red-sox"
-  },
-  {
-   "title": "MLBTR: Union pitches international changes; MLB drops high school draft idea",
-   "url": "https://www.mlbtraderumors.com/2026/11/mlbpa-makes-proposal-related-to-international-bonus-pool.html"
   }
  ]
 }
