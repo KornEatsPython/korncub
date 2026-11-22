@@ -9,10 +9,13 @@ if (!sa) { console.log("FIREBASE_SERVICE_ACCOUNT secret isn't set; skipping."); 
 admin.initializeApp({ credential: admin.credential.cert(JSON.parse(sa)) });
 const db = admin.firestore();
 const dir = path.resolve("..", "data");
+// Every data/*.json, plus the Korn Column (column/posts.json → live/column).
+const files = fs.readdirSync(dir).filter(f => f.endsWith(".json")).map(f => [f.slice(0, -5), path.join(dir, f)]);
+const col = path.resolve("..", "column", "posts.json");
+if (fs.existsSync(col)) files.push(["column", col]);
 let n = 0;
-for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".json"))) {
-  const name = f.slice(0, -5);
-  const text = JSON.stringify(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+for (const [name, file] of files) {
+  const text = JSON.stringify(JSON.parse(fs.readFileSync(file, "utf8")));
   if (Buffer.byteLength(text) > 900000) { console.log(`${name}: too large for one doc, skipped`); continue; }
   await db.collection("live").doc(name).set({ json: text, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
   console.log(`${name}: ${Buffer.byteLength(text)} bytes`); n++;

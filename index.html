@@ -1809,7 +1809,9 @@ else{try{
   let COL=null,cur=null,unsub=null,st={comments:[],reacts:[]},busy=false,from=null;
   async function load(){
     if(COL)return COL;
-    try{const r=await fetch("column/posts.json",{cache:"no-store"});COL=await r.json()}catch(e){COL={}}
+    // Column lives in Firestore (live/column, synced from column/posts.json) so posting needs no Netlify deploy; falls back to the file.
+    try{const r=await fetch("https://firestore.googleapis.com/v1/projects/korncub/databases/(default)/documents/live/column?key=AIzaSyCFymHBmFGEMMSbNTFU6kVVHi4zQL4ydUY",{cache:"no-store"});const d=r.ok?await r.json():null;const t=d&&d.fields&&d.fields.json&&d.fields.json.stringValue;COL=t?JSON.parse(t):null}catch(e){COL=null}
+    if(!COL){try{const r=await fetch("column/posts.json",{cache:"no-store"});COL=await r.json()}catch(e){COL={}}}
     COL.name=COL.name||"The Korn Column";COL.author=COL.author||"Alex Korn";COL.posts=(COL.posts||[]).slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
     return COL}
   const fmt=d=>{try{return new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}catch(e){return d}};

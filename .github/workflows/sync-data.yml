@@ -3,7 +3,7 @@ name: Sync data to Firestore
 on:
   push:
     branches: [main]
-    paths: ["data/**", "alerts/sync-data.mjs", ".github/workflows/sync-data.yml"]
+    paths: ["data/**", "column/**", "alerts/sync-data.mjs", ".github/workflows/sync-data.yml"]
   workflow_dispatch:
 
 concurrency:
@@ -20,6 +20,7 @@ jobs:
           sparse-checkout: |
             alerts
             data
+            column
       - uses: actions/setup-node@v4
         with:
           node-version: 22

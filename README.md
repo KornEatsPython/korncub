@@ -3,7 +3,7 @@
 A Chicago Cubs fan hub that installs on your phone like an app.
 
 - `index.html`: the whole app.
-- `data/*.json`: news, takes, depth chart and stat cards, refreshed by a scheduled Claude task. A GitHub Action (`sync-data.yml`) copies them to Firestore (`live`), which is where the site reads them; Netlify skips data-only pushes.
+- `data/*.json`: news, takes, depth chart and stat cards, refreshed by a scheduled Claude task. A GitHub Action (`sync-data.yml`) copies them to Firestore (`live`), which is where the site reads them; Netlify skips data-only pushes. The Korn Column (`column/posts.json`) is synced and read the same way, so posting a column costs no deploy.
 - Live scores, standings and the 40-man roster load straight from MLB's free stats API.
 - The Bleachers message board runs on Firebase (`firebase-config.js`, `firestore.rules`).
 - Hosted on Netlify; every push to `main` republishes the site.
