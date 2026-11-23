@@ -227,6 +227,29 @@ table.t tr.me td:first-child{background:var(--cubssoft)}
 .gap{height:8px;border-radius:4px;background:var(--line);position:relative;overflow:hidden}
 .gap i{position:absolute;top:0;bottom:0}
 
+/* robo-ump (ABS) */
+.absStrip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.absStrip .lg em{display:block;font-style:normal;font-family:var(--display);font-weight:800;font-size:15px;color:var(--gold);margin-top:2px}
+.absKey{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.absKey i{display:inline-block;width:14px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.absRole{display:flex;flex-direction:column;gap:6px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.absRole:last-of-type{border-bottom:0;padding-bottom:0}
+.absTop{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.absTop h3{font-size:21px}
+.absLine{display:grid;grid-template-columns:minmax(0,1fr) 58px;gap:8px;align-items:center;font-variant-numeric:tabular-nums}
+.absLine span{text-align:right}
+.absBar{display:block;height:12px;border-radius:4px;background:var(--sunk);overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.absBar i{display:block;height:100%;background:var(--cubsfill)}
+.absBar.avg i{background:color-mix(in srgb,var(--muted) 45%,var(--sunk))}
+.absBar.bad i{background:var(--bad)}
+.absBig{font-family:var(--display);font-weight:900;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.absTake{background:var(--redsoft);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.absTake b{font-family:var(--display);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:12.5px;color:var(--red)}
+.absGrp{display:flex;flex-direction:column;gap:8px}
+.absP{display:flex;flex-direction:column;gap:5px;padding:10px 12px;background:var(--sunk);border-radius:10px}
+#absBody{display:flex;flex-direction:column;gap:14px}
+.absMore{width:100%;background:none;border:1.5px solid var(--line);border-radius:10px;min-height:44px;font-weight:700;cursor:pointer;color:var(--cubs)}
+
 /* bullpen */
 .pc{display:inline-grid;grid-template-columns:repeat(3,26px);gap:3px}
 .pc span{font-family:var(--stencil);font-size:13px;text-align:center;border-radius:4px;padding:1px 0;background:var(--sunk);color:var(--muted)}
@@ -689,7 +712,7 @@ body[data-scr="legends"] .rail{display:none!important}
   </div>
   <div class="in" id="rail">
     <a class="chip" data-g="game" href="#today">Schedule</a><a class="chip" data-g="game" href="#stove" data-stove hidden>Trade talk</a><a class="chip" data-g="game" href="#matchup" data-gd hidden>Pitchers</a><a class="chip" data-g="game" href="#diamond">Lineup</a><a class="chip" data-g="game" href="#bullpen">Bullpen</a><a class="chip" data-g="game" href="#park">Weather</a><a class="chip" data-g="game" href="#league">Around MLB</a><a class="chip" data-g="game" href="#standings">Standings</a>
-    <a class="chip" data-g="roster" href="#players">Player stats</a><a class="chip" data-g="roster" href="#injuries">Injured list</a><a class="chip" data-g="roster" href="#regression">Hot or lucky?</a>
+    <a class="chip" data-g="roster" href="#players">Player stats</a><a class="chip" data-g="roster" href="#injuries">Injured list</a><a class="chip" data-g="roster" href="#regression">Hot or lucky?</a><a class="chip" data-g="roster" href="#abs">Robo-ump</a>
     <a class="chip" data-g="talk" href="#reads">Articles</a><a class="chip" data-g="talk" href="#grades">Report cards</a>
     <a class="chip" data-g="legends" href="#legends">Legends</a>
   </div>
@@ -799,6 +822,13 @@ body[data-scr="legends"] .rail{display:none!important}
     <div id="reg"><div class="empty">The biggest over- and under-performers load here.</div></div>
   </section>
 
+  <section class="panel" id="abs">
+    <div class="head"><span class="eyebrow" id="absEye">ABS challenges</span><h2>Robo-ump</h2></div>
+    <p class="small muted">When a Cub challenged a ball or strike call, how often did the robot flip it? Hitters, catchers and pitchers, against the rest of baseball.</p>
+    <div class="seg" role="group" aria-label="Robo-ump view"><button type="button" id="absV1" aria-pressed="true">The Cubs</button><button type="button" id="absV2" aria-pressed="false">Every Cub</button><button type="button" id="absV3" aria-pressed="false">All 30 teams</button></div>
+    <div id="absBody"><div class="empty">ABS challenge numbers load here.</div></div>
+  </section>
+
   <section class="panel" id="standings">
     <div class="head"><span class="eyebrow" id="stEye">Standings</span><h2>NL Central + Wild Card</h2></div>
     <div id="stand"><div class="empty">Division and wild-card tables load here.</div></div>
@@ -890,7 +920,7 @@ function daysTo(ymd){const [y,m,d]=ymd.split("-").map(Number);const now=new Date
 const short=n=>{if(!n)return"";const p=String(n).split(" ");return p.length>1?p.slice(1).join(" "):n};
 const nick=n=>{if(!n)return"";const p=String(n).split(" ");return p.length>1&&/^(Sox|Jays)$/.test(p[p.length-1])?p.slice(-2).join(" "):p[p.length-1]};
 
-const S={core:null,players:null,gameday:null,brief:null,betting:null,reads:null,profiles:null,ledger:null,mlb:null};
+const S={core:null,players:null,gameday:null,brief:null,betting:null,reads:null,profiles:null,ledger:null,mlb:null,abs:null};
 let CARDS={},PROF={};
 const UI={reads:"col",tab:"H",reg:true,sort:{H:{k:"bwar",d:-1},P:{k:"outs",d:-1}},dia:"cubs",card:null};
 
@@ -1179,6 +1209,59 @@ function renderRegression(){
       notes[r.id]?h("p",{class:"small"},notes[r.id]):null)};
   fill("reg",h("div",{class:"row2"},h("div",{class:"reg"},h("span",{class:"sub2"},"Hitters"),(R.hitters||[]).map(r=>item(r,"h"))),h("div",{class:"reg"},h("span",{class:"sub2"},"Pitchers"),(R.pitchers||[]).map(r=>item(r,"p")))));
 }
+
+/* ---------- robo-ump (ABS challenges) ---------- */
+UI.abs="cubs";UI.absAll=false;UI.absSort={k:"tot",d:-1};UI.absMore=false;
+function renderAbs(){
+  const A=S.abs;if(!A||!A.team){return}
+  ["absV1","absV2","absV3"].forEach((id,i)=>$(id).setAttribute("aria-pressed",String(UI.abs===["cubs","players","teams"][i])));
+  $("absEye").textContent="ABS challenges · "+(A.season||"")+" "+(A.gameType||"").toLowerCase();
+  const T=A.team,Ro=A.roles||{},pc=v=>isN(v)?v.toFixed(1)+"%":"–",bar=(v,cls)=>h("span",{class:"absBar"+(cls?" "+cls:""),"aria-hidden":"true"},h("i",{style:"width:"+Math.max(0,Math.min(100,v||0))+"%"}));
+  const rk=(r,of)=>r?ordinal(r)+(of?" of "+of:" in MLB"):"";
+  const role=(key,label,blurb)=>{const r=Ro[key]||{};const good=isN(r.pct)&&isN(r.mlb)&&r.pct>=r.mlb;
+    const few=(r.chal||0)<10;
+    return h("div",{class:"absRole"},h("div",{class:"absTop"},h("h3",{},label),few?h("span",{class:"badge b-muted"},"Barely used"):h("span",{class:"badge "+(good?"b-good":"b-bad")},rk(r.rank))),
+      few?h("div",{class:"absTop"},h("span",{class:"absBig"},(r.ot||0)+" for "+(r.chal||0)),h("span",{class:"small muted"},"MLB "+label.toLowerCase()+" won "+pc(r.mlb))):
+      [h("div",{class:"absLine"},bar(r.pct),h("span",{style:"font-weight:700"},pc(r.pct))),h("div",{class:"absLine"},bar(r.mlb,"avg"),h("span",{class:"muted"},pc(r.mlb)))],
+      blurb?h("p",{class:"small muted"},blurb):h("p",{class:"small muted"},(r.chal||0)+" challenges, "+(r.ot||0)+" overturned."))};
+  const B=(A.blurbs||{});
+  const vCubs=()=>[
+    h("div",{class:"absStrip"},
+      h("div",{class:"lg"},h("b",{},pc(T.pct)),h("span",{},"of challenges won"),h("em",{},T.rank?ordinal(T.rank)+" of 30":"")),
+      h("div",{class:"lg"},h("b",{},String(T.chal||0)),h("span",{},"challenges"),h("em",{},T.chalRank?ordinal(T.chalRank)+" most":"")),
+      h("div",{class:"lg"},h("b",{},(T.runs>0?"+":"")+f1(T.runs)),h("span",{},"runs gained"),h("em",{},T.runsRank?ordinal(T.runsRank)+" of 30":""))),
+    h("div",{class:"absKey","aria-hidden":"true"},h("span",{},h("i",{style:"background:var(--cubsfill)"}),"Cubs"),h("span",{},h("i",{style:"background:color-mix(in srgb,var(--muted) 45%,var(--sunk))"}),"MLB average")),
+    role("catchers","Catchers",B.catchers),role("hitters","Hitters",B.hitters),role("pitchers","Pitchers",B.pitchers),
+    A.take?h("div",{class:"absTake"},h("b",{},"Korn's take"),h("p",{},A.take)):null];
+  const tag=p=>p.status==="Free agent"?h("span",{class:"badge b-warn"},"Free agent"):p.newCub?h("span",{class:"badge b-cubs"},"New Cub"):p.status&&p.status!=="Cub"?h("span",{class:"badge b-muted"},p.status):null;
+  const prow=(p,avg,lbl)=>{const bad=isN(p.pct)&&isN(avg)&&p.pct<avg-8;
+    return h("div",{class:"absP"},h("div",{class:"absTop"},h("span",{style:"display:flex;gap:8px;align-items:center;flex-wrap:wrap"},pn(p.id,p.name),tag(p)),h("span",{class:"absBig",style:bad?"color:var(--bad)":null},pc(p.pct))),
+      p.chal>=5?bar(p.pct,bad?"bad":null):null,
+      h("span",{class:"small muted"},p.ot+"-"+(p.chal-p.ot)+" on "+p.chal+" challenge"+(p.chal===1?"":"s")+(p.rank?" · "+ordinal(p.rank)+" of "+p.of+" MLB "+lbl+" ("+p.min+"+)":"")+(p.runs?" · "+(p.runs>0?"+":"")+f1(p.runs)+" runs":"")))};
+  const grp=(key,label,avg,lbl)=>{let L=(A.players||{})[key]||[];if(!L.length)return null;
+    let extra=0;if(key==="hitters"&&!UI.absMore){const k=L.filter(p=>p.chal>=5||p.newCub);extra=L.length-k.length;L=k}
+    return h("div",{class:"absGrp"},h("div",{class:"absTop"},h("span",{class:"sub2"},label),h("span",{class:"small muted"},"MLB "+lbl+": "+pc(avg))),L.map(p=>prow(p,avg,lbl)),
+      extra?h("button",{type:"button",class:"absMore",onclick:()=>{UI.absMore=true;renderAbs()}},"Show "+extra+" more with under 5 tries"):null)};
+  const vPlayers=()=>[grp("catchers","Catchers",(Ro.catchers||{}).mlb,"catchers"),grp("hitters","Hitters",(Ro.hitters||{}).mlb,"hitters"),grp("pitchers","Pitchers",(Ro.pitchers||{}).mlb,"pitchers"),
+    h("p",{class:"tiny muted"},"Tap a name for his stat card. Ranks count players with 20+ challenges (5+ for pitchers).")];
+  const vTeams=()=>{const so=UI.absSort,ts=(A.teams||[]).slice().sort((a,b)=>so.d*((a[so.k]??-1)-(b[so.k]??-1)));
+    const cols=[["name","Team","l"],["bat","Hitters"],["cat","Catchers"],["tot","All"]];
+    const avg={bat:(Ro.hitters||{}).mlb,cat:(Ro.catchers||{}).mlb,tot:T.mlb};
+    let rows=ts.map((t,i)=>({t,i}));
+    if(!UI.absAll){const top=rows.slice(0,3),me=rows.find(r=>r.t.id===112);rows=top.concat(me&&me.i>2?[me]:[])}
+    const th=cols.map(([k,l,c])=>{if(k==="name")return h("th",{class:"l",scope:"col"},"Team");const b=h("button",{type:"button"},l);b.onclick=()=>{UI.absSort={k,d:UI.absSort.k===k?-UI.absSort.d:-1};UI.absAll=true;renderAbs()};
+      return h("th",{scope:"col","aria-sort":so.k===k?(so.d>0?"ascending":"descending"):null},b)});
+    const cell=(t,k)=>{const v=t[k];if(k==="chal")return String(v);if(k==="runs")return (v>0?"+":"")+f1(v);const on=so.k===k,good=isN(v)&&isN(avg[k])&&v>=avg[k];
+      return h("span",{style:on?"font-weight:800;color:var("+(good?"--good":"--bad")+")":null},pc(v))};
+    return [h("div",{class:"tbl"},h("table",{class:"t"},h("thead",{},h("tr",{},th)),
+      h("tbody",{},rows.map(({t,i})=>h("tr",{class:t.id===112?"me":null},h("td",{class:"l"},(i+1)+". "+t.name),["bat","cat","tot"].map(k=>h("td",{},cell(t,k))))),
+        !UI.absAll?h("tr",{},h("td",{class:"l muted"},"MLB average"),h("td",{class:"muted"},pc(avg.bat)),h("td",{class:"muted"},pc(avg.cat)),h("td",{class:"muted"},pc(avg.tot))):null))),
+      h("button",{type:"button",class:"absMore",onclick:()=>{UI.absAll=!UI.absAll;renderAbs()}},UI.absAll?"Show top 3 only":"Show all 30 teams"),
+      h("p",{class:"tiny muted"},"Catchers leaves out pitcher challenges. Green beats the MLB average, red trails it. Tap a column to sort.")]};
+  fill("absBody",UI.abs==="players"?vPlayers():UI.abs==="teams"?vTeams():vCubs(),
+    h("p",{class:"tiny muted"},"Source: Baseball Savant ABS leaderboard. Updated "+(A.updatedAt?etDate(A.updatedAt,{month:"short",day:"numeric"}):"")+"."));
+}
+$("absV1").onclick=()=>{UI.abs="cubs";renderAbs()};$("absV2").onclick=()=>{UI.abs="players";renderAbs()};$("absV3").onclick=()=>{UI.abs="teams";renderAbs()};
 
 /* ---------- bullpen + ump ---------- */
 function pcCell(v){return h("span",{class:v>=25?"hot":v>0?"on":""},v?String(v):"·")}
@@ -1518,7 +1601,7 @@ setTimeout(syncRail,300);
 
 /* ---------- live data ---------- */
 function rebuildIndex(){CARDS=Object.assign({},(S.players&&S.players.cards)||{},(S.gameday&&S.gameday.oppCards)||{});PROF=(S.profiles&&S.profiles.players)||{}}
-const R={header:renderHeader,tiles:renderTiles,today:renderToday,diamond:renderDiamond,matchup:renderMatchup,betting:renderBetting,players:renderPlayers,picker:renderPicker,regression:renderRegression,bullpen:renderBullpen,park:renderPark,league:renderLeague,injuries:renderInjuries,stove:renderStove,standings:renderStandings,reads:renderReads,grades:renderGrades,foot:renderFoot,offhide:renderOffHide};
+const R={header:renderHeader,tiles:renderTiles,today:renderToday,diamond:renderDiamond,matchup:renderMatchup,betting:renderBetting,players:renderPlayers,picker:renderPicker,regression:renderRegression,abs:renderAbs,bullpen:renderBullpen,park:renderPark,league:renderLeague,injuries:renderInjuries,stove:renderStove,standings:renderStandings,reads:renderReads,grades:renderGrades,foot:renderFoot,offhide:renderOffHide};
 function renderOffHide(){const off=mode()==="offseason";["bullpen","park","league"].forEach(id=>{const el=$(id);if(el)el.classList.toggle("offHide",off);const c=document.querySelector('#rail .chip[href="#'+id+'"]');if(c)c.classList.toggle("offHide",off)})}
 let queued=false;
 function renderAll(){queued=false;rebuildIndex();for(const k in R){try{R[k]()}catch(err){console.error("render "+k,err)}}if(UI.card&&!$("sheet").hidden)fill("cardBody",cardFor(UI.card))}
