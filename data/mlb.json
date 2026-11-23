@@ -1,1 +1,71 @@
-{"updatedAt": "2026-11-22T22:40-05:00", "date": "2026-11-22", "games": [], "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.", "next": {"date": "2027-02-19", "count": 17, "first": "Toronto Blue Jays at Pittsburgh Pirates"}, "headline": "Skubal is a Met at $450 million, and with nine days to the lockout every other ace-hungry team just got its starting gun.", "news": [{"title": "Skubal agrees with Mets: nine years, $450 million", "source": "Yahoo Sports", "date": "2026-11-22", "url": "https://sports.yahoo.com/mlb/breaking-news/article/tarik-skubal-reportedly-joins-mets-on-record-breaking-9-year-450-million-free-agency-contract-220314908.html", "note": "A record $50M AAV with a $45M signing bonus and a no-trade clause. It beat Toronto's nine-year, $400M-plus offer; the Dodgers never made one."}, {"title": "Padres pivot after the Skubal miss", "source": "MLB.com", "date": "2026-11-22", "url": "https://www.mlb.com/news/padres-starting-pitching-plans-after-missing-out-on-tarik-skubal", "note": "San Diego has one sure rotation returnee. Michael King is the obvious reunion target, with Peralta, Taira and Pivetta also in play."}, {"title": "Luis Gil signs with the Tigers", "source": "MLB.com", "date": "2026-11-22", "url": "https://www.mlb.com/news/luis-gil-tigers-deal", "note": "The 2024 AL Rookie of the Year took one year, $2.3M, a day after the Yankees non-tendered him."}, {"title": "Padres, Mariners, Phillies check in on Jarren Duran", "source": "MLB Trade Rumors", "date": "2026-11-22", "url": "https://www.mlbtraderumors.com/2026/11/padres-mariners-phillies-interested-in-jarren-duran.html", "note": "That makes four known suitors with the Cubs. Boston tendered him at a projected $11.1M after a 69 wRC+ season."}, {"title": "Giants want a 'very strong return' for Logan Webb", "source": "RealGM (via The Athletic)", "date": "2026-11-22", "url": "https://baseball.realgm.com/wiretap/61565/Giants-Open-To-Logan-Webb-Trade-But-Want-Very-Strong-Return", "note": "Some rival executives doubt San Francisco gets its price. The Giants would rather move Devers, Adames or Chapman."}, {"title": "Mets extend A.J. Ewing for eight years, $95 million", "source": "Yahoo Sports", "date": "2026-11-21", "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-tarik-skubal-reportedly-agrees-to-record-450m-contract-with-mets-220957364.html", "note": "A record for a Mets pre-arbitration player, with a $25M club option for a ninth year."}], "sources": [{"title": "Skubal agrees with Mets: nine years, $450 million", "url": "https://sports.yahoo.com/mlb/breaking-news/article/tarik-skubal-reportedly-joins-mets-on-record-breaking-9-year-450-million-free-agency-contract-220314908.html"}, {"title": "Padres pivot after the Skubal miss", "url": "https://www.mlb.com/news/padres-starting-pitching-plans-after-missing-out-on-tarik-skubal"}, {"title": "Luis Gil signs with the Tigers", "url": "https://www.mlb.com/news/luis-gil-tigers-deal"}, {"title": "Padres, Mariners, Phillies check in on Jarren Duran", "url": "https://www.mlbtraderumors.com/2026/11/padres-mariners-phillies-interested-in-jarren-duran.html"}, {"title": "Giants want a 'very strong return' for Logan Webb", "url": "https://baseball.realgm.com/wiretap/61565/Giants-Open-To-Logan-Webb-Trade-But-Want-Very-Strong-Return"}, {"title": "Mets extend A.J. Ewing for eight years, $95 million", "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-tarik-skubal-reportedly-agrees-to-record-450m-contract-with-mets-220957364.html"}]}
+{
+ "updatedAt": "2026-11-23T09:40-05:00",
+ "date": "2026-11-23",
+ "games": [],
+ "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
+ "next": {
+  "date": "2027-02-19",
+  "count": 17,
+  "first": "Toronto Blue Jays at Pittsburgh Pirates"
+ },
+ "headline": "Skubal's $450M deal broke the logjam, and every team that lost him is now chasing the same three arms: Peralta, King and Rogers.",
+ "news": [
+  {
+   "title": "Blue Jays pivot to Freddy Peralta after losing Skubal",
+   "source": "Bleacher Report",
+   "date": "2026-11-22",
+   "url": "https://bleacherreport.com/articles/25536700-new-mlb-rumors-reveal-blue-jays-top-free-agent-target-after-tarik-skubals-450m-mets-contract",
+   "note": "Toronto, which bid over $400M for Skubal, now has Peralta as its top target, per Jon Morosi. He's expected to sign for around $25M a year."
+  },
+  {
+   "title": "Skubal agrees with Mets: nine years, $450 million",
+   "source": "MLB.com",
+   "date": "2026-11-22",
+   "url": "https://www.mlb.com/news/tarik-skubal-rumors",
+   "note": "The two-time Cy Young winner picked the Mets over the Dodgers, Blue Jays and Padres. It's the richest pitcher contract ever, $125M more than Yamamoto's."
+  },
+  {
+   "title": "Mets' World Series odds jump from +2200 to +1300",
+   "source": "FOX Sports",
+   "date": "2026-11-22",
+   "url": "https://www.foxsports.com/stories/mlb/2027-world-series-odds",
+   "note": "DraftKings moved the Mets to fifth-shortest after the Skubal deal. The Dodgers (+350) and Brewers (+500) still lead the board."
+  },
+  {
+   "title": "Loaisiga turned down the Mets and Blue Jays to rejoin the Yankees",
+   "source": "MLB Trade Rumors",
+   "date": "2026-11-22",
+   "url": "https://www.mlbtraderumors.com/",
+   "note": "Bob Nightengale reports both clubs had offers in. He took two years and $18M from New York."
+  },
+  {
+   "title": "Mets extend A.J. Ewing for eight years, $95 million",
+   "source": "MLB Trade Rumors",
+   "date": "2026-11-21",
+   "url": "https://www.mlbtraderumors.com/",
+   "note": "The 22-year-old center fielder gets a $25M club option for 2035 after a 97 wRC+, 25-steal rookie year with plus defense."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bleacher Report: Blue Jays pivot to Freddy Peralta after losing Skubal",
+   "url": "https://bleacherreport.com/articles/25536700-new-mlb-rumors-reveal-blue-jays-top-free-agent-target-after-tarik-skubals-450m-mets-contract"
+  },
+  {
+   "title": "MLB.com: Skubal agrees with Mets: nine years, $450 million",
+   "url": "https://www.mlb.com/news/tarik-skubal-rumors"
+  },
+  {
+   "title": "FOX Sports: Mets' World Series odds jump from +2200 to +1300",
+   "url": "https://www.foxsports.com/stories/mlb/2027-world-series-odds"
+  },
+  {
+   "title": "MLB Trade Rumors: Loaisiga turned down the Mets and Blue Jays to rejoin the Yankees",
+   "url": "https://www.mlbtraderumors.com/"
+  },
+  {
+   "title": "MLB Trade Rumors: Mets extend A.J. Ewing for eight years, $95 million",
+   "url": "https://www.mlbtraderumors.com/"
+  }
+ ]
+}
