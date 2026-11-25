@@ -1,38 +1,38 @@
 {
  "card": [],
  "futures": {
+  "status": "Posted",
+  "note": "DraftKings still had the Cubs at +2500 Tuesday evening, after both signings (CBS Sports, Nov. 24, 5:55 p.m. ET). Polymarket had them around 3% before the week started (Covers). Rogers and Sato fixed the lineup hole and half the rotation hole. The price holds until a second starter lands. If King signs, +2500 is a buy.",
   "items": [
    {
-    "call": "Pass",
-    "implied": "3.8%",
     "market": "Cubs to win 2027 World Series",
-    "note": "Rogers is a real upgrade, but he's one arm. Behind him: Cabrera, a rehabbing Steele, Garrett and Assad. Wait for the second starter before buying at +2500.",
-    "odds": "+2500"
+    "odds": "+2500",
+    "implied": "3.8%",
+    "call": "Pass",
+    "note": "Better team than a week ago, same price. Still a pass until the second starter shows up. King plus Rogers makes this a bet."
    },
    {
-    "call": "Pass",
-    "implied": "7.1%",
-    "market": "Mets to win 2027 World Series",
-    "note": "One ace on a 74-88 team. The market bought the headline. Too short.",
-    "odds": "+1300"
-   },
-   {
-    "call": "Pass",
-    "implied": "16.7%",
     "market": "Brewers to win 2027 World Series",
-    "note": "The champs priced like a juggernaut. Repeating is hard and this price leaves nothing on the table.",
-    "odds": "+500"
+    "odds": "+500",
+    "implied": "16.7%",
+    "call": "Pass",
+    "note": "The champs priced like a juggernaut. Repeating is hard and this price leaves nothing on the table."
    },
    {
-    "call": "Pass",
-    "implied": "3.2%",
     "market": "Pirates to win 2027 World Series",
-    "note": "Only a few spots behind the Cubs. The market already sees Pittsburgh as a real NL Central threat.",
-    "odds": "+3000"
+    "odds": "+3000",
+    "implied": "3.2%",
+    "call": "Pass",
+    "note": "Just behind the Cubs on the board. The market sees Pittsburgh as a real NL Central threat."
+   },
+   {
+    "market": "Orioles to win 2027 World Series",
+    "odds": "+5000",
+    "implied": "2.0%",
+    "call": "Pass",
+    "note": "Lost Rogers, paid $125M for Peralta. That's a sideways move priced at 50-1."
    }
-  ],
-  "note": "DraftKings has not visibly moved since the Rogers deal: CBS Sports' Nov. 23 board shows the Cubs at +2500; FOX had +2200 on Nov. 22. Polymarket had them around 3% (Covers). One arm in, one to go: Rogers plus Taira or Peralta by Dec. 1 makes the Cubs price worth a look. Rogers alone is still a pass.",
-  "status": "Posted"
+  ]
  },
  "market": null,
  "mode": "offseason",
@@ -40,29 +40,21 @@
  "props": [],
  "sources": [
   {
-   "title": "CBS Sports: 2027 World Series odds (DraftKings, Nov. 23)",
+   "title": "CBS Sports: 2027 World Series odds (DraftKings, Nov. 24)",
    "url": "https://www.cbssports.com/betting/news/world-series-odds/"
-  },
-  {
-   "title": "SportsBettingDime: 2027 World Series odds on Kalshi",
-   "url": "https://www.sportsbettingdime.com/news/mlb/skubals-mets-contract-reshapes-2027-world-series-odds-see-how-far-nym-climbed/"
-  },
-  {
-   "title": "FOX Sports: 2027 World Series odds, Mets surge after Skubal (DraftKings, Nov. 22)",
-   "url": "https://www.foxsports.com/stories/mlb/2027-world-series-odds"
-  },
-  {
-   "title": "Heavy: Mets' 2027 World Series odds after Skubal (Oddschecker)",
-   "url": "https://heavy.com/sports/mlb/new-york-mets/450-million-splash-just-sent-the-mets-2027-world-series-odds-into-the-stratosphere/"
-  },
-  {
-   "title": "MLB.com: Skubal signs with Mets",
-   "url": "https://www.mlb.com/news/tarik-skubal-rumors"
   },
   {
    "title": "Covers: 2027 World Series odds (Polymarket, Nov. 22)",
    "url": "https://www.covers.com/mlb/world-series/odds"
+  },
+  {
+   "title": "MLB.com: Cubs, Sato reach 6-year, $120 million deal",
+   "url": "https://www.mlb.com/news/teruaki-sato-cubs-contract"
+  },
+  {
+   "title": "MLB.com: Orioles sign Freddy Peralta",
+   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
   }
  ],
- "updatedAt": "2026-11-24T09:55-05:00"
+ "updatedAt": "2026-11-24T22:58-05:00"
 }

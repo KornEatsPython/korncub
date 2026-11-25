@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T09:40-05:00",
+ "updatedAt": "2026-11-24T22:40-05:00",
  "date": "2026-11-24",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
@@ -8,75 +8,64 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "Seven days to the lockout and the pitching market is moving: Rogers is a Cub, and Peralta and King could both sign this week.",
+ "headline": "The pitching market broke open in one day: Peralta to Baltimore, Taira to Toronto, Bubic to Cleveland, and the Cubs added Sato to Rogers. King is the best arm left with a week to the lockout.",
  "news": [
   {
-   "title": "Peralta deal could come by midweek; King may sign this week",
-   "source": "Sportsnet",
-   "date": "2026-11-24",
-   "url": "https://www.sportsnet.ca/mlb/article/skubal-deal-means-blue-jays-must-turn-attention-elsewhere/",
-   "note": "Ben Nicholson-Smith hears some industry sources expect Freddy Peralta to sign by midweek, with Michael King possibly following. Toronto is interested in both, plus Kaima Taira."
-  },
-  {
-   "title": "Cubs sign Trevor Rogers: five years, $120 million",
-   "source": "CBS Sports",
-   "date": "2026-11-24",
-   "url": "https://www.cbssports.com/mlb/news/trevor-rogers-cubs-free-agency-contract/",
-   "note": "Pending a physical, with deferrals per ESPN's Jeff Passan. It's the third-largest deal ever for a Cubs pitcher, and Baltimore gets a compensatory pick."
-  },
-  {
-   "title": "Taira's fastball sits near 96 as his Dec. 1 deadline nears",
-   "source": "MLB Data Warehouse",
-   "date": "2026-11-24",
-   "url": "https://www.mlbdatawarehouse.com/news-feed-november-24-2026/",
-   "note": "MLB.com's pitch data has the 5-foot-8 righty touching 99-plus with eight pitches and a 1.78 career NPB ERA. With no posting-window extension, Taira, Sato and Itoh all have to sign by Dec. 1."
-  },
-  {
-   "title": "Mets sign Paul Goldschmidt: one year, $8 million",
-   "source": "MLB Trade Rumors",
-   "date": "2026-11-23",
-   "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html",
-   "note": "A day after Skubal, the Mets added the 39-year-old as a platoon bat. He hit .299/.393/.573 against lefties in 2026."
-  },
-  {
-   "title": "Yankees sign lefty reliever Brent Suter",
-   "source": "Heavy",
-   "date": "2026-11-23",
-   "url": "https://heavy.com/sports/mlb/new-york-yankees/new-york-yankees-latest-signing-throws-wrinkle-adrian-morejon-plans/",
-   "note": "One year, $4 million with a 2028 club option, per ESPN's Jeff Passan. It may take New York out on Adrian Morejon, the top reliever left."
-  },
-  {
-   "title": "Sato could sign 'very well before Thanksgiving'",
+   "title": "Orioles sign Freddy Peralta: five years, $125 million",
    "source": "MLB.com",
-   "date": "2026-11-23",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-23",
-   "note": "Ken Rosenthal's read; Mark Feinsand names the Yankees, Phillies and Blue Jays as frontrunners. The Cubs are still in the mix too, per The Athletic's Patrick Mooney."
+   "date": "2026-11-24",
+   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract",
+   "note": "The biggest deal ever for an Orioles pitcher, with a $10M signing bonus. The ALCS MVP replaces Trevor Rogers, who left for the Cubs."
+  },
+  {
+   "title": "Blue Jays land Kaima Taira: five years, $80 million",
+   "source": "MLB.com",
+   "date": "2026-11-24",
+   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
+   "note": "NPB's ERA leader (1.36) gets an opt-out after year three. Toronto's first big move after missing on Skubal."
+  },
+  {
+   "title": "Cubs agree with Teruaki Sato: six years, $120 million",
+   "source": "ESPN",
+   "date": "2026-11-24",
+   "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal",
+   "note": "The 2026 Central League Triple Crown winner heads to a corner outfield spot. It's $240M for the Cubs in about 12 hours, counting Rogers."
+  },
+  {
+   "title": "Kris Bubic takes one year, $17.5 million from Cleveland",
+   "source": "Yahoo Sports",
+   "date": "2026-11-24",
+   "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-best-available-171409867.html",
+   "note": "A pillow deal after an elbow-shortened 2026. It sets the price for one-year bounce-back starters."
+  },
+  {
+   "title": "Brandon Lowe draws six suitors; King now the top arm left",
+   "source": "MLB.com",
+   "date": "2026-11-24",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-24",
+   "note": "Morosi names the Yankees, Orioles, Blue Jays, Rays, Padres and Phillies on Lowe after his 35-homer year. Michael King is now likely the best starter on the market."
   }
  ],
  "sources": [
   {
-   "title": "Sportsnet: Peralta deal could come by midweek; King may sign this week",
-   "url": "https://www.sportsnet.ca/mlb/article/skubal-deal-means-blue-jays-must-turn-attention-elsewhere/"
+   "title": "MLB.com: Orioles sign Freddy Peralta: five years, $125 million",
+   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
   },
   {
-   "title": "CBS Sports: Cubs sign Trevor Rogers: five years, $120 million",
-   "url": "https://www.cbssports.com/mlb/news/trevor-rogers-cubs-free-agency-contract/"
+   "title": "MLB.com: Blue Jays land Kaima Taira: five years, $80 million",
+   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract"
   },
   {
-   "title": "MLB Data Warehouse: Taira's fastball sits near 96 as his Dec. 1 deadline nears",
-   "url": "https://www.mlbdatawarehouse.com/news-feed-november-24-2026/"
+   "title": "ESPN: Cubs agree with Teruaki Sato: six years, $120 million",
+   "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal"
   },
   {
-   "title": "MLB Trade Rumors: Mets sign Paul Goldschmidt: one year, $8 million",
-   "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html"
+   "title": "Yahoo Sports: Kris Bubic takes one year, $17.5 million from Cleveland",
+   "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-best-available-171409867.html"
   },
   {
-   "title": "Heavy: Yankees sign lefty reliever Brent Suter",
-   "url": "https://heavy.com/sports/mlb/new-york-yankees/new-york-yankees-latest-signing-throws-wrinkle-adrian-morejon-plans/"
-  },
-  {
-   "title": "MLB.com: Sato could sign 'very well before Thanksgiving'",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-23"
+   "title": "MLB.com: Brandon Lowe draws six suitors; King now the top arm left",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-24"
   }
  ]
 }

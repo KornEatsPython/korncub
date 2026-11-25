@@ -76,7 +76,7 @@
      }
     ],
     "name": "Open",
-    "note": "Adams (MLBTR) expects Ramírez to get the first look, with Shaw a maybe. Boston tendered Duran Friday, so he's a trade-only option. Trevor Larnach was non-tendered by Minnesota and is a free agent. Kwan isn't moving before the lockout.",
+    "note": "Jordan Bastian (MLB.com) has Shaw as the front-runner for the remaining outfield at-bats now that Sato is in, with Ramírez in a utility or DH role. Alcántara is out of options. North Side Baseball expects any outside add here to be a lower-wattage depth and defense move.",
     "open": true,
     "slot": "LF"
    },
@@ -87,24 +87,10 @@
     "slot": "CF"
    },
    {
-    "candidates": [
-     {
-      "id": 673548,
-      "name": "Seiya Suzuki (re-sign)"
-     },
-     {
-      "id": 807713,
-      "name": "Matt Shaw"
-     },
-     {
-      "id": 682634,
-      "name": "Kevin Alcántara"
-     }
-    ],
-    "name": "Open",
-    "note": "Suzuki rejected the $23.15M QO and is a free agent; MLBTR projects four years, $105M. Passan says the Padres met him Monday and may be the favorite. Comp pick after the fourth round if he signs elsewhere. Alcántara is out of options and gets a long look in spring.",
-    "open": true,
-    "slot": "RF"
+    "slot": "RF",
+    "id": 831664,
+    "name": "Teruaki Sato",
+    "note": "Agreed Nov. 24: six years, $120M, pending a physical (Passan; Feinsand). 2026 Central League Triple Crown: .306/.383/.609, 39 HR, 106 RBI. A third baseman in Japan; FanGraphs has him in right, others suggest left."
    },
    {
     "candidates": [
@@ -123,7 +109,7 @@
     "slot": "DH"
    }
   ],
-  "note": "As of Nov. 24 (morning). Rogers is in (5 yr, $120M with deferrals, pending a physical) and slots in as the No. 1. Still one starter short: Mooney says the Cubs are still in the mix for Taira; Peralta may sign by midweek. A Webb deal before Dec. 1 looks doubtful. Brown (neck surgery) out until about midseason.",
+  "note": "As of Nov. 24 (evening). Rogers (5 yr, $120M) and Sato (6 yr, $120M) are in, both pending physicals. Sato takes a corner outfield spot. Still one starter short: Taira (Blue Jays) and Peralta (Orioles) signed elsewhere Tuesday; Jesse Rogers (ESPN) expects one more starter before Dec. 1, with Holmes and Peterson in play. Brown (neck surgery) out until about midseason.",
   "rotation": [
    {
     "id": 669432,
@@ -146,31 +132,27 @@
    {
     "candidates": [
      {
-      "id": 657277,
-      "name": "Logan Webb (trade, Giants)"
-     },
-     {
-      "name": "Kaima Taira (NPB, posted)"
-     },
-     {
-      "id": 642547,
-      "name": "Freddy Peralta (free agent)"
-     },
-     {
       "id": 650633,
       "name": "Michael King (free agent)"
      },
      {
-      "id": 684007,
-      "name": "Shota Imanaga (re-sign)"
-     },
-     {
       "id": 656849,
       "name": "David Peterson (re-sign)"
+     },
+     {
+      "id": 605280,
+      "name": "Clay Holmes (re-sign)"
+     },
+     {
+      "name": "Hiromi Itoh (NPB, posted)"
+     },
+     {
+      "id": 657277,
+      "name": "Logan Webb (trade, Giants)"
      }
     ],
     "name": "Open",
-    "note": "One more needed before the lockout. Taira: Cubs 'still in the mix' (Mooney, Nov. 24); must sign by Dec. 1. Peralta: a deal could come by midweek (Nicholson-Smith). Webb: a deal before Dec. 1 is 'doubtful.' King: the Padres will 'do everything possible' to keep him.",
+    "note": "One more needed before the lockout, per Jesse Rogers (ESPN). Taira and Peralta signed elsewhere Nov. 24, and the door looks 'shut' on Imanaga. King is the best arm left (MLB.com). Holmes and Peterson are in play. Itoh visited Chicago. Webb before Dec. 1 is 'doubtful.'",
     "open": true,
     "slot": "SP4"
    },
@@ -185,8 +167,7 @@
       "name": "Clay Holmes (re-sign)"
      },
      {
-      "id": 656849,
-      "name": "David Peterson (re-sign)"
+      "name": "Hiromi Itoh (NPB, posted)"
      }
     ],
     "name": "Open",
@@ -196,7 +177,7 @@
    }
   ]
  },
- "headline": "Rogers is in at five years and $120 million. The Cubs are still in on Taira and Sato with seven days left before the lockout.",
+ "headline": "Rogers and Sato: $240 million in about 12 hours. Taira and Peralta went elsewhere the same day, so the Cubs still need one more starter by Dec. 1.",
  "injuries": [
   {
    "id": 690990,
@@ -254,10 +235,10 @@
  "lastSummary": "The Padres finished a two-game sweep with a 4-1 win at Petco. Kevin Gausman lasted 3 1/3 innings and took the loss, and Daniel Palencia gave up the back-breaking hit to Gavin Sheets. Bregman and Crow-Armstrong went a combined 0-for-15 with eight strikeouts in the series, and the highest-scoring offense in baseball managed one run in 18 innings.",
  "parkNote": "Wrigley has played slightly pitcher-friendly overall (96 run factor, 2024-26) while boosting homers (106). The Cubs posted an .789 OPS at home and .747 on the road.",
  "preview": [
-  "Done: Rogers, five years and $120M, pending a physical. Passan says there are deferrals that shave the present value slightly. It costs the second- and fifth-highest 2027 picks plus $1M in pool money; Baltimore gets a comp pick.",
-  "Still live: Patrick Mooney (The Athletic) says the Cubs remain 'in the mix' for Kaima Taira and Teruaki Sato. Both must sign by Dec. 1. Taira is the right second arm.",
-  "Peralta could go fast: Sportsnet's Ben Nicholson-Smith hears a deal may come by midweek. If the Cubs want him, the bid has to be in today. Four years, not five.",
-  "Hawkins (via ESPN) says the bulk of the work may come after the lockout. Fine for Webb. Not fine for the rotation: one more starter before Dec. 1, 11:59 p.m. ET."
+  "Done: Teruaki Sato, six years and $120M, pending a physical (Passan, ESPN; Feinsand, MLB.com). He's expected to play a corner outfield spot. That's the Suzuki replacement, five years younger.",
+  "Gone the same day: Kaima Taira to Toronto (5 yr, $80M, opt-out after year 3) and Freddy Peralta to Baltimore (5 yr, $125M). Both were on the Cubs' list.",
+  "What's left before Dec. 1: Jesse Rogers (ESPN) expects 'probably one more starter,' with Holmes and Peterson in play and the door 'shut' on Imanaga. King is the best arm left. Hiromi Itoh visited Chicago. The call: King if the price is four years; Peterson on two if not.",
+  "Bullpen after the lockout, per Jesse Rogers. Sam Moll signed a minor-league deal (Heyman). The CBA expires Dec. 1 at 11:59 p.m. ET."
  ],
  "roster": [
   {
@@ -560,7 +541,7 @@
    "id": 681230,
    "name": "BJ Murray Jr.",
    "pos": "3B",
-   "num": "83",
+   "num": "18",
    "bats": "S",
    "thr": "R",
    "age": 26,
@@ -672,7 +653,7 @@
    "id": 699393,
    "name": "Pedro Ramírez",
    "pos": "2B",
-   "num": "75",
+   "num": "20",
    "bats": "S",
    "thr": "R",
    "age": 22,
@@ -690,6 +671,54 @@
   }
  ],
  "sources": [
+  {
+   "title": "ESPN: Sources: Cubs, Teruaki Sato reach 6-year, $120M deal",
+   "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal"
+  },
+  {
+   "title": "MLB.com (Bastian): Cubs, Sato reach 6-year, $120 million deal",
+   "url": "https://www.mlb.com/news/teruaki-sato-cubs-contract"
+  },
+  {
+   "title": "MLB.com (Bastian): Cubs' roster needs after Sato, Rogers deals",
+   "url": "https://www.mlb.com/news/cubs-2027-roster-after-deals-with-teruaki-sato-trevor-rogers"
+  },
+  {
+   "title": "MLB.com: Hot Stove rumors, Nov. 24 (Jesse Rogers on one more starter, Imanaga, Itoh, King)",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-24"
+  },
+  {
+   "title": "NBC Sports (Samulski): Where Sato fits in the Cubs' 2027 lineup",
+   "url": "https://www.nbcsports.com/mlb/news/cubs-agree-to-six-year-deal-with-japanese-slugger-teruaki-sato-where-he-fits-in-chicagos-2027-lineup"
+  },
+  {
+   "title": "CBS Sports: Cubs signing Sato (contact rate, posting fee formula)",
+   "url": "https://www.cbssports.com/mlb/news/cubs-teruaki-sato-free-agency-contract"
+  },
+  {
+   "title": "MLB.com: Blue Jays, Taira agree to 5-year, $80M deal",
+   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract"
+  },
+  {
+   "title": "MLB.com: Orioles sign Freddy Peralta, 5 years, $125M",
+   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
+  },
+  {
+   "title": "Japan Times: Sato and Taira agree to MLB deals",
+   "url": "https://www.japantimes.co.jp/sports/2026/11/25/baseball/mlb/sato-taira-mlb-deals/"
+  },
+  {
+   "title": "Yahoo Sports: Free agency live updates (Peralta, Bubic, Sato)",
+   "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-best-available-171409867.html"
+  },
+  {
+   "title": "ChiCitySports: Cubs sign Sam Moll (Heyman)",
+   "url": "https://chicitysports.com/chicago-cubs-bolster-bullpen-former-cincinnati-reds-standout"
+  },
+  {
+   "title": "North Side Baseball (Holt): What's next for the Cubs outfield after Sato",
+   "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/whats-next-for-cubs-outfield-after-teruaki-sato-signing-r3585"
+  },
   {
    "title": "Sportsnet (David Singh): Breaking down Trevor Rogers' above-market deal with Cubs",
    "url": "https://www.sportsnet.ca/mlb/article/breaking-down-trevor-rogers-reported-120-million-deal-with-cubs/"
@@ -801,24 +830,16 @@
   {
    "title": "MLBTR: Padres, Mariners, Phillies interested in Jarren Duran",
    "url": "https://www.mlbtraderumors.com/2026/11/padres-mariners-phillies-interested-in-jarren-duran.html"
-  },
-  {
-   "title": "MLBTR: Red Sox interested in Luis Gil",
-   "url": "https://www.mlbtraderumors.com/2026/11/red-sox-interested-in-luis-gil.html"
-  },
-  {
-   "title": "RealGM: Giants open to Webb trade but want 'very strong return'",
-   "url": "https://baseball.realgm.com/wiretap/61565/Giants-Open-To-Logan-Webb-Trade-But-Want-Very-Strong-Return"
   }
  ],
  "stats": [
   {
-   "value": "$120M",
-   "label": "Rogers' five-year deal, with deferrals (Passan). The third-largest contract ever for a Cubs pitcher, behind Lester and Darvish (CBS)."
+   "value": "$240M",
+   "label": "Committed to Rogers (5 yr) and Sato (6 yr) in about 12 hours (Feinsand, MLB.com)."
   },
   {
-   "value": "2.90",
-   "label": "Rogers' ERA over his last 20 starts of 2026, with a 2.89 FIP (MLB.com)."
+   "value": "39",
+   "label": "Sato's homers in his 2026 Central League Triple Crown season, with a .306 average and 106 RBI."
   }
  ],
  "stove": {
@@ -833,28 +854,46 @@
     "name": "Trevor Rogers (signed, Cubs: 5 yr, $120M)"
    },
    {
-    "call": "Decision day. If he signs by midweek, the Cubs either have a four-year bid in now or they're out. Don't go to five. Taira is the cleaner second arm anyway.",
+    "kind": "Minor moves",
+    "name": "Sam Moll (minor-league deal, spring invite)",
+    "id": 594580,
+    "heat": "Cold",
     "date": "2026-11-24",
-    "detail": "Nov. 24: Ben Nicholson-Smith (Sportsnet) says some industry sources expect a Peralta deal by midweek; Toronto is interested. Héctor Gómez (Z101) reports Baltimore is showing a lot of interest in a multiyear deal, though MASN's Roch Kubatko calls him 'unlikely' for the Orioles. Nov. 23: Bob Nightengale (USA Today) says the Cubs 'have had extensive talks' with Peralta and will 'do everything possible to sign at least one or two free-agent starters' before the lockout. Counsell managed him for six years in Milwaukee. Same day, The Athletic's Mitch Bannon says Toronto is back to focusing on its lineup after Skubal, though Sportsnet's Ben Nicholson-Smith says the Jays are interested in Peralta, Rogers, King and Taira (via MLB.com and MLBTR). That softens Sunday's report (Matheson, confirmed by Morosi) that Toronto had made Peralta its top target at around $25M a year. Nov. 21: Rosenthal and Sammon listed seven suitors, the Rays 'seriously engaged.' His K rate fell from 22.1% with the Mets to 19.7% with Tampa Bay (Sharma). MLBTR projects five years, $110M; FanGraphs four years, $92M. 2026: 4.42 ERA in 169 innings; a low-3.00s ERA and 1.01 WHIP over his last 10 starts with the Rays (MLBTR).",
-    "heat": "Hot",
-    "kind": "Targets linked so far",
-    "name": "Freddy Peralta (free agent)"
+    "detail": "Agreed Nov. 24, minor-league deal with an invite to big-league camp (Jon Heyman, NY Post, via MLBTR). Lefty reliever, 34, turns 35 in January; 65 appearances for the Reds in 2026. Garrett and Jordan Wicks are the only other lefty relief options on the 40-man (MLBTR). Thielbar just left for Kansas City.",
+    "call": "Free depth for a pen with almost no lefties. It costs nothing. It's not the bullpen fix."
    },
    {
-    "call": "Still the priority. No picks, a hard Dec. 1 deadline, and a 96-mph fastball. Rogers plus Taira is a passing winter. Outbid by a year if needed.",
+    "kind": "League moves",
+    "name": "Kris Bubic (signed, Guardians: 1 yr, $17.5M)",
+    "heat": "Cold",
     "date": "2026-11-24",
-    "detail": "Nov. 24: Patrick Mooney (The Athletic) says the Cubs are 'still in the mix' for Taira and Sato; the report landed a couple of hours before the Rogers news (via Bleacher Nation). MLB.com's pitch data: a four-seamer averaging just under 96 mph, touching 99-plus, at 96 or higher in eight of his last 10 starts; eight pitches; 1.78 career NPB ERA and a 26% strikeout rate. Nov. 23: Nightengale (USA Today) says the Cubs have 'strong interest' in Taira; Toronto (Nicholson-Smith) and San Diego (MLB.com) are on his list too. Bruce Levine (670 The Score) counted nine teams in, the Cubs among them (via Bleacher Nation, Nov. 19). The Mets set a Zoom (Heyman). 27, 5'8\", 1.36 ERA, 141 K in 146 innings in 2026; mostly a reliever until this year. McDaniel (ESPN) floated five years, $72.5M plus a $12M+ posting fee; Bowden had three years, $30M. MLB won't extend his posting window, so Dec. 1 is a hard deadline (MLB.com). Nov. 21: Sponichi said he'd fly to the U.S. early this week to narrow his options with Boras (via NPB Wire).",
-    "heat": "Hot",
-    "kind": "Targets linked so far",
-    "name": "Kaima Taira (NPB, posted)"
+    "detail": "Agreed Nov. 24 (Rosenthal, via Yahoo). 29, a one-year reset after only 55 innings in 2026 around elbow trouble; 2.98 ERA and a 25.5% strikeout rate over 217 1/3 innings since 2023.",
+    "call": "That's the one-year bounce-back price now: $17.5M. Another SP5 option the Cubs didn't take, and it makes Peterson on two years look cheap."
    },
    {
-    "call": "Arms first. If Taira lands, Sato is a smarter corner bet than an $11M Duran. If the money goes to Sato instead of a second starter, that's the wrong order.",
+    "call": "Five years for a 30-year-old coming off a 4.42 ERA. Baltimore paid for October. The Cubs were right not to go there, but they lost an arm off a short list.",
     "date": "2026-11-24",
-    "detail": "Nov. 24: Patrick Mooney (The Athletic) says the Cubs remain 'in the mix' for Sato as well as Taira. Cubbies Crib figures the Rogers deferrals leave roughly $60M to spend. Rosenthal said Nov. 23 Sato could sign 'very well before Thanksgiving'; Feinsand (MLB.com) names the Yankees, Phillies and Blue Jays as frontrunners. Patrick Mooney (The Athletic, Nov. 19) says the Cubs have 'extensively scouted' him (via MLB.com, CBS). Central League Triple Crown: .306/.383/.609, 39 HR, 106 RBI in 143 games. 66% contact rate vs. a 77% MLB average (CBS). Mostly a third baseman, with outfield time; most clubs see first base, a corner or DH long term. Also linked to the Mets, Yankees, Dodgers and Phillies.",
-    "heat": "Warm",
+    "detail": "Agreed Nov. 24, five years and $125M (Rosenthal, The Athletic); Baltimore announced it the same day. $10M signing bonus and $23M a year, the biggest deal ever for an Orioles pitcher (MLB.com). Reigning ALCS MVP: 0.75 ERA over 12 innings against Cleveland. 2026: 5-9, 4.99 ERA in 22 Mets starts, then 5-2 with a 3.25 ERA in 10 for Tampa Bay (Yahoo). The Cubs had held 'extensive talks' (Nightengale, Nov. 23).",
+    "heat": "Cold",
     "kind": "Targets linked so far",
-    "name": "Teruaki Sato (NPB, posted)"
+    "name": "Freddy Peralta (signed, Orioles: 5 yr, $125M)"
+   },
+   {
+    "call": "This was the one to get, and the Cubs lost him. Fair price, too: $16M a year with an opt-out. It's the biggest miss of the winter so far.",
+    "date": "2026-11-24",
+    "detail": "Agreed Nov. 24: five years, $80M with an opt-out after the third season and a $5M signing bonus (Passan, via Japan Times; Feinsand, MLB.com). 27, a 1.36 ERA over 146 innings for Seibu in 2026, best in NPB; fastball touches 99. Toronto plans to use him as a starter but won't push his pitch counts (MLB.com). The Cubs had made a video-conference pitch (Mooney, The Athletic).",
+    "heat": "Cold",
+    "kind": "Targets linked so far",
+    "name": "Kaima Taira (signed, Blue Jays: 5 yr, $80M)"
+   },
+   {
+    "call": "Right player, right price. A 27-year-old with real power for $20M a year is the Suzuki replacement with five extra years of runway. The contact rate is the risk, and the Cubs' 21.1% team strikeout rate can absorb it. A-. It also means Suzuki is gone, and that's fine.",
+    "date": "2026-11-24",
+    "detail": "Agreed Nov. 24, pending a physical; the club hasn't confirmed it. Michael Cerami (Bleacher Nation) first reported it was being finalized; Jeff Passan (ESPN) had the terms; Mark Feinsand (MLB.com) and Ken Rosenthal (The Athletic) confirmed. It landed about 12 hours after Rogers. 27, a two-time Central League MVP and the 2026 Triple Crown winner: .306/.383/.609, 39 HR, 106 RBI in 143 games for Hanshin; 40 homers and a .924 OPS in 2025 (NBC Sports). .271/.337/.514 with 163 homers over six NPB seasons (Blue Jays Nation). Expected to play a corner outfield spot; FanGraphs' depth chart has him in right (North Side Baseball). The risks: a 66% contact rate against a 77% MLB average (CBS), a 17.3% swinging-strike rate, second-highest among qualified NPB hitters, and a nearly 36% chase rate (NBC Sports). The posting fee to Hanshin comes on top of the $120M. Tom Verducci (MLB Network) called him 'the best bat on the market' because of his age (via Heavy).",
+    "heat": "Hot",
+    "kind": "Free agents",
+    "name": "Teruaki Sato (signed, Cubs: 6 yr, $120M)",
+    "id": 831664
    },
    {
     "call": "Still the best arm on the board, and Rogers makes him a luxury instead of a necessity. Revisit after the lockout. Don't take on Devers or Adames money to get him.",
@@ -866,18 +905,18 @@
     "name": "Logan Webb (trade, Giants)"
    },
    {
-    "call": "San Diego's guy. Let Preller pay him. Peralta and Taira are the cleaner paths.",
-    "date": "2026-11-23",
-    "detail": "Declined his player option. 3.21 ERA in 185 innings, but 21.0% K and 9.2% BB were career worsts (FanGraphs). Morosi (Nov. 13) called King-Cubs a 'pairing that many of us have forecasted'; on Nov. 20 he said the White Sox are in on King too (MLB.com). MLBTR projects four years, $92M. Morosi (Nov. 20) thinks King and Peralta won't sign until after Skubal decides (MLB.com). Nov. 22: MLB.com's AJ Cassavell calls King San Diego's 'most obvious pivot' after missing on Skubal; Preller has said there's 'a lot of interest' in a reunion, and King wants to return. Nov. 23: Nightengale says the Padres will 'do everything possible to bring back' King; they're also eyeing a Pivetta reunion. Toronto is interested too (Nicholson-Smith, via MLBTR).",
+    "call": "He's the best arm left, and he's the right second starter if it's four years. Peralta's $125M sets his price high. Don't go to five.",
+    "date": "2026-11-24",
+    "detail": "Nov. 24: MLB.com calls him 'likely the best starting pitcher still available' after Rogers, Peralta and Taira signed, with 'a handful of clubs in the mix,' the Cubs and Mets among those linked. Declined his player option. 3.21 ERA in 185 innings, but 21.0% K and 9.2% BB were career worsts (FanGraphs). Morosi (Nov. 13) called King-Cubs a 'pairing that many of us have forecasted'; on Nov. 20 he said the White Sox are in on King too (MLB.com). MLBTR projects four years, $92M. Morosi (Nov. 20) thinks King and Peralta won't sign until after Skubal decides (MLB.com). Nov. 22: MLB.com's AJ Cassavell calls King San Diego's 'most obvious pivot' after missing on Skubal; Preller has said there's 'a lot of interest' in a reunion, and King wants to return. Nov. 23: Nightengale says the Padres will 'do everything possible to bring back' King; they're also eyeing a Pivetta reunion. Toronto is interested too (Nicholson-Smith, via MLBTR).",
     "heat": "Warm",
     "id": 650633,
     "kind": "Targets linked so far",
     "name": "Michael King (free agent)"
    },
    {
-    "call": "Petriello's read is right: over four years Suzuki is the better bet. Letting him go for a comp pick only works if the money buys arms this week.",
-    "date": "2026-11-23",
-    "detail": "Passan (ESPN): San Diego met with Suzuki on Monday and may be the favorite (via MLB.com, Nov. 18). The Padres also lost seven starters and are meeting Skubal Wednesday. Nov. 21: Mike Petriello (MLB.com) finds Suzuki and Arozarena with identical four-year lines (14 fWAR, about 30% better than average) and leans Suzuki on bat speed (63rd percentile), chase (89th) and a +7 FRV year in right. Red flag: his hard-hit rate fell 10 points, a top-five drop. Nov. 23: Toronto is focusing on its lineup after Skubal and has been linked to Suzuki, Arozarena, Sato, Brandon Lowe and Jazz Chisholm Jr. (Bannon, The Athletic, via MLB.com).",
+    "call": "Gone, and that's the right outcome now. Sato is five years younger at a lower AAV. Take the comp pick.",
+    "date": "2026-11-24",
+    "detail": "Nov. 24: Sato's deal 'effectively replaces' Suzuki (FanSided). Jon Morosi (MLB Network) calls Suzuki and Toronto 'as clean and clear a fit as there is,' with at-bats in the corner outfield and at DH (via Heavy). Passan (ESPN): San Diego met with Suzuki on Monday and may be the favorite (via MLB.com, Nov. 18). The Padres also lost seven starters and are meeting Skubal Wednesday. Nov. 21: Mike Petriello (MLB.com) finds Suzuki and Arozarena with identical four-year lines (14 fWAR, about 30% better than average) and leans Suzuki on bat speed (63rd percentile), chase (89th) and a +7 FRV year in right. Red flag: his hard-hit rate fell 10 points, a top-five drop. Nov. 23: Toronto is focusing on its lineup after Skubal and has been linked to Suzuki, Arozarena, Sato, Brandon Lowe and Jazz Chisholm Jr. (Bannon, The Athletic, via MLB.com).",
     "heat": "Hot",
     "id": 673548,
     "kind": "Free agents",
@@ -949,9 +988,9 @@
     "name": "Mets extend A.J. Ewing; Yankees take calls on Spencer Jones and Domínguez"
    },
    {
-    "call": "Still the right No. 5 if the price holds, but the White Sox are the known suitor here. Don't let him become the plan while Peralta and Webb are live.",
-    "date": "2026-11-21",
-    "detail": "Visited Chicago Friday, per ESPN's Jorge Castillo (via CubsHQ); both Chicago clubs need arms, and the White Sox had already been linked (Romero, Nov. 15). 29, 2025 Sawamura winner; 3.18 ERA, 159 K, 34 BB over 172 2/3 innings in 2026. MLBTR projects two years, $20M. Has to sign before the Dec. 1 lockout. Nov. 21: MLBTR notes the Cubs haven't been publicly tied to him, while the White Sox are; it's unclear which club he met (Yamada). CBS calls him a seven-pitch, low-90s back-end starter.",
+    "call": "Fine as the No. 5 on two years. If he's the 'one more starter,' the rotation is still a problem.",
+    "date": "2026-11-24",
+    "detail": "Nov. 24: MLB.com says the Cubs and White Sox are both possibly in the mix after his Chicago visit. Cubs Insider's Evan Altman notes he shares some of Taira's traits (short, low release) but throws in the low 90s, at a projected two years and $18-20M. Visited Chicago Friday, per ESPN's Jorge Castillo (via CubsHQ); both Chicago clubs need arms, and the White Sox had already been linked (Romero, Nov. 15). 29, 2025 Sawamura winner; 3.18 ERA, 159 K, 34 BB over 172 2/3 innings in 2026. MLBTR projects two years, $20M. Has to sign before the Dec. 1 lockout. Nov. 21: MLBTR notes the Cubs haven't been publicly tied to him, while the White Sox are; it's unclear which club he met (Yamada). CBS calls him a seven-pitch, low-90s back-end starter.",
     "heat": "Warm",
     "kind": "Targets linked so far",
     "name": "Hiromi Itoh (NPB, posted)"
@@ -1171,9 +1210,9 @@
     "name": "Matthew Boyd"
    },
    {
-    "call": "Re-sign him, two years, as the No. 4. If he's the headline of the winter, the winter failed.",
-    "date": "2026-11-16",
-    "detail": "114 ERA+ in 15 starts after the June trade, 4.06 FIP, 10.2% walk rate. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are interested, and the Banner's Kostka names him as a fit for lefty-hungry Baltimore (MLBTR, Nov. 16). MLBTR projects two years, $24M.",
+    "call": "Now he's the most likely second starter. Two years is still the right number. The grounders fit the best defense in the NL.",
+    "date": "2026-11-24",
+    "detail": "Nov. 24: Jesse Rogers (ESPN Chicago) says Peterson and Clay Holmes are both in play, and the Cubs will 'probably sign one more starter' before the lockout (via MLB.com). 114 ERA+ in 15 starts after the June trade, 4.06 FIP, 10.2% walk rate. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are interested, and the Banner's Kostka names him as a fit for lefty-hungry Baltimore (MLBTR, Nov. 16). MLBTR projects two years, $24M.",
     "heat": "Hot",
     "id": 656849,
     "kind": "Free agents",
@@ -1204,12 +1243,13 @@
     "name": "Padres in on Imanaga, Boyd, Peralta, Martinez"
    },
    {
-    "call": "Bring him back on two years. At those prices he's the most reliable starter available to them.",
-    "date": "2026-11-14",
-    "detail": "112 ERA+ in 32 starts, 35 homers allowed. Not QO-eligible. Barely linked anywhere so far; Morosi named the Tigers as a possible suitor Friday (Bleacher Nation). MLBTR projects two years, $40M; FanGraphs two years, $28M.",
+    "call": "Door closed. Two years at MLBTR's number would have been fine, but at least now it's clear. The money goes elsewhere.",
+    "date": "2026-11-24",
+    "detail": "Nov. 24: Jesse Rogers (ESPN Chicago) thinks the Cubs have 'shut the door' on Imanaga after conversations earlier this offseason (via MLB.com). 112 ERA+ in 32 starts, 35 homers allowed. Not QO-eligible. Barely linked anywhere so far; Morosi named the Tigers as a possible suitor Friday (Bleacher Nation). MLBTR projects two years, $40M; FanGraphs two years, $28M.",
     "id": 684007,
     "kind": "Free agents",
-    "name": "Shota Imanaga"
+    "name": "Shota Imanaga",
+    "heat": "Cold"
    }
   ],
   "payroll": [
@@ -1218,7 +1258,7 @@
     "value": "$265.6M"
    },
    {
-    "label": "2027 guarantees, per MLBTR",
+    "label": "2027 guarantees, per MLBTR (before Rogers and Sato)",
     "value": "$108.25M"
    },
    {
@@ -1226,27 +1266,27 @@
     "value": "$24M"
    },
    {
-    "label": "Projected 2027 tax payroll (Hullihen, via MLBTR)",
-    "value": "$169M (cash payroll $143M)"
+    "label": "Sato's AAV (6 yr, $120M)",
+    "value": "$20M"
    },
    {
-    "label": "Room under the tax threshold after Rogers (Cubbies Crib's ~$68M, less his $24M AAV)",
-    "value": "About $44M"
+    "label": "Sato's posting fee to Hanshin, by the MLB-NPB formula CBS lays out (not a tax hit)",
+    "value": "About $19.9M"
+   },
+   {
+    "label": "Room under the tax threshold after both (Cubbies Crib's ~$68M, less $44M in AAV)",
+    "value": "About $24M"
    },
    {
     "label": "MLB's proposed 2028 cap / floor (Nov. 3 offer)",
     "value": "$258.2M / $180.2M"
    },
    {
-    "label": "Qualifying offer this winter",
-    "value": "$23.15M"
-   },
-   {
     "label": "CBA expires (lockout all but certain Dec. 2)",
     "value": "Dec. 1"
    }
   ],
-  "summary": "The Cubs got their arm: Trevor Rogers, five years and $120M with deferrals, pending a physical. It's the right first move and only the first. The rotation behind him is Cabrera, a rehabbing Steele, Garrett and Assad. Mooney says they're still in the mix for Taira and Sato, and Peralta may sign by midweek. The call: land Taira before Dec. 1. Webb can wait until after the lockout."
+  "summary": "Two big ones in 12 hours: Trevor Rogers (5 yr, $120M) and Teruaki Sato (6 yr, $120M), both pending physicals. Sato fills the Suzuki hole with a younger, louder bat. The pitching job is half done: Taira went to Toronto and Peralta to Baltimore on the same day, and the rotation behind Rogers is still Cabrera, a rehabbing Steele, Garrett and Assad. The call: one more real starter before Dec. 1. King on four years, or Peterson on two. Not Itoh as the answer."
  },
- "updatedAt": "2026-11-24T09:55-05:00"
+ "updatedAt": "2026-11-24T22:58-05:00"
 }

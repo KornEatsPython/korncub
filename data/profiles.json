@@ -45,7 +45,7 @@
     "Barrel rate allowed in the 93rd percentile"
    ],
    "role": "SP",
-   "status": "Free agent; Hawkins says the Cubs want him back",
+   "status": "Free agent · in play for the Cubs (Jesse Rogers, ESPN, Nov. 24)",
    "take": "The Cubs sent Jefferson Rojas to get Holmes. He opened with a 1.55 ERA over his first five starts, then posted an 8.24 ERA over his last four and didn't pitch in the postseason. As a Cub: 4.25 ERA, 16.2% strikeouts, 11.8% walks. Hawkins told Sharma the Cubs would like to re-sign him; MLBTR predicts three years, $45M. One year as a swingman, or let him go.",
    "verdict": "Cost a top prospect, collapsed in September, then walked."
   },
@@ -134,24 +134,6 @@
    "take": "Signed to a minor-league contract in February, Conforto put up a 118 OPS+ with 15 homers in 314 plate appearances, nearly all of them against right-handers (12 PA vs. lefties). He turns 34 in March. Cheap platoon bat, not an answer.",
    "verdict": "A minor-league deal that paid off. A platoon DH, nothing more."
   },
-  "642547": {
-   "contract": "Free agent. MLBTR projects five years, $110M; FanGraphs four years, $92M.",
-   "minus": [
-    "4.42 ERA, 63 walks in 2026",
-    "K rate fell to 19.7% after the trade to Tampa Bay (Sharma)",
-    "Toronto has Skubal money to spend"
-   ],
-   "name": "Freddy Peralta",
-   "plus": [
-    "29.6% K rate, 3.30 ERA in 2021-25",
-    "0.79 ERA over his last six 2026 starts",
-    "Pitched for Counsell in Milwaukee"
-   ],
-   "role": "SP",
-   "status": "Free agent · a deal could come by midweek (Nicholson-Smith, Nov. 24); Cubs had 'extensive talks' (Nightengale)",
-   "take": "Peralta posted a 5.01 ERA in 21 Mets starts, got traded to Tampa Bay and finished with a 0.79 ERA over his last six starts, helped by a .235 BABIP; 4.42 ERA in 169 innings overall. The Brewers years are the real résumé: a 3.30 ERA and a 29.6% strikeout rate from 2021 to 2025, under Counsell. Toronto just made him its top target at around $25M a year. Four years, yes. Five, no.",
-   "verdict": "Still the best free agent the Cubs can realistically sign, but Toronto is now the favorite. Four years and done."
-  },
   "650633": {
    "contract": "Free agent; declined his player option Oct. 29, leaving $58M over two years for a $5M buyout. No draft-pick compensation.",
    "minus": [
@@ -166,9 +148,9 @@
     "No qualifying offer attached"
    ],
    "role": "SP",
-   "status": "Free agent (declined Padres option)",
+   "status": "Free agent · likely the best starter left (MLB.com, Nov. 24); Cubs among those linked",
    "take": "King threw 185 innings over 32 starts with a 3.21 ERA and 4.3 bWAR, then shut out the Cubs for seven one-hit innings in the Wild Card Series. The Cubs chased him last winter, and Morosi now calls King-Cubs a pairing 'many of us have forecasted.' The catch is the strikeouts: 21.0% K and 9.2% BB with a near-average FIP. Sign him, but not as the only starter.",
-   "verdict": "The best realistic starter on the market. A No. 2, not an ace."
+   "verdict": "The best arm left and the right second starter on four years. Not five."
   },
   "656849": {
    "contract": "Free agent",
@@ -182,7 +164,7 @@
     "4.06 FIP"
    ],
    "role": "SP",
-   "status": "Free agent; Cubs working to re-sign him, several teams interested",
+   "status": "Free agent · in play for the Cubs (Jesse Rogers, ESPN, Nov. 24)",
    "take": "Acquired in June, Peterson gave the Cubs a 3.70 ERA (114 ERA+) and a 4.06 FIP over 15 starts. The expected stats are harsher (22nd-percentile xERA) and he walked 10.2% of hitters. As a No. 4 starter on a reasonable deal, he's worth bringing back. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are in, and Baltimore's lefty hunt makes him a fit there. Two years is the right deal; don't let a bidding war push it to three.",
    "verdict": "The one in-season rotation addition that worked, maybe more than it should have."
   },
@@ -385,9 +367,9 @@
     ".966 OPS vs. lefties"
    ],
    "role": "RF",
-   "status": "Free agent · rejected the $23.15M QO",
+   "status": "Free agent · rejected the $23.15M QO · Cubs moved on with Sato",
    "take": "Suzuki posted a 131 OPS+ and a career-best 5.1 bWAR, plus +7 fielding run value in right. The bat ran a little hot (.366 wOBA, .339 xwOBA), and his hard-hit rate fell 10 points. Petriello (MLB.com, Nov. 21) still rates him the better four-year bet than Arozarena on bat speed and chase. MLBTR projects four years, $105M, and the Padres may be the favorite. The Cubs aren't spending there.",
-   "verdict": "The best right-handed bat on the team, and gone unless his market collapses."
+   "verdict": "Gone. Sato took his spot, and Toronto looks like the cleanest fit (Morosi)."
   },
   "676962": {
    "contract": "First-time arbitration (Super Two), projected $1.3M (Swartz). Controlled through 2030.",
@@ -488,7 +470,7 @@
     "Splitter: 41.4% whiff rate"
    ],
    "role": "SP",
-   "status": "Free agent",
+   "status": "Free agent · Jesse Rogers (ESPN) thinks the Cubs have 'shut the door'",
    "take": "Imanaga made all 32 starts with a 3.77 ERA (112 ERA+) and a 5.2% walk rate. His FIP (4.47) is ugly because he allowed 35 homers, but his xFIP (3.74) and 95th-percentile walk rate say the skills held. The fastball sits 91.6 mph (10th percentile), so the homers aren't a fluke either. On a two- or three-year deal, he's the most reliable starter they can bring back.",
    "verdict": "Re-sign him at the right price. He's better than his FIP."
   },
@@ -572,7 +554,27 @@
    "status": "Pre-arbitration",
    "take": "Shaw played 77 games around the diamond and hit .237/.327/.410 (102 OPS+). Statcast thinks that was generous: a .303 xwOBA and .353 xSLG. He hit lefties (.841 OPS) and struggled against righties (.640). Hoyer says the Cubs will lean on him more, which is a polite way of saying the outfield budget may go to pitching. As an everyday corner bat, he's a downgrade from Happ or Suzuki.",
    "verdict": "Gets the first crack at a corner. Hasn't earned it yet."
+  },
+  "831664": {
+   "name": "Teruaki Sato",
+   "status": "Agreed with Cubs Nov. 24 · pending physical · not yet confirmed by the club",
+   "role": "RF",
+   "contract": "6 years, $120M ($20M AAV) (Passan; Feinsand). The Cubs also owe Hanshin a posting fee: 20% of the first $25M, 17.5% of the next $25M and 15% of the rest (CBS), about $19.9M.",
+   "verdict": "The Suzuki replacement, five years younger. Big power, real swing-and-miss.",
+   "take": "Sato won the 2026 Central League Triple Crown for Hanshin: .306/.383/.609, 39 homers, 106 RBI in 143 games, after 40 homers and a .924 OPS in 2025. He led NPB in hard-hit rate with an 18.4% barrel rate. The holes are just as real: a 66% contact rate against a 77% MLB average, a 17.3% swinging-strike rate and a nearly 36% chase rate. He's a third baseman who committed an NPB-worst 43 errors in 2023-24, so he goes to a corner outfield spot. Murakami's 35 homers in 127 games last year say this profile can translate. Expect 30 homers and a strikeout rate near 30%.",
+   "plus": [
+    ".991 OPS, 39 HR in 2026",
+    "Led NPB in hard-hit rate; 18.4% barrel rate",
+    "Age 27, left-handed bat",
+    "Strong enough arm for either corner"
+   ],
+   "minus": [
+    "66% contact rate (MLB average 77%)",
+    "17.3% swinging-strike rate, second-highest in NPB",
+    "Never a full-time outfielder",
+    "Some scouts worry about lefties tying him up (The Athletic)"
+   ]
   }
  },
- "updatedAt": "2026-11-24T09:55-05:00"
+ "updatedAt": "2026-11-24T22:58-05:00"
 }

@@ -1,106 +1,105 @@
 {
  "articles": [
   {
-   "source": "Sportsnet",
-   "author": "David Singh",
+   "source": "FanGraphs",
+   "author": "Michael Baumann",
    "date": "2026-11-24",
-   "title": "Breaking down Trevor Rogers' reported $120-million deal with Cubs",
-   "url": "https://www.sportsnet.ca/mlb/article/breaking-down-trevor-rogers-reported-120-million-deal-with-cubs/",
-   "take": "Calls it an above-market deal: Nicholson-Smith had four years and $100M, MLBTR five and $115M, and multiple bidders (White Sox, Padres, Braves) pushed it up. Frames Rogers as a middle-rotation starter, not an ace, and says the staff behind him still looks shaky. Right on both counts, and more honest than the 'lefty Wheeler' hype elsewhere.",
+   "title": "Cubs Sign Trevor Rogers, Still Need About Six Other Pitchers Like Him",
+   "url": "https://blogs.fangraphs.com/cubs-sign-trevor-rogers-still-need-about-six-other-pitchers-like-him/",
+   "take": "Baumann's argument: Rogers is fine at the price, but he's not an ace and maybe not a No. 2. His fastball edge over the average lefty fell from 1.8 mph in 2021 to 0.3 mph in 2026, and the 2025 ERA bakes upside into the price that may not be there. The title is the point, and it's correct. One Rogers doesn't fix a staff that loses five of seven 70-inning pitchers.",
+   "verdict": "Nails it"
+  },
+  {
+   "source": "MLB.com",
+   "author": "Jordan Bastian",
+   "date": "2026-11-24",
+   "title": "Looking at Cubs' roster needs after Sato, Rogers deals",
+   "url": "https://www.mlb.com/news/cubs-2027-roster-after-deals-with-teruaki-sato-trevor-rogers",
+   "take": "Bastian lays out the new picture: Sato in right, Shaw the front-runner in left, Ramírez to DH or utility, and a projected lineup with Sato hitting third. He says the Cubs need at least one more starter, preferably two, and names Holmes, Peterson and Boyd as reunion options. Useful and accurate. It's a map, not an argument.",
    "verdict": "Strong"
   },
   {
-   "source": "Cubbies Crib",
-   "author": "Jordan Campbell",
+   "source": "NBC Sports",
+   "author": "Eric Samulski",
    "date": "2026-11-24",
-   "title": "Trevor Rogers contract details hint at more Cubs moves before MLB lockout",
-   "url": "https://cubbiescrib.com/trevor-rogers-contract-details-hint-at-more-cubs-moves-before-mlb-lockout",
-   "take": "Argues the deferrals drop Rogers' tax hit toward $20M, leaving about $60M, and that the Cubs now go for Sato plus second-tier arms like Holmes and Peterson rather than Peralta, King or Taira. The money math is a guess built on a guess. And steering the second pitching dollar to a Holmes reunion after an 8.24 ERA over his last four starts is exactly backwards.",
-   "verdict": "Misses"
+   "title": "Cubs agree to six-year deal with Japanese slugger Teruaki Sato: Where he fits in Chicago's 2027 lineup",
+   "url": "https://www.nbcsports.com/mlb/news/cubs-agree-to-six-year-deal-with-japanese-slugger-teruaki-sato-where-he-fits-in-chicagos-2027-lineup",
+   "take": "The best scouting read on Sato so far. Samulski gives both sides with numbers: the 18.4% barrel rate and NPB-best hard-hit rate, against a 17.3% swinging-strike rate and a nearly 36% chase rate. His case that the Cubs' low team strikeout rate can absorb Sato's is the right one.",
+   "verdict": "Must read"
+  },
+  {
+   "source": "North Side Baseball",
+   "author": "Randy Holt",
+   "date": "2026-11-24",
+   "title": "What's Next for Cubs Outfield After Teruaki Sato Signing?",
+   "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/whats-next-for-cubs-outfield-after-teruaki-sato-signing-r3585",
+   "take": "Holt argues Sato's boom-or-bust profile lets the Cubs play it safe opposite him, and that Shaw just became the left-field option, with any further outfield add a depth-and-defense move. He's probably right about the front office. The leap is assuming Shaw's patience makes up for a ceiling Holt admits is lower than expected.",
+   "verdict": "Half right"
+  },
+  {
+   "source": "FanSided",
+   "author": "Zachary Rotman",
+   "date": "2026-11-24",
+   "title": "These Cubs are good as gone after Trevor Rogers and Teruaki Sato stunners",
+   "url": "https://fansided.com/mlb/these-cubs-are-good-as-gone-after-trevor-rogers-and-teruaki-sato-stunners",
+   "take": "A who's-leaving list: Suzuki for sure, Holmes probably, Orze before Opening Day, Steele after 2027. The Suzuki call is obvious. Writing off Holmes because 'this is Tom Ricketts' is a guess, and it aged badly within hours when Jesse Rogers put Holmes in play.",
+   "verdict": "Soft"
   },
   {
    "source": "CBS Sports",
    "author": "Dayn Perry",
    "date": "2026-11-24",
-   "title": "Trevor Rogers signing with Cubs: Chicago begins rotation rebuild with five-year, $120 million deal",
-   "url": "https://www.cbssports.com/mlb/news/trevor-rogers-cubs-free-agency-contract/",
-   "take": "A quick news piece that recycles CBS's own 'lefty Zack Wheeler' free-agent blurb. The useful bits: a 128 ERA+, 3.20 FIP and 3.82 K/BB over 38 starts since 2025, and the fact that this is the third-largest deal ever for a Cubs pitcher. The Wheeler comp is the best case dressed up as the likely one.",
-   "verdict": "Soft"
-  },
-  {
-   "author": "Jesse Rogers",
-   "date": "2026-11-24",
-   "source": "ESPN",
-   "take": "A straight news report with the important context: Rogers goes to the top of a rotation with almost no healthy starters, the QO costs two picks and $1M, and Hawkins expects most of the work after the lockout. It flags the ground-ball dip and leans on the Gold Glove defense. Solid and accurate, but it doesn't wrestle with the durability history.",
-   "title": "Sources: Free agent Trevor Rogers, Cubs reach 5-year deal",
-   "url": "https://www.espn.co.uk/mlb/story/_/id/50579432/sources-free-agent-trevor-rogers-cubs-reach-5-year-deal",
+   "title": "Cubs signing NPB slugger Teruaki Sato on six-year, $120 million contract as offseason overhaul continues",
+   "url": "https://www.cbssports.com/mlb/news/cubs-teruaki-sato-free-agency-contract",
+   "take": "A quick news piece that earns its spot with two things: the 66% contact rate against a 77% MLB average, and the posting-fee formula that puts Hanshin's cut near $20 million. Perry also notes Suzuki and Happ combined for 7.8 WAR, which is the right bar. It also misspells Sato's name once.",
    "verdict": "Strong"
-  },
-  {
-   "author": "Jared Greenspan",
-   "date": "2026-11-24",
-   "source": "MLB.com",
-   "take": "The best quick read on why Rogers is better than his 4.03 ERA: the flu-wrecked start, the 2.90 ERA and 2.89 FIP over his last 20 starts, and the Driveline velocity rebuild. The deception and command case holds up. It undersells the Miami injury years, but the core argument is right.",
-   "title": "Cubs reach multiyear deal with lefty Rogers (source)",
-   "url": "https://www.mlb.com/news/trevor-rogers-cubs-contract",
-   "verdict": "Must read"
-  },
-  {
-   "author": "Bob Nightengale",
-   "date": "2026-11-23",
-   "source": "USA Today",
-   "take": "A team-by-team notes column after Skubal. The Cubs item is the news: 'extensive talks' with Peralta, strong interest in Taira, and a goal of one or two free-agent starters before the lockout. The Webb note, that a deal is doubtful before Dec. 1 and may be tied to Adames, Chapman or Devers, is the most useful line in it. It's a notes dump, not analysis, and it misspells Peralta, but the reporting moves the board.",
-   "title": "'Sku-bino has fallen': Biggest MLB rumors we're hearing on the feeding frenzy",
-   "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2026/11/23/mlb-rumors-news-trade-tarik-skubal-contract-lockout/92921079007/",
-   "verdict": "Must read"
   }
  ],
  "column": {
+  "title": "Sato was the right bat. Taira was the arm they needed, and they lost him.",
+  "dek": "$240 million in 12 hours bought one real starter and one real hitter. The rotation still isn't done, and the best fits signed elsewhere the same afternoon.",
+  "date": "2026-11-24",
   "body": [
    {
-    "h": "The deal",
+    "h": "The good day",
     "p": [
-     "Late Monday night, a few minutes before 11 p.m. Eastern, Jon Morosi reported that Trevor Rogers and the Cubs had agreed. Ken Rosenthal confirmed it and added the terms: five years, $120 million, pending a physical. That's $24 million a year for the best left-handed starter left after Skubal.",
-     "It's a fair price. MLB Trade Rumors projected five years and $115 million. The Athletic had four years and $84 million. The Cubs paid about $5 million over the MLBTR number, which is what it costs when Toronto is calling the same agent the same morning. Ben Nicholson-Smith reported Blue Jays interest in Rogers on Monday. The Cubs closed before it turned into an auction.",
-     "There's a real cost beyond the money. Rogers turned down Baltimore's $23.15 million qualifying offer, so the Cubs forfeit their second- and fifth-highest picks in next summer's draft and $1 million in international pool money. That's the tax for buying at the top of the market. It's worth paying for a 29-year-old starter. It wouldn't be for a reliever."
+     "Give the front office this: for once, it moved first. Rogers late Monday, Sato before lunch Tuesday. Five years and $120 million for the best lefty left, six years and $120 million for the best bat out of Japan. That's $240 million in about 12 hours from a club that has spent the last few winters treating free agency like a clearance rack.",
+     "Sato is the better of the two deals. He's 27. He just won the Central League Triple Crown at .306/.383/.609 with 39 homers and 106 RBI, a year after 40 homers and a .924 OPS. He led NPB in hard-hit rate with an 18.4% barrel rate. At $20 million a year he costs less per season than Seiya Suzuki's projected deal, and he's five years younger. Tom Verducci called him the best bat on the market because of his age. That's the right way to think about it. You're buying his age-28 through age-33 seasons, not his decline.",
+     "The posting fee pushes the real cost higher. Run CBS's formula and Hanshin gets about $19.9 million on top. It doesn't count against the tax, and it doesn't change the call. A-."
     ]
    },
    {
-    "h": "What they bought",
+    "h": "The holes are real, and the Cubs can carry them",
     "p": [
-     "The 4.03 ERA in 2026 is the misleading number. Rogers carried a 6.84 ERA into June after a bad bout of the flu. From June 1 on, he made 20 starts with a 2.90 ERA and a 2.89 FIP, per MLB.com. That matches the rest of his Baltimore run: a 1.81 ERA in 18 starts in 2025 and a 3.16 ERA over 48 starts and 279 1/3 innings since the start of that year.",
-     "The improvement has a mechanism, which is what separates it from a hot streak. His fastball sat at 91.9 mph in 2024. After a Driveline strength assessment and a lower-body rework, it was back to 93.8 in 2026, and hitters are at .204 against it since 2025. His 5.6% walk rate ranked in the 92nd percentile. He doesn't beat himself.",
-     "And he took the ball. Thirty starts and 169 2/3 innings in 2026, both career highs. For a rotation that lost all five of its 2026 finishers and has Steele, Brown and Horton all coming off surgery, that matters more than the strikeout rate."
+     "Nobody should pretend Sato is a safe bet. A 66% contact rate against a 77% MLB average. A 17.3% swinging-strike rate, second-highest among qualified NPB hitters. A chase rate near 36%. Some scouts think lefties will tie him up. He's a third baseman who made an NPB-worst 43 errors over 2023-24, and now he's learning a corner outfield spot.",
+     "Here's why it works anyway. The Cubs struck out 21.1% of the time in 2026, seventh-best in baseball. They led the majors in slugging and OPS. They can afford one high-strikeout power bat in the middle of a lineup built on contact. And Murakami just showed the profile can translate: 35 homers in 127 games despite a 35.4% strikeout rate, good for a 129 wRC+. Sato doesn't have to be Murakami. He has to be Suzuki with more power and fewer years on the clock. Expect around 30 homers and a strikeout rate near 30%. That's a good regular.",
+     "Bastian's projected lineup puts him third, between Hoerner and Bregman, with Shaw in left and Ramírez at DH. Shaw in left is fine for a team whose identity is defense. The lineup has a ceiling now that it didn't have on Sunday."
     ]
    },
    {
-    "h": "What still worries me",
+    "h": "The bad afternoon",
     "p": [
-     "Rogers is not an overpowering pitcher. His 41.1% ground-ball rate is light for a park that boosts homers, and Wrigley's homer factor ran 106 over the last three years. The Cubs are betting their Gold Glove defense turns his fly balls into outs. That's a reasonable bet, not a sure one.",
-     "Durability is the other question. Thirty starts was a first. Recurring lower-body injuries wrecked his Miami years and cost him all but four games in 2023. Five years takes him through his age-33 season. Years four and five are where this deal could go bad.",
-     "Still, he's priced like a No. 2, and that's what he is. The problem is that right now he has to be the No. 1."
+     "Then the pitching market moved, and it moved away from the Cubs. Kaima Taira went to Toronto for five years and $80 million with an opt-out after year three. Freddy Peralta went to Baltimore for five years and $125 million. Kris Bubic took one year and $17.5 million from Cleveland.",
+     "Peralta at $125 million was a price the Cubs were right to skip. He's 30 and posted a 4.42 ERA in 2026. Baltimore paid for an ALCS MVP trophy. Fine.",
+     "Taira is the one that stings. He was the target from the start. The Cubs made a video pitch. He has a 1.36 ERA in 146 innings, a fastball that touches 99, no draft picks attached, and he went for $16 million a year. That's a fair price for the exact arm this rotation needed, and Toronto paid it. If the Cubs had to choose between Taira and Sato, they chose the bat. I'd have taken the arm. Hitting was never what lost the Wild Card Series."
     ]
    },
    {
-    "h": "The rotation is still one arm short",
+    "h": "What the rotation looks like tonight",
     "p": [
-     "Put Rogers at the top and look down. Edward Cabrera posted a 5.96 ERA and the front office won't promise him a spot. Justin Steele hasn't made a big-league start since April 2025. Javier Assad had a 3.63 ERA on a 4.92 FIP. Ben Brown is out until around midseason after neck surgery. Cade Horton is out until the second half at the earliest. That isn't a contending rotation with Rogers added. It's a contending rotation minus one.",
-     "Carter Hawkins said at the GM meetings that more than half of the Cubs' offseason additions could come after the lockout. Fine for the bullpen, the corners and Logan Webb, whose trade Bob Nightengale already called 'doubtful' before Dec. 1. Not fine for the second starter. The Japanese arms don't wait. Kaima Taira has to sign by Dec. 1 or go back to Japan.",
-     "Taira is the right second move. He went 1.36 ERA with 141 strikeouts in 146 innings in 2026, he costs no picks, and his price sits well below Rogers'. The risk is workload: 146 innings is his career high. As a No. 3 or 4, that's acceptable. Nightengale says the Cubs have strong interest. They need to turn that into a signature this week.",
-     "Peralta is the bigger swing. The Cubs have had 'extensive talks,' per Nightengale, and Craig Counsell managed him for six years. But his strikeout rate fell from 22.1% with the Mets to 19.7% with Tampa Bay, and MLBTR's five-year projection is a year too long. With Rogers in hand, the Cubs can make a four-year offer and walk away if someone goes to five."
+     "Rogers, Cabrera, Steele, Garrett, Assad. Rogers is a good pitcher, but Michael Baumann at FanGraphs put it right: there's only one of him, and the Cubs need about six. Cabrera gave them 80 innings of 5.96 ERA. Steele hasn't made an MLB start since April 2025. Garrett is a buy-low flier. Assad is a swingman. Brown is out until about midseason after neck surgery, and Horton is out longer.",
+     "Jesse Rogers says the Cubs will probably sign one more starter before the lockout and handle the bullpen after. He names Clay Holmes and David Peterson as in play and says the door looks shut on Imanaga. Hiromi Itoh visited Chicago. Michael King is now the best arm left, per MLB.com.",
+     "Here's the order. King first, on four years. He threw 185 innings with a 3.21 ERA, and Peralta's deal just set his price high, so don't go to five. If King goes elsewhere, Peterson on two years: a 114 ERA+ after the June trade, grounders in front of the best defense in the league. Itoh is a No. 5, not the answer."
     ]
    },
    {
-    "h": "The grade",
+    "h": "The grade so far",
     "p": [
-     "Rogers alone is a B+. Smart target, fair price, real cost in picks, and he fills the most urgent hole on the roster. If Taira or Peralta follows by Dec. 1, the winter is a pass and the Cubs go into the lockout with a rotation that can carry the best offense in baseball. If Rogers is the only arm, they spent $120 million to fill one hole in a rotation that has three.",
-     "One night ago, the Cubs had zero starters and a week left. Now they have one, and the week matters more than it did."
+     "A week ago this winter was a C. Two nine-figure deals in a day moves it to a B-. Sato is an A-. Rogers is a B+. Losing Taira after making him the priority costs them a full grade.",
+     "The CBA expires Dec. 1 at 11:59 p.m. ET. That's seven days to add one more starter who can throw 170 innings. If that happens, the Cubs at +2500 are worth a bet and this winter is a B+. If it doesn't, they've spent $240 million to rebuild a lineup that was already the best in the league, and the same thin pitching that got them swept in San Diego comes back in April."
     ]
    }
-  ],
-  "date": "2026-11-24",
-  "dek": "Five years and $120 million buys the Cubs the best lefty left. A week before the lockout, the rotation behind him is still a problem.",
-  "title": "Rogers is the right first arm. He can't be the only one."
+  ]
  },
  "grades": {
   "groups": [
@@ -266,10 +265,21 @@
    {
     "items": [
      {
+      "id": 831664,
+      "name": "Sato signing (6 yr, $120M)",
+      "grade": "A-",
+      "note": "The best bat on the market at 27, for $20M a year. The contact rate is the risk; the Cubs' lineup can carry it."
+     },
+     {
       "grade": "B+",
       "id": 669432,
       "name": "Rogers signing (5 yr, $120M)",
-      "note": "About $5M over MLBTR's projection for the best lefty left. Two picks and $1M in pool money is the real cost. Thirty starts in 2026 was a career first, so years four and five are the risk."
+      "note": "Fair price for the best lefty left. It's an A only if a second starter follows by Dec. 1."
+     },
+     {
+      "name": "Losing Taira to Toronto (5 yr, $80M)",
+      "grade": "D",
+      "note": "The priority target from day one, at a fair price with no picks attached. Toronto got him."
      },
      {
       "grade": "A+",
@@ -377,9 +387,9 @@
       "note": "Protects the Detmers trade chip and a Double-A arm with a 27.7% K rate. Correct and routine."
      },
      {
-      "grade": "C",
+      "grade": "B-",
       "name": "This offseason so far",
-      "note": "Rogers is a real starter at a fair price. One arm in a rotation that needs two, with a week left. Add Taira or Peralta and this becomes a B+."
+      "note": "Rogers and Sato in 12 hours lift it from a C. Losing Taira caps it. One more real starter by Dec. 1 makes it a B+."
      },
      {
       "grade": "D",
@@ -423,7 +433,7 @@
     "label": "Front office"
    }
   ],
-  "sub": "Season grades for the regulars, the staff and the front office. Updated Nov. 24 after the Rogers signing. On game days this becomes a post-game report card.",
+  "sub": "Season grades for the regulars, the staff and the front office. Updated Nov. 24 (evening) after the Sato signing. On game days this becomes a post-game report card.",
   "title": "2026 final report card"
  },
  "regressionNotes": {
@@ -494,5 +504,5 @@
    "url": "https://www.mlb.com/news/padres-starting-pitching-plans-after-missing-out-on-tarik-skubal"
   }
  ],
- "updatedAt": "2026-11-24T09:55-05:00"
+ "updatedAt": "2026-11-24T22:58-05:00"
 }
