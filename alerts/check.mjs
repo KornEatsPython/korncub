@@ -1,6 +1,10 @@
 // KornCub big-move alerts.
-// Reads MLB's official Cubs transactions, keeps the big ones, and sends a web push
-// to every phone that turned alerts on in the app. Runs on GitHub Actions every 15 minutes.
+// Two kinds of alerts go to every phone that turned alerts on in the app:
+//   Scoops:   reported Cubs deals from MLB Trade Rumors' Cubs feed (where Passan, Rosenthal and other
+//             insider reports land within minutes). Deals only: signings, agreements, trades, extensions.
+//   Official: big moves once MLB logs them in its official Cubs transactions.
+// The same move usually alerts twice: once when it's reported, again when it's official.
+// Runs on GitHub Actions every 15 minutes (kicked by cron-job.org).
 //
 // Secrets (GitHub → Settings → Secrets and variables → Actions):
 //   FIREBASE_SERVICE_ACCOUNT  the Firebase service-account JSON (the only secret)
@@ -34,6 +38,53 @@ function isBig(t) {
   return true;
 }
 
+// Scoops: MLB Trade Rumors' Cubs feed. A post counts when its headline reports a Cubs deal.
+const SCOOP_FEED = "https://www.mlbtraderumors.com/chicago-cubs/feed";
+const SCOOP_DEAL = /\b(to sign|sign|signs|signing|agree|agrees|agreed|agreement|acquire|acquires|acquiring|trade|trades|traded|extension|extend|extends|re-sign|re-signs)\b/i;
+const SCOOP_SKIP = /minor league|minor-league|minors deal|non-tender|interest|interested|latest|rumou?rs|notes|links|chat|mailbag|poll|mock|offseason outlook|reportedly visited|showing|in talks|discussed|discussing|could|might|exploring|checked in|meet with|met with|candidates|targets?\b|options|pursuing|pursuit|connected|among teams|unlikely|won't|not expected|retire/i;
+const SCOOP_MAX_AGE = 48 * 3600 * 1000; // never alert on a post older than two days
+
+function decode(x) {
+  return (x || "")
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&apos;|&#039;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .trim();
+}
+
+function tag(item, name) {
+  const m = item.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, "i"));
+  return m ? decode(m[1]) : "";
+}
+
+export function isScoop(title) {
+  return /cubs/i.test(title) && SCOOP_DEAL.test(title) && !SCOOP_SKIP.test(title);
+}
+
+export function parseFeed(xml) {
+  return [...xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)].map(([item]) => {
+    const link = tag(item, "link").split("?")[0];
+    const guid = tag(item, "guid") || link;
+    const id = (guid.match(/[?&]p=(\d+)/) || [])[1] || guid;
+    return { id: `mlbtr-${id}`, title: tag(item, "title"), link, date: new Date(tag(item, "pubDate")) };
+  });
+}
+
+async function scoops() {
+  const r = await fetch(SCOOP_FEED, { headers: { "User-Agent": "korncub-alerts/1.0 (+https://korncub.netlify.app/)" } });
+  if (!r.ok) throw new Error(`MLBTR feed ${r.status}`);
+  const now = Date.now();
+  return parseFeed(await r.text())
+    .filter((s) => s.title && isScoop(s.title) && !(now - s.date > SCOOP_MAX_AGE))
+    .sort((a, b) => a.date - b.date);
+}
+
+function scoopMessage(s) {
+  return { title: "Cubs scoop (reported)", body: s.title, url: s.link || SITE, tag: s.id };
+}
+
 function ymd(d) {
   return d.toISOString().slice(0, 10);
 }
@@ -52,7 +103,7 @@ async function transactions() {
 
 function message(t) {
   return {
-    title: `Cubs: ${BIG[t.typeCode]}`,
+    title: `Cubs official: ${BIG[t.typeCode]}`,
     body: t.description,
     url: SITE,
     tag: `tx-${t.id}`,
@@ -61,6 +112,17 @@ function message(t) {
 
 async function main() {
   const moves = await transactions();
+  // A broken MLBTR feed must never stop official alerts.
+  let reported = [];
+  try {
+    reported = await scoops();
+  } catch (e) {
+    console.log("Scoop feed unavailable:", e.message);
+  }
+  if (DRY) {
+    console.log(`DRY RUN: ${reported.length} scoop headlines in the last 48h match:`);
+    for (const s of reported) console.log(" -", s.date.toISOString(), JSON.stringify(scoopMessage(s)));
+  }
   if (DRY && !process.env.FIREBASE_SERVICE_ACCOUNT) {
     console.log(`DRY RUN (no Firebase): ${moves.length} big moves in the last 14 days`);
     for (const t of moves) console.log(" -", t.date, JSON.stringify(message(t)));
@@ -93,18 +155,29 @@ async function main() {
     return;
   }
 
+  // Scoops keep their own memory. The first time scoops run, today's headlines are remembered, not sent.
+  const scoopRef = db.doc("meta/scoops");
+  const scoopState = (await scoopRef.get()).data() || {};
+  const scoopSeen = new Set((scoopState.seen || []).map(String));
+  if (!scoopState.seeded) {
+    console.log(`Seeding scoops with ${reported.length} existing headlines; no scoop alerts sent.`);
+    if (!DRY) await scoopRef.set({ seeded: true, seen: reported.map((s) => s.id).slice(-300), updated: new Date().toISOString() });
+    reported = [];
+  }
+
   const fresh = moves.filter((t) => !seen.has(String(t.id)));
-  console.log(`${moves.length} big moves in window, ${fresh.length} new.`);
-  if (!fresh.length) return;
+  const freshScoops = reported.filter((s) => !scoopSeen.has(s.id));
+  console.log(`${moves.length} big moves in window, ${fresh.length} new. ${reported.length} scoops in window, ${freshScoops.length} new.`);
+  if (!fresh.length && !freshScoops.length) return;
 
   webpush.setVapidDetails("mailto:kalex6391@gmail.com", keys.publicKey, keys.privateKey);
   const subs = (await db.collection("pushSubs").get()).docs;
   console.log(`${subs.length} subscribed devices.`);
 
-  for (const t of fresh) {
-    const payload = JSON.stringify(message(t));
+  async function send(msg) {
+    const payload = JSON.stringify(msg);
     console.log("ALERT", payload);
-    if (DRY) continue;
+    if (DRY) return;
     await Promise.all(
       subs.map(async (doc) => {
         const s = doc.data();
@@ -112,17 +185,28 @@ async function main() {
           await webpush.sendNotification({ endpoint: s.endpoint, keys: s.keys }, payload, { TTL: 6 * 3600 });
         } catch (e) {
           // 404/410: the phone dropped the subscription. Clean it up.
-          if (e.statusCode === 404 || e.statusCode === 410) await doc.ref.delete();
+          if (e.statusCode === 404 || e.statusCode === 410) await doc.ref.delete().catch(() => {});
           else console.log("push failed", doc.id, e.statusCode || e.message);
         }
       })
     );
+  }
+
+  for (const s of freshScoops) {
+    await send(scoopMessage(s));
+    scoopSeen.add(s.id);
+  }
+  for (const t of fresh) {
+    await send(message(t));
     seen.add(String(t.id));
   }
-  if (!DRY) await stateRef.set({ seeded: true, seen: [...seen].slice(-300), updated: new Date().toISOString() });
+  if (!DRY) {
+    if (freshScoops.length) await scoopRef.set({ seeded: true, seen: [...scoopSeen].slice(-300), updated: new Date().toISOString() });
+    if (fresh.length) await stateRef.set({ seeded: true, seen: [...seen].slice(-300), updated: new Date().toISOString() });
+  }
 }
 
-main().catch((e) => {
+if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split("/").pop())) main().catch((e) => {
   console.error(e);
   process.exit(1);
 });

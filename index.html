@@ -1837,7 +1837,8 @@ else{try{
 }catch(e){$("blNote").textContent="Couldn't load the board. Reload to try again."}}
 </script>
 <script>
-/* Big-move alerts: opt-in push notifications for official Cubs moves (trades, MLB signings, claims, DFAs, releases).
+/* Big-move alerts: opt-in push notifications for reported Cubs deals (insider scoops via MLB Trade Rumors) and
+   official Cubs moves (trades, MLB signings, claims, DFAs, releases).
    Off until the person turns them on; the same button turns them off. */
 (function(){
   const row=document.createElement("div");row.className="alertRow";
@@ -1875,7 +1876,7 @@ else{try{
       if(!key){say("Alerts are still being set up. Try again in a little while.");return}
       const s2=sub||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(key)});
       await BL.fx.pushSave(s2.toJSON());
-      setOn(true);say("You'll get a notification when the Cubs make a trade, sign a big-league player, claim someone or cut someone. Tap again to turn it off.");
+      setOn(true);say("You'll get a notification when a Cubs deal is first reported, and again when the Cubs make it official (trades, big-league signings, claims, cuts). Tap again to turn it off.");
     }catch(e){say("Couldn't turn on alerts. Try again in a minute.")}
     finally{btn.disabled=false}
   };
