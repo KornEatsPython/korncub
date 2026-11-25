@@ -96,9 +96,9 @@
     "1.9 bWAR"
    ],
    "role": "C",
-   "status": "Free agent (option declined Oct. 30)",
-   "take": "Kelly gave the Cubs a .254/.335/.402 line with 27 homers over two years on an $11.5M deal, and a 97 OPS+ with 1.9 bWAR in 2026. The Cubs declined his $7.5M mutual option Friday, so he's the best catcher on a thin market. Without him, catcher is the weakest spot in the lineup.",
-   "verdict": "Re-sign him on two years. Nobody else on the market is better."
+   "status": "Free agent; Cubs interested but unlikely to go three years (Trueblood, Nov. 25)",
+   "take": "Kelly gave the Cubs a .254/.335/.402 line with 27 homers over two years on an $11.5M deal, and a 97 OPS+ with 1.9 bWAR in 2026. With Jeffers back in Minnesota and Stephenson back in Cincinnati, he's the last starting catcher on the market, and a rival exec says three years is out there. The Cubs won't go there. Without him, catcher is the weakest spot in the lineup.",
+   "verdict": "Give him the third year. There's nobody else."
   },
   "621020": {
    "contract": "7 years, $177M (2023-29)",
@@ -556,25 +556,25 @@
    "verdict": "Gets the first crack at a corner. Hasn't earned it yet."
   },
   "831664": {
-   "name": "Teruaki Sato",
-   "status": "Agreed with Cubs Nov. 24 · pending physical · not yet confirmed by the club",
-   "role": "RF",
    "contract": "6 years, $120M ($20M AAV) (Passan; Feinsand). The Cubs also owe Hanshin a posting fee: 20% of the first $25M, 17.5% of the next $25M and 15% of the rest (CBS), about $19.9M.",
-   "verdict": "The Suzuki replacement, five years younger. Big power, real swing-and-miss.",
-   "take": "Sato won the 2026 Central League Triple Crown for Hanshin: .306/.383/.609, 39 homers, 106 RBI in 143 games, after 40 homers and a .924 OPS in 2025. He led NPB in hard-hit rate with an 18.4% barrel rate. The holes are just as real: a 66% contact rate against a 77% MLB average, a 17.3% swinging-strike rate and a nearly 36% chase rate. He's a third baseman who committed an NPB-worst 43 errors in 2023-24, so he goes to a corner outfield spot. Murakami's 35 homers in 127 games last year say this profile can translate. Expect 30 homers and a strikeout rate near 30%.",
+   "minus": [
+    "66% contact rate (MLB average 77%)",
+    "17.3% swinging-strike rate, second-highest in NPB",
+    "Never a full-time outfielder",
+    "Some scouts worry about lefties tying him up (The Athletic)"
+   ],
+   "name": "Teruaki Sato",
    "plus": [
     ".991 OPS, 39 HR in 2026",
     "Led NPB in hard-hit rate; 18.4% barrel rate",
     "Age 27, left-handed bat",
     "Strong enough arm for either corner"
    ],
-   "minus": [
-    "66% contact rate (MLB average 77%)",
-    "17.3% swinging-strike rate, second-highest in NPB",
-    "Never a full-time outfielder",
-    "Some scouts worry about lefties tying him up (The Athletic)"
-   ]
+   "role": "RF",
+   "status": "Agreed with Cubs Nov. 24 · pending physical · not yet confirmed by the club",
+   "take": "Sato won the 2026 Central League Triple Crown for Hanshin: .306/.383/.609, 39 homers, 106 RBI in 143 games, after 40 homers and a .924 OPS in 2025. He led NPB in hard-hit rate with an 18.4% barrel rate. The holes are just as real: a 66% contact rate against a 77% MLB average, a 17.3% swinging-strike rate and a nearly 36% chase rate. He's a third baseman who committed an NPB-worst 43 errors in 2023-24, so he goes to a corner outfield spot. Murakami's 35 homers in 127 games last year say this profile can translate. Expect 30 homers and a strikeout rate near 30%.",
+   "verdict": "The Suzuki replacement, five years younger. Big power, real swing-and-miss."
   }
  },
- "updatedAt": "2026-11-24T22:58-05:00"
+ "updatedAt": "2026-11-25T09:42-05:00"
 }

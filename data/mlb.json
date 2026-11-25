@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-24T22:40-05:00",
- "date": "2026-11-24",
+ "updatedAt": "2026-11-25T09:40-05:00",
+ "date": "2026-11-25",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
  "next": {
@@ -8,64 +8,71 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "The pitching market broke open in one day: Peralta to Baltimore, Taira to Toronto, Bubic to Cleveland, and the Cubs added Sato to Rogers. King is the best arm left with a week to the lockout.",
+ "headline": "Catchers and fourth outfielders now: Stephenson went home to Cincinnati, Tyrone Taylor crossed town to the White Sox, and King is the arm everyone is waiting on with six days to the lockout.",
  "news": [
+  {
+   "title": "Reds keep Tyler Stephenson: three years, $30 million",
+   "source": "MLB.com",
+   "date": "2026-11-25",
+   "url": "https://www.mlb.com/news/tyler-stephenson-reds-contract",
+   "note": "Includes an opt-out after the second year. That leaves Carson Kelly as the last starting catcher on the market."
+  },
+  {
+   "title": "Tyrone Taylor goes from the Cubs to the White Sox: two years, $17 million",
+   "source": "RotoBaller",
+   "date": "2026-11-24",
+   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534",
+   "note": "A career year (.827 OPS) bought him a platoon role on the South Side. He hit .351 in 30 games as a Cub."
+  },
+  {
+   "title": "Corey Seager willing to waive his no-trade clause for the Phillies",
+   "source": "CBS Sports",
+   "date": "2026-11-24",
+   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/",
+   "note": "Philadelphia is open to moving Trea Turner off shortstop. Seager is owed $155M through 2031."
+  },
+  {
+   "title": "Tigers sign Ha-Seong Kim: one year, $5 million",
+   "source": "RotoBaller",
+   "date": "2026-11-24",
+   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534",
+   "note": "A defense-first flier after a .116 season in Atlanta around finger surgery."
+  },
   {
    "title": "Orioles sign Freddy Peralta: five years, $125 million",
    "source": "MLB.com",
    "date": "2026-11-24",
    "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract",
-   "note": "The biggest deal ever for an Orioles pitcher, with a $10M signing bonus. The ALCS MVP replaces Trevor Rogers, who left for the Cubs."
+   "note": "The biggest deal ever for an Orioles pitcher. The ALCS MVP replaces Trevor Rogers, who left for the Cubs."
   },
   {
    "title": "Blue Jays land Kaima Taira: five years, $80 million",
    "source": "MLB.com",
    "date": "2026-11-24",
    "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
-   "note": "NPB's ERA leader (1.36) gets an opt-out after year three. Toronto's first big move after missing on Skubal."
-  },
-  {
-   "title": "Cubs agree with Teruaki Sato: six years, $120 million",
-   "source": "ESPN",
-   "date": "2026-11-24",
-   "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal",
-   "note": "The 2026 Central League Triple Crown winner heads to a corner outfield spot. It's $240M for the Cubs in about 12 hours, counting Rogers."
-  },
-  {
-   "title": "Kris Bubic takes one year, $17.5 million from Cleveland",
-   "source": "Yahoo Sports",
-   "date": "2026-11-24",
-   "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-best-available-171409867.html",
-   "note": "A pillow deal after an elbow-shortened 2026. It sets the price for one-year bounce-back starters."
-  },
-  {
-   "title": "Brandon Lowe draws six suitors; King now the top arm left",
-   "source": "MLB.com",
-   "date": "2026-11-24",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-24",
-   "note": "Morosi names the Yankees, Orioles, Blue Jays, Rays, Padres and Phillies on Lowe after his 35-homer year. Michael King is now likely the best starter on the market."
+   "note": "NPB's ERA leader (1.36) gets an opt-out after year three."
   }
  ],
  "sources": [
   {
-   "title": "MLB.com: Orioles sign Freddy Peralta: five years, $125 million",
+   "title": "MLB.com: Reds, Stephenson agree on 3-year deal",
+   "url": "https://www.mlb.com/news/tyler-stephenson-reds-contract"
+  },
+  {
+   "title": "RotoBaller: Taylor to White Sox; Kim to Tigers",
+   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534"
+  },
+  {
+   "title": "CBS Sports: Seager willing to waive NTC for Phillies, Nov. 24 rumors",
+   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+  },
+  {
+   "title": "MLB.com: Orioles sign Freddy Peralta",
    "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
   },
   {
-   "title": "MLB.com: Blue Jays land Kaima Taira: five years, $80 million",
+   "title": "MLB.com: Blue Jays land Kaima Taira",
    "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract"
-  },
-  {
-   "title": "ESPN: Cubs agree with Teruaki Sato: six years, $120 million",
-   "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal"
-  },
-  {
-   "title": "Yahoo Sports: Kris Bubic takes one year, $17.5 million from Cleveland",
-   "url": "https://sports.yahoo.com/mlb/live/mlb-free-agency-news-live-updates-best-available-171409867.html"
-  },
-  {
-   "title": "MLB.com: Brandon Lowe draws six suitors; King now the top arm left",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-24"
   }
  ]
 }

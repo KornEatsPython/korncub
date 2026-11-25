@@ -1,38 +1,38 @@
 {
  "card": [],
  "futures": {
-  "status": "Posted",
-  "note": "DraftKings still had the Cubs at +2500 Tuesday evening, after both signings (CBS Sports, Nov. 24, 5:55 p.m. ET). Polymarket had them around 3% before the week started (Covers). Rogers and Sato fixed the lineup hole and half the rotation hole. The price holds until a second starter lands. If King signs, +2500 is a buy.",
   "items": [
    {
-    "market": "Cubs to win 2027 World Series",
-    "odds": "+2500",
+    "call": "Pass",
     "implied": "3.8%",
-    "call": "Pass",
-    "note": "Better team than a week ago, same price. Still a pass until the second starter shows up. King plus Rogers makes this a bet."
+    "market": "Cubs to win 2027 World Series",
+    "note": "Better team than a week ago, same price. Still a pass until the second starter shows up. King plus Rogers makes this a bet.",
+    "odds": "+2500"
    },
    {
-    "market": "Brewers to win 2027 World Series",
-    "odds": "+500",
+    "call": "Pass",
     "implied": "16.7%",
-    "call": "Pass",
-    "note": "The champs priced like a juggernaut. Repeating is hard and this price leaves nothing on the table."
+    "market": "Brewers to win 2027 World Series",
+    "note": "The champs priced like a juggernaut. Repeating is hard and this price leaves nothing on the table.",
+    "odds": "+500"
    },
    {
-    "market": "Pirates to win 2027 World Series",
-    "odds": "+3000",
+    "call": "Pass",
     "implied": "3.2%",
-    "call": "Pass",
-    "note": "Just behind the Cubs on the board. The market sees Pittsburgh as a real NL Central threat."
+    "market": "Pirates to win 2027 World Series",
+    "note": "Just behind the Cubs on the board. The market sees Pittsburgh as a real NL Central threat.",
+    "odds": "+3000"
    },
    {
-    "market": "Orioles to win 2027 World Series",
-    "odds": "+5000",
-    "implied": "2.0%",
     "call": "Pass",
-    "note": "Lost Rogers, paid $125M for Peralta. That's a sideways move priced at 50-1."
+    "implied": "2.0%",
+    "market": "Orioles to win 2027 World Series",
+    "note": "Lost Rogers, paid $125M for Peralta. That's a sideways move priced at 50-1.",
+    "odds": "+5000"
    }
-  ]
+  ],
+  "note": "No new 2027 prices since Tuesday night: DraftKings had the Cubs at +2500 after both signings (CBS Sports, Nov. 24). The price holds until a second starter lands. Itoh doesn't move it; King or a real one-year ace would.",
+  "status": "Posted"
  },
  "market": null,
  "mode": "offseason",
@@ -56,5 +56,5 @@
    "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
   }
  ],
- "updatedAt": "2026-11-24T22:58-05:00"
+ "updatedAt": "2026-11-25T09:42-05:00"
 }

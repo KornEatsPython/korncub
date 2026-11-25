@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T22:39-05:00",
+ "updatedAt": "2026-11-25T09:39-05:00",
  "season": 2026,
  "hitters": [
   {
@@ -2656,7 +2656,7 @@
     "k_percent": 29,
     "bb_percent": 91,
     "sprint_speed": 63,
-    "oaa": 89,
+    "oaa": 88,
     "arm_strength": 85
    }
   },
@@ -5194,22 +5194,22 @@
      "pa": 4.0
     },
     {
-     "t": "CH",
-     "n": "Changeup",
-     "use": 3.7,
-     "mph": 86.9,
-     "whiff": 0.0,
-     "xwoba": 0.889,
-     "rv": 0.0,
-     "pa": 1.0
-    },
-    {
      "t": "CU",
      "n": "Curveball",
      "use": 3.7,
      "mph": 80.2,
      "whiff": 50.0,
      "xwoba": 0.042,
+     "rv": 0.0,
+     "pa": 1.0
+    },
+    {
+     "t": "CH",
+     "n": "Changeup",
+     "use": 3.7,
+     "mph": 86.9,
+     "whiff": 0.0,
+     "xwoba": 0.889,
      "rv": 0.0,
      "pa": 1.0
     }
@@ -8376,7 +8376,7 @@
      "use": 50.0,
      "mph": 96.7,
      "whiff": 10.5,
-     "xwoba": 0.458,
+     "xwoba": 0.457,
      "rv": -1.0,
      "pa": 8.0
     },
