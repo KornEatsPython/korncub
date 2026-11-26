@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-25T22:40-05:00",
- "date": "2026-11-25",
+ "updatedAt": "2026-11-26T09:40-05:00",
+ "date": "2026-11-26",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
  "next": {
@@ -8,52 +8,56 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "Six days to the lockout and the starters are going fast: Griffin, Gausman and Peterson all signed Wednesday, and MLB took the union to court.",
+ "headline": "Thanksgiving pause, five days to the lockout: Wednesday's starter run ended with Colorado paying Patrick Sandoval $42 million, and King, Suzuki and Arozarena are still unsigned.",
  "news": [
   {
-   "title": "Guardians bring back Foster Griffin: three years, $48 million",
+   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
+   "source": "MLB Trade Rumors",
+   "date": "2026-11-25",
+   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html",
+   "note": "Jeff Passan had it. Colorado's second multi-year starter of the night after Peterson, for a lefty who missed all of 2025 after elbow surgery."
+  },
+  {
+   "date": "2026-11-25",
+   "note": "Robert Murray had it first. Cleveland, the smallest payroll in baseball last spring, has now added Griffin and Kris Bubic in two days.",
    "source": "cleveland.com",
-   "date": "2026-11-25",
-   "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html",
-   "note": "Robert Murray had it first. Cleveland, the smallest payroll in baseball last spring, has now added Griffin and Kris Bubic in two days."
+   "title": "Guardians bring back Foster Griffin: three years, $48 million",
+   "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
   },
   {
+   "date": "2026-11-25",
+   "note": "Jeff Passan reported it, pending a physical. Gausman is the only pitcher with 30-plus starts every season since 2021.",
+   "source": "ESPN",
    "title": "Kevin Gausman to the Tigers: one year, $25 million",
-   "source": "ESPN",
-   "date": "2026-11-25",
-   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal",
-   "note": "Jeff Passan reported it, pending a physical. Gausman is the only pitcher with 30-plus starts every season since 2021."
+   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
   },
   {
+   "date": "2026-11-25",
+   "note": "The league wants a federal judge to rule a lockout legal under antitrust law. The union called the suit 'completely frivolous.'",
+   "source": "ESPN",
    "title": "MLB sues the players' union to protect the coming lockout",
-   "source": "ESPN",
-   "date": "2026-11-25",
-   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal",
-   "note": "The league wants a federal judge to rule a lockout legal under antitrust law. The union called the suit 'completely frivolous.'"
+   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
   },
   {
+   "date": "2026-11-25",
+   "note": "Baltimore declined his $20 million option last month, then brought him back for less. He played three games for the O's before a hamstring strain.",
+   "source": "MLB.com",
    "title": "Luis Robert Jr. returns to the Orioles: one year, $12 million",
-   "source": "MLB.com",
-   "date": "2026-11-25",
-   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles",
-   "note": "Baltimore declined his $20 million option last month, then brought him back for less. He played three games for the O's before a hamstring strain."
+   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles"
   },
   {
+   "date": "2026-11-25",
+   "note": "Kansas City fills third base a week after trading Maikel Garcia. The Yankees and Phillies both lose an option.",
+   "source": "MLB.com",
    "title": "Royals sign Alec Bohm: two years, $20 million",
-   "source": "MLB.com",
-   "date": "2026-11-25",
-   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract",
-   "note": "Kansas City fills third base a week after trading Maikel Garcia. The Yankees and Phillies both lose an option."
-  },
-  {
-   "title": "Padres closing in on a top starter; Morejon likely headed to the AL East",
-   "source": "Padres Mission",
-   "date": "2026-11-25",
-   "url": "https://padresmission.com/san-diego-padres-rumors/padres-rumors/padres-nearing-deal-for-top-starting-pitcher-r333",
-   "note": "Kevin Acee says San Diego is close with at least one of the best starters left, with Michael King atop the list. The Padres also signed JoJo Romero for three years, $21 million."
+   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
   }
  ],
  "sources": [
+  {
+   "title": "MLB Trade Rumors: Rockies sign Patrick Sandoval: three years, $42 million",
+   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
+  },
   {
    "title": "cleveland.com: Guardians bring back Foster Griffin: three years, $48 million",
    "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
@@ -73,14 +77,6 @@
   {
    "title": "MLB.com: Royals sign Alec Bohm: two years, $20 million",
    "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
-  },
-  {
-   "title": "Padres Mission: Padres closing in on a top starter; Morejon likely headed to the AL East",
-   "url": "https://padresmission.com/san-diego-padres-rumors/padres-rumors/padres-nearing-deal-for-top-starting-pitcher-r333"
-  },
-  {
-   "title": "MLB.com: Hot Stove rumors, Nov. 25",
-   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-25"
   }
  ]
 }

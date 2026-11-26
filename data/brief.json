@@ -173,7 +173,7 @@
    }
   ]
  },
- "headline": "Rogers and Sato are official. The second-starter list just shrank: Griffin went to Cleveland, Gausman to Detroit and Peterson to Colorado tonight. Itoh and Martinez are what's left, six days before the lockout.",
+ "headline": "Thanksgiving quiet after Wednesday's pitching run: Rogers and Sato are in, Griffin, Gausman and Peterson are gone, and Itoh is still the second starter the Cubs need before Tuesday night's lockout.",
  "injuries": [
   {
    "id": 690990,
@@ -231,7 +231,7 @@
  "lastSummary": "The Padres finished a two-game sweep with a 4-1 win at Petco. Kevin Gausman lasted 3 1/3 innings and took the loss, and Daniel Palencia gave up the back-breaking hit to Gavin Sheets. Bregman and Crow-Armstrong went a combined 0-for-15 with eight strikeouts in the series, and the highest-scoring offense in baseball managed one run in 18 innings.",
  "parkNote": "Wrigley has played slightly pitcher-friendly overall (96 run factor, 2024-26) while boosting homers (106). The Cubs posted an .789 OPS at home and .747 on the road.",
  "preview": [
-  "Second starter, now: Griffin is gone (Guardians, 3 yr, $48M; Murray, confirmed by Rosenthal) and Peterson is gone (Rockies, 2 yr, $32M; Passan). Of Trueblood's three names, Itoh and Nick Martinez are left. The call: get Itoh done tonight or tomorrow. Waiting now means picking from Holmes, Mahle and Boyd.",
+  "Second starter, now: Griffin is gone (Guardians, 3 yr, $48M; Murray, confirmed by Rosenthal) and Peterson is gone (Rockies, 2 yr, $32M; Passan). Of Trueblood's three names, Itoh and Nick Martinez are left. The call: get Itoh done this weekend at the latest. Waiting now means picking from Holmes, Mahle and Boyd.",
   "Michael King: the Padres are 'closing in' on at least one of the top remaining starters (Kevin Acee, Union-Tribune, via Padres Mission). If that's King, the top of the market is done and the Cubs' bigger add after the lockout becomes a trade.",
   "Trade route: Trueblood floats Matt Shaw (or Pedro Ramírez) to the Yankees for Will Warren, with Ryan McMahon's $16M thrown in. New York lost Bohm to Kansas City (2 yr, $20M) Wednesday and still needs a third baseman. Worth a call.",
   "Catcher and the clock: Kelly is still unsigned and Gary Sánchez went to Miami (1 yr, $6.5M). The CBA expires Dec. 1 at 11:59 p.m. ET, and MLB sued the union Wednesday to protect the lockout."
@@ -882,47 +882,47 @@
  ],
  "stats": [
   {
-   "value": "$240M",
-   "label": "Rogers (5 yr) and Sato (6 yr), both officially signed Nov. 25 (MLB transactions)."
+   "label": "Rogers (5 yr) and Sato (6 yr), both officially signed Nov. 25 (MLB transactions).",
+   "value": "$240M"
   },
   {
-   "value": "3",
-   "label": "Cubs-linked starters who signed elsewhere Wednesday: Griffin (CLE, 3/$48M), Gausman (DET, 1/$25M), Peterson (COL, 2/$32M)."
+   "label": "Cubs-linked starters who signed elsewhere Wednesday: Griffin (CLE, 3/$48M), Gausman (DET, 1/$25M), Peterson (COL, 2/$32M).",
+   "value": "3"
   }
  ],
  "stove": {
   "items": [
    {
-    "kind": "Free agents",
-    "name": "Kevin Gausman (signed, Tigers: 1 yr, $25M)",
-    "id": 592332,
+    "call": "Right to let him go at $25M. His xFIP said he was better than the ERA, but one year at that price is for teams with no other options. That's the next shoe for the Cubs if Itoh goes elsewhere.",
     "date": "2026-11-25",
-    "heat": "Cold",
     "detail": "Agreed Nov. 25, pending a physical (Jeff Passan, ESPN). 35, turns 36 in January. 9-12, 4.51 ERA, 184 K in 177 2/3 innings across 32 starts for Toronto and the Cubs in 2026; 4.83 ERA in nine Cubs starts, then three runs in 3 1/3 innings in the Wild Card loss. The only pitcher with 30-plus starts every season since 2021 (MLB.com). Toronto had 'mutual' interest in a reunion (Nicholson-Smith).",
-    "call": "Right to let him go at $25M. His xFIP said he was better than the ERA, but one year at that price is for teams with no other options. That's the next shoe for the Cubs if Itoh goes elsewhere."
+    "heat": "Cold",
+    "id": 592332,
+    "kind": "Free agents",
+    "name": "Kevin Gausman (signed, Tigers: 1 yr, $25M)"
    },
    {
-    "kind": "Ideas floated",
-    "name": "Matt Shaw for Will Warren (trade idea, Yankees)",
-    "id": 807713,
+    "call": "Make the call. A controllable 156-inning starter for a third baseman blocked by Bregman is exactly the trade the Cubs need. Taking McMahon's money is fine if it gets it done.",
     "date": "2026-11-25",
-    "heat": "Warm",
     "detail": "Matthew Trueblood (North Side Baseball, Nov. 25): with Bohm gone to Kansas City, the Yankees still need a righty-hitting third baseman. He proposes Shaw (or Pedro Ramírez) plus a low-level prospect for RHP Will Warren, with New York dumping Ryan McMahon's $16M for 2027. Warren, 28 next June, made 32 appearances (29 starts) and 156 innings in 2026, is controlled through 2030 and still has options.",
-    "call": "Make the call. A controllable 156-inning starter for a third baseman blocked by Bregman is exactly the trade the Cubs need. Taking McMahon's money is fine if it gets it done."
+    "heat": "Warm",
+    "id": 807713,
+    "kind": "Ideas floated",
+    "name": "Matt Shaw for Will Warren (trade idea, Yankees)"
    },
    {
-    "kind": "League moves",
-    "name": "Bohm to the Royals; Robert back to Baltimore; Sánchez to Miami",
+    "call": "Nothing here is a Cubs target. Bohm leaving the Yankees without a third baseman is the one that matters, because it makes Shaw a trade chip.",
     "date": "2026-11-25",
     "detail": "Alec Bohm agreed with Kansas City for two years, $20M (Feinsand, MLB.com). Luis Robert Jr. returns to the Orioles on one year, $12M (Heyman), after Baltimore declined his $20M option. Gary Sánchez to the Marlins, one year, $6.5M. JoJo Romero to the Padres, three years, $21M.",
-    "call": "Nothing here is a Cubs target. Bohm leaving the Yankees without a third baseman is the one that matters, because it makes Shaw a trade chip."
+    "kind": "League moves",
+    "name": "Bohm to the Royals; Robert back to Baltimore; Sánchez to Miami"
    },
    {
-    "kind": "Front office",
-    "name": "MLB sues the union before the lockout",
+    "call": "Treat Dec. 1 as a hard wall and assume a long winter. Whatever the Cubs don't buy by Tuesday may not be buyable until March.",
     "date": "2026-11-25",
     "detail": "MLB filed suit Wednesday in federal court in Manhattan asking a judge to declare the coming lockout legal under antitrust law, aiming to head off a union disclaimer. It names the MLBPA and the eight players on its executive subcommittee, including Tarik Skubal (ESPN; Front Office Sports). The union called it 'completely frivolous.' The CBA expires Dec. 1 at 11:59 p.m. ET.",
-    "call": "Treat Dec. 1 as a hard wall and assume a long winter. Whatever the Cubs don't buy by Tuesday may not be buyable until March."
+    "kind": "Front office",
+    "name": "MLB sues the union before the lockout"
    },
    {
     "call": "Losing Griffin stings less than it looks: $16M a year for three years of a 91-mph lefty is full price. Martinez on one year is fine. Two years is the limit at 36.",
@@ -1342,22 +1342,6 @@
     "name": "David Peterson (signed, Rockies: 2 yr, $32M)"
    },
    {
-    "call": "The crosstown team just made Taira a real bidding war. Overpay by a year or a few million now. A Boras client with a hard deadline is the one time waiting costs you the player, not just the price.",
-    "date": "2026-11-15",
-    "detail": "Francys Romero (BeisbolFR) says the Sox sent scouts to watch both in August and September. Itoh, the 2025 Sawamura winner, projects at two years, $20M (MLBTR, Nov. 15). All three NPB posts went up Nov. 1, so roughly two weeks remain.",
-    "heat": "Warm",
-    "kind": "League moves",
-    "name": "White Sox scouted Taira and Itoh"
-   },
-   {
-    "call": "Only if the cost is a bat, not an arm. A former No. 2 pick who hasn't hit is the same bet as Ramírez or Shaw in a corner. The Cubs already have three of those.",
-    "date": "2026-11-15",
-    "detail": "North Side Baseball's Randy Holt calls Crews an upside gamble worth taking. He's reportedly available as a change-of-scenery candidate, and the Cubs need a corner outfielder (via Bleed Cubbie Blue, Nov. 15). Opinion piece, no reported talks.",
-    "heat": "Cold",
-    "kind": "Ideas floated",
-    "name": "Dylan Crews (trade, Nationals)"
-   },
-   {
     "call": "Door closed. Two years at MLBTR's number would have been fine, but at least now it's clear. The money goes elsewhere.",
     "date": "2026-11-24",
     "detail": "Nov. 24: Jesse Rogers (ESPN Chicago) thinks the Cubs have 'shut the door' on Imanaga after conversations earlier this offseason (via MLB.com). 112 ERA+ in 32 starts, 35 homers allowed. Not QO-eligible. Barely linked anywhere so far; Morosi named the Tigers as a possible suitor Friday (Bleacher Nation). MLBTR projects two years, $40M; FanGraphs two years, $28M.",
@@ -1403,5 +1387,5 @@
   ],
   "summary": "Rogers (5 yr, $120M) and Sato (6 yr, $120M) went official Wednesday. Then the market ate the Cubs' second-starter list: Foster Griffin re-signed with Cleveland (3 yr, $48M), Kevin Gausman took $25M for one year in Detroit, and David Peterson went home to Colorado (2 yr, $32M). Itoh and Nick Martinez are left. The call: sign Itoh before the lockout, then pay Kelly the third year. Amaya and Bart is not a contender's catching pair."
  },
- "updatedAt": "2026-11-25T23:05-05:00"
+ "updatedAt": "2026-11-26T09:55-05:00"
 }

@@ -1,21 +1,21 @@
 {
  "articles": [
   {
-   "source": "North Side Baseball",
    "author": "Matthew Trueblood",
    "date": "2026-11-25",
+   "source": "North Side Baseball",
+   "take": "Argues Bohm's move to Kansas City leaves the Yankees desperate at third, and that Shaw or Ramírez plus a fringe prospect, with the Cubs eating McMahon's $16M, could land Will Warren. The logic is tight: Shaw is blocked, Warren is controllable and proven over 156 innings. It's a proposal, not a report, but it's the best trade idea anyone has floated for this club.",
    "title": "Matt Shaw to the Yankees? How Cubs Could Pursue a Controllable Starter in a Surprise Trade",
    "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/matt-shaw-to-the-yankees-how-cubs-could-pursue-a-controllable-starter-in-a-surprise-trade-r3589",
-   "take": "Argues Bohm's move to Kansas City leaves the Yankees desperate at third, and that Shaw or Ramírez plus a fringe prospect, with the Cubs eating McMahon's $16M, could land Will Warren. The logic is tight: Shaw is blocked, Warren is controllable and proven over 156 innings. It's a proposal, not a report, but it's the best trade idea anyone has floated for this club.",
    "verdict": "Must read"
   },
   {
-   "source": "Cubbies Crib",
    "author": "Jordan Campbell",
    "date": "2026-11-25",
+   "source": "Cubbies Crib",
+   "take": "Pushes Itoh, Griffin and Gary Sánchez, and says skip Kelly and Zac Gallen. Two of the three targets signed elsewhere by dinner, which says more about the market's speed than the list. The Kelly call is the weak spot: 'a year early' ignores that there's no other catcher left.",
    "title": "3 new targets Cubs should pursue, 2 they should avoid after $240 million spending spree",
    "url": "https://cubbiescrib.com/3-new-targets-cubs-should-pursue-2-they-should-avoid-after-240-million-spending-spree",
-   "take": "Pushes Itoh, Griffin and Gary Sánchez, and says skip Kelly and Zac Gallen. Two of the three targets signed elsewhere by dinner, which says more about the market's speed than the list. The Kelly call is the weak spot: 'a year early' ignores that there's no other catcher left.",
    "verdict": "Half right"
   },
   {
@@ -56,9 +56,6 @@
   }
  ],
  "column": {
-  "title": "The list is shrinking faster than the Cubs are",
-  "date": "2026-11-25",
-  "dek": "Rogers and Sato went official Wednesday. By dinner, three of the arms the Cubs were supposed to choose from had picked other teams. Itoh is now the whole plan.",
   "body": [
    {
     "h": "The paperwork day",
@@ -101,7 +98,10 @@
      "The Cubs did the hard part this week. They bought the top lefty and the top bat. But a contender's offseason isn't graded on two signings. It's graded on whether the rotation can get through 162 games, and right now it can't. MLB sued the union Wednesday to protect a lockout that starts Tuesday. Nothing gets easier after that. Sign Itoh, call Cashman about Warren, and pay Kelly. Do two of the three and this is a B+ winter. Do none and the $240 million just bought a nicer version of last year's problem."
     ]
    }
-  ]
+  ],
+  "date": "2026-11-25",
+  "dek": "Rogers and Sato went official Wednesday. By dinner, three of the arms the Cubs were supposed to choose from had picked other teams. Itoh is now the whole plan.",
+  "title": "The list is shrinking faster than the Cubs are"
  },
  "grades": {
   "groups": [
@@ -289,8 +289,8 @@
       "note": "Cost them Stephenson and probably Kelly in a market with no third option. Amaya and Bart is the result."
      },
      {
-      "name": "Second starter still unsigned (Griffin, Gausman, Peterson gone)",
       "grade": "D+",
+      "name": "Second starter still unsigned (Griffin, Gausman, Peterson gone)",
       "note": "None of the three prices was a bargain, but standing still while the list empties is how you end up with Holmes. Itoh is the last good fit."
      },
      {
@@ -516,5 +516,5 @@
    "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/matt-shaw-to-the-yankees-how-cubs-could-pursue-a-controllable-starter-in-a-surprise-trade-r3589"
   }
  ],
- "updatedAt": "2026-11-25T23:05-05:00"
+ "updatedAt": "2026-11-26T09:55-05:00"
 }
