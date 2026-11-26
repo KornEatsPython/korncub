@@ -16,23 +16,6 @@
    "take": "Boyd went 10-5 with a 3.91 ERA (108 ERA+) in 22 starts around a meniscus injury, with an 18.5% strikeout rate. Then he started Game 1 of the Wild Card Series and gave up first-inning homers to Fernando Tatis Jr. and Manny Machado. He declined his option Oct. 29. No qualifying offer; one year as the No. 5 starter at most.",
    "verdict": "A fine regular season, a bad October, and now a free agent at 36."
   },
-  "592332": {
-   "contract": "Free agent",
-   "minus": [
-    "11 HR in 50 1/3 IP",
-    "Turns 36 in January"
-   ],
-   "name": "Kevin Gausman",
-   "plus": [
-    "3.02 xFIP",
-    "Splitter: 42.9% whiff rate",
-    "Walk rate in the 86th percentile"
-   ],
-   "role": "SP",
-   "status": "Free agent",
-   "take": "Gausman posted a 4.83 ERA in nine starts after the deadline deal, then lasted 3 1/3 innings in the elimination game. His 3.02 xFIP and 21.9% K-BB rate say he pitched better than the ERA, and the splitter is still a weapon (42.9% whiff rate). He turns 36 in January. Fine on a one-year deal; don't pay for the name.",
-   "verdict": "A deadline buy that didn't move the needle."
-  },
   "605280": {
    "contract": "Free agent; declined his $12M player option Oct. 29",
    "minus": [
@@ -96,7 +79,7 @@
     "1.9 bWAR"
    ],
    "role": "C",
-   "status": "Free agent; Cubs interested but unlikely to go three years (Trueblood, Nov. 25)",
+   "status": "Free agent; Cubs interested but unlikely to go three years (Trueblood, Nov. 25). Sánchez off the board to Miami.",
    "take": "Kelly gave the Cubs a .254/.335/.402 line with 27 homers over two years on an $11.5M deal, and a 97 OPS+ with 1.9 bWAR in 2026. With Jeffers back in Minnesota and Stephenson back in Cincinnati, he's the last starting catcher on the market, and a rival exec says three years is out there. The Cubs won't go there. Without him, catcher is the weakest spot in the lineup.",
    "verdict": "Give him the third year. There's nobody else."
   },
@@ -148,25 +131,9 @@
     "No qualifying offer attached"
    ],
    "role": "SP",
-   "status": "Free agent · likely the best starter left (MLB.com, Nov. 24); Cubs among those linked",
+   "status": "Free agent · Padres 'closing in' on a top starter (Acee, Nov. 25); Cubs linked",
    "take": "King threw 185 innings over 32 starts with a 3.21 ERA and 4.3 bWAR, then shut out the Cubs for seven one-hit innings in the Wild Card Series. The Cubs chased him last winter, and Morosi now calls King-Cubs a pairing 'many of us have forecasted.' The catch is the strikeouts: 21.0% K and 9.2% BB with a near-average FIP. Sign him, but not as the only starter.",
    "verdict": "The best arm left and the right second starter on four years. Not five."
-  },
-  "656849": {
-   "contract": "Free agent",
-   "minus": [
-    "xERA in the 22nd percentile",
-    "10.2% walk rate"
-   ],
-   "name": "David Peterson",
-   "plus": [
-    "114 ERA+ as a Cub",
-    "4.06 FIP"
-   ],
-   "role": "SP",
-   "status": "Free agent · in play for the Cubs (Jesse Rogers, ESPN, Nov. 24)",
-   "take": "Acquired in June, Peterson gave the Cubs a 3.70 ERA (114 ERA+) and a 4.06 FIP over 15 starts. The expected stats are harsher (22nd-percentile xERA) and he walked 10.2% of hitters. As a No. 4 starter on a reasonable deal, he's worth bringing back. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are in, and Baltimore's lefty hunt makes him a fit there. Two years is the right deal; don't let a bidding war push it to three.",
-   "verdict": "The one in-season rotation addition that worked, maybe more than it should have."
   },
   "657006": {
    "contract": null,
@@ -348,7 +315,7 @@
     "Age 29"
    ],
    "role": "SP",
-   "status": "Agreed with Cubs Nov. 23 · pending physical · not yet confirmed by the club",
+   "status": "Signed Nov. 25 (official) · 5 years, $120M",
    "take": "Rogers rebuilt himself in Baltimore: a 3.16 ERA over 279 1/3 innings and 48 starts since 2025, with a 23.2% strikeout rate and a 6.1% walk rate. The 2026 line (4.03 ERA) hides a 6.84 ERA through May and a 2.90 ERA with a 2.89 FIP over his last 20 starts. The fastball is back to 93.8 mph and hitters are at .204 against it. He's 29 and just made 30 starts for the first time. At $24M a year he's priced like a No. 2, which is what he is. The Cubs need him to pitch like a No. 1 until someone else arrives.",
    "verdict": "The No. 1 starter, for now. A fair price for the best lefty left."
   },
@@ -571,10 +538,10 @@
     "Strong enough arm for either corner"
    ],
    "role": "RF",
-   "status": "Agreed with Cubs Nov. 24 · pending physical · not yet confirmed by the club",
+   "status": "Signed Nov. 25 (official) · 6 years, $120M",
    "take": "Sato won the 2026 Central League Triple Crown for Hanshin: .306/.383/.609, 39 homers, 106 RBI in 143 games, after 40 homers and a .924 OPS in 2025. He led NPB in hard-hit rate with an 18.4% barrel rate. The holes are just as real: a 66% contact rate against a 77% MLB average, a 17.3% swinging-strike rate and a nearly 36% chase rate. He's a third baseman who committed an NPB-worst 43 errors in 2023-24, so he goes to a corner outfield spot. Murakami's 35 homers in 127 games last year say this profile can translate. Expect 30 homers and a strikeout rate near 30%.",
    "verdict": "The Suzuki replacement, five years younger. Big power, real swing-and-miss."
   }
  },
- "updatedAt": "2026-11-25T09:42-05:00"
+ "updatedAt": "2026-11-25T23:05-05:00"
 }

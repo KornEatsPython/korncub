@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T09:40-05:00",
+ "updatedAt": "2026-11-25T22:40-05:00",
  "date": "2026-11-25",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
@@ -8,71 +8,79 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "Catchers and fourth outfielders now: Stephenson went home to Cincinnati, Tyrone Taylor crossed town to the White Sox, and King is the arm everyone is waiting on with six days to the lockout.",
+ "headline": "Six days to the lockout and the starters are going fast: Griffin, Gausman and Peterson all signed Wednesday, and MLB took the union to court.",
  "news": [
   {
-   "title": "Reds keep Tyler Stephenson: three years, $30 million",
+   "title": "Guardians bring back Foster Griffin: three years, $48 million",
+   "source": "cleveland.com",
+   "date": "2026-11-25",
+   "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html",
+   "note": "Robert Murray had it first. Cleveland, the smallest payroll in baseball last spring, has now added Griffin and Kris Bubic in two days."
+  },
+  {
+   "title": "Kevin Gausman to the Tigers: one year, $25 million",
+   "source": "ESPN",
+   "date": "2026-11-25",
+   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal",
+   "note": "Jeff Passan reported it, pending a physical. Gausman is the only pitcher with 30-plus starts every season since 2021."
+  },
+  {
+   "title": "MLB sues the players' union to protect the coming lockout",
+   "source": "ESPN",
+   "date": "2026-11-25",
+   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal",
+   "note": "The league wants a federal judge to rule a lockout legal under antitrust law. The union called the suit 'completely frivolous.'"
+  },
+  {
+   "title": "Luis Robert Jr. returns to the Orioles: one year, $12 million",
    "source": "MLB.com",
    "date": "2026-11-25",
-   "url": "https://www.mlb.com/news/tyler-stephenson-reds-contract",
-   "note": "Includes an opt-out after the second year. That leaves Carson Kelly as the last starting catcher on the market."
+   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles",
+   "note": "Baltimore declined his $20 million option last month, then brought him back for less. He played three games for the O's before a hamstring strain."
   },
   {
-   "title": "Tyrone Taylor goes from the Cubs to the White Sox: two years, $17 million",
-   "source": "RotoBaller",
-   "date": "2026-11-24",
-   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534",
-   "note": "A career year (.827 OPS) bought him a platoon role on the South Side. He hit .351 in 30 games as a Cub."
-  },
-  {
-   "title": "Corey Seager willing to waive his no-trade clause for the Phillies",
-   "source": "CBS Sports",
-   "date": "2026-11-24",
-   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/",
-   "note": "Philadelphia is open to moving Trea Turner off shortstop. Seager is owed $155M through 2031."
-  },
-  {
-   "title": "Tigers sign Ha-Seong Kim: one year, $5 million",
-   "source": "RotoBaller",
-   "date": "2026-11-24",
-   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534",
-   "note": "A defense-first flier after a .116 season in Atlanta around finger surgery."
-  },
-  {
-   "title": "Orioles sign Freddy Peralta: five years, $125 million",
+   "title": "Royals sign Alec Bohm: two years, $20 million",
    "source": "MLB.com",
-   "date": "2026-11-24",
-   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract",
-   "note": "The biggest deal ever for an Orioles pitcher. The ALCS MVP replaces Trevor Rogers, who left for the Cubs."
+   "date": "2026-11-25",
+   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract",
+   "note": "Kansas City fills third base a week after trading Maikel Garcia. The Yankees and Phillies both lose an option."
   },
   {
-   "title": "Blue Jays land Kaima Taira: five years, $80 million",
-   "source": "MLB.com",
-   "date": "2026-11-24",
-   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
-   "note": "NPB's ERA leader (1.36) gets an opt-out after year three."
+   "title": "Padres closing in on a top starter; Morejon likely headed to the AL East",
+   "source": "Padres Mission",
+   "date": "2026-11-25",
+   "url": "https://padresmission.com/san-diego-padres-rumors/padres-rumors/padres-nearing-deal-for-top-starting-pitcher-r333",
+   "note": "Kevin Acee says San Diego is close with at least one of the best starters left, with Michael King atop the list. The Padres also signed JoJo Romero for three years, $21 million."
   }
  ],
  "sources": [
   {
-   "title": "MLB.com: Reds, Stephenson agree on 3-year deal",
-   "url": "https://www.mlb.com/news/tyler-stephenson-reds-contract"
+   "title": "cleveland.com: Guardians bring back Foster Griffin: three years, $48 million",
+   "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
   },
   {
-   "title": "RotoBaller: Taylor to White Sox; Kim to Tigers",
-   "url": "https://www.rotoballer.com/player-news/tyler-stephenson-returns-to-reds-on-three-year-contract/2003534"
+   "title": "ESPN: Kevin Gausman to the Tigers: one year, $25 million",
+   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
   },
   {
-   "title": "CBS Sports: Seager willing to waive NTC for Phillies, Nov. 24 rumors",
-   "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+   "title": "ESPN: MLB sues the players' union to protect the coming lockout",
+   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
   },
   {
-   "title": "MLB.com: Orioles sign Freddy Peralta",
-   "url": "https://www.mlb.com/news/freddy-peralta-orioles-contract"
+   "title": "MLB.com: Luis Robert Jr. returns to the Orioles: one year, $12 million",
+   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles"
   },
   {
-   "title": "MLB.com: Blue Jays land Kaima Taira",
-   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract"
+   "title": "MLB.com: Royals sign Alec Bohm: two years, $20 million",
+   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
+  },
+  {
+   "title": "Padres Mission: Padres closing in on a top starter; Morejon likely headed to the AL East",
+   "url": "https://padresmission.com/san-diego-padres-rumors/padres-rumors/padres-nearing-deal-for-top-starting-pitcher-r333"
+  },
+  {
+   "title": "MLB.com: Hot Stove rumors, Nov. 25",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-25"
   }
  ]
 }

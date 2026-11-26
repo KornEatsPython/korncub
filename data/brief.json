@@ -76,7 +76,7 @@
      }
     ],
     "name": "Open",
-    "note": "Jordan Bastian (MLB.com) has Shaw as the front-runner for the remaining outfield at-bats now that Sato is in, with Ramírez in a utility or DH role. Alcántara is out of options. North Side Baseball expects any outside add here to be a lower-wattage depth and defense move.",
+    "note": "Jordan Bastian (MLB.com) has Shaw as the front-runner for the remaining outfield at-bats now that Sato is in, with Ramírez in a utility or DH role. Trueblood (Nov. 25) floats both as trade chips for a Yankees starter. Alcántara is out of options.",
     "open": true,
     "slot": "LF"
    },
@@ -89,7 +89,7 @@
    {
     "id": 831664,
     "name": "Teruaki Sato",
-    "note": "Agreed Nov. 24: six years, $120M, pending a physical (Passan; Feinsand). 2026 Central League Triple Crown: .306/.383/.609, 39 HR, 106 RBI. A third baseman in Japan; FanGraphs has him in right, others suggest left.",
+    "note": "Signed Nov. 25 (official): six years, $120M. 2026 Central League Triple Crown: .306/.383/.609, 39 HR, 106 RBI. A third baseman in Japan; expected in a corner outfield spot.",
     "slot": "RF"
    },
    {
@@ -109,12 +109,12 @@
     "slot": "DH"
    }
   ],
-  "note": "As of Nov. 25 (morning). Rogers (5 yr, $120M) and Sato (6 yr, $120M) are in, pending physicals. Still one starter short before Dec. 1: the Cubs are in on Itoh, Nick Martinez and Foster Griffin (Trueblood). Kelly unlikely back. Brown (neck surgery) out until about midseason.",
+  "note": "As of Nov. 25 (evening). Rogers (5 yr, $120M) and Sato (6 yr, $120M) are officially signed. Still one starter short before Dec. 1: Griffin and Peterson signed elsewhere Wednesday, so Itoh and Nick Martinez are the names left from the Cubs' list. Kelly unlikely back. Brown (neck surgery) out until about midseason.",
   "rotation": [
    {
     "id": 669432,
     "name": "Trevor Rogers",
-    "note": "Agreed Nov. 23: five years, $120M with deferrals (Passan), pending a physical. 3.16 ERA over 48 starts since 2025; first 30-start season in 2026.",
+    "note": "Signed Nov. 25 (official): five years, $120M with deferrals. 101 ERA+ and 2.2 bWAR in 2026; 2.90 ERA over his last 20 starts. First 30-start season.",
     "slot": "SP1"
    },
    {
@@ -139,14 +139,6 @@
       "name": "Nick Martinez (free agent)"
      },
      {
-      "id": 656492,
-      "name": "Foster Griffin (free agent)"
-     },
-     {
-      "id": 656849,
-      "name": "David Peterson (re-sign)"
-     },
-     {
       "id": 605280,
       "name": "Clay Holmes (re-sign)"
      },
@@ -156,7 +148,7 @@
      }
     ],
     "name": "Open",
-    "note": "One more before the lockout. Trueblood (Nov. 25): the Cubs are in on Itoh, Martinez and Griffin; King, Mahle and Holmes may be too pricey. A bigger one-year add likely waits until after the lockout.",
+    "note": "One more before the lockout. Griffin (Guardians) and Peterson (Rockies) signed elsewhere Wednesday. Itoh and Martinez are left from Trueblood's list; King may be headed back to San Diego. Trade idea: Will Warren from the Yankees (Trueblood).",
     "open": true,
     "slot": "SP4"
    },
@@ -181,7 +173,7 @@
    }
   ]
  },
- "headline": "Rogers and Sato are in. Now the Cubs are bidding on Itoh, Nick Martinez and Foster Griffin for the second arm, and Carson Kelly is probably gone. Six days to the lockout.",
+ "headline": "Rogers and Sato are official. The second-starter list just shrank: Griffin went to Cleveland, Gausman to Detroit and Peterson to Colorado tonight. Itoh and Martinez are what's left, six days before the lockout.",
  "injuries": [
   {
    "id": 690990,
@@ -239,10 +231,10 @@
  "lastSummary": "The Padres finished a two-game sweep with a 4-1 win at Petco. Kevin Gausman lasted 3 1/3 innings and took the loss, and Daniel Palencia gave up the back-breaking hit to Gavin Sheets. Bregman and Crow-Armstrong went a combined 0-for-15 with eight strikeouts in the series, and the highest-scoring offense in baseball managed one run in 18 innings.",
  "parkNote": "Wrigley has played slightly pitcher-friendly overall (96 run factor, 2024-26) while boosting homers (106). The Cubs posted an .789 OPS at home and .747 on the road.",
  "preview": [
-  "Second starter, this week: the Cubs are in on Hiromi Itoh, Nick Martinez and Foster Griffin, all of whom want to sign before the lockout (Trueblood, North Side Baseball, Nov. 25). Itoh has multiple three-year offers and could decide as soon as Wednesday. The call: Itoh on three years is fine. Martinez at 36 is a one-year arm, not a multi-year one.",
-  "Third starter, later: Trueblood hears a strong one-year rotation add is likely to wait until after the lockout. Sharma (The Athletic) says they need two more 'no-doubt' arms. He's right, and Itoh or Griffin isn't 'no-doubt.'",
-  "Catcher: the Cubs had interest in Tyler Stephenson before he went back to Cincinnati (3 yr, $30M). They won't go three years on a catcher, so Kelly, the last starting catcher left, is unlikely back; a rival exec says three years 'is out there for him.' That leaves Amaya and Bart until Owen Ayers is ready.",
-  "Gone Tuesday: Tyrone Taylor to the White Sox (2 yr, $17M). The CBA expires Dec. 1 at 11:59 p.m. ET; the bullpen and the last bat likely wait until after."
+  "Second starter, now: Griffin is gone (Guardians, 3 yr, $48M; Murray, confirmed by Rosenthal) and Peterson is gone (Rockies, 2 yr, $32M; Passan). Of Trueblood's three names, Itoh and Nick Martinez are left. The call: get Itoh done tonight or tomorrow. Waiting now means picking from Holmes, Mahle and Boyd.",
+  "Michael King: the Padres are 'closing in' on at least one of the top remaining starters (Kevin Acee, Union-Tribune, via Padres Mission). If that's King, the top of the market is done and the Cubs' bigger add after the lockout becomes a trade.",
+  "Trade route: Trueblood floats Matt Shaw (or Pedro Ramírez) to the Yankees for Will Warren, with Ryan McMahon's $16M thrown in. New York lost Bohm to Kansas City (2 yr, $20M) Wednesday and still needs a third baseman. Worth a call.",
+  "Catcher and the clock: Kelly is still unsigned and Gary Sánchez went to Miami (1 yr, $6.5M). The CBA expires Dec. 1 at 11:59 p.m. ET, and MLB sued the union Wednesday to protect the lockout."
  ],
  "roster": [
   {
@@ -522,6 +514,28 @@
    "status": "Active"
   },
   {
+   "id": 669432,
+   "name": "Trevor Rogers",
+   "pos": "P",
+   "num": null,
+   "bats": "L",
+   "thr": "L",
+   "age": 29,
+   "status": "Active",
+   "stats": {
+    "w": 10,
+    "l": 11,
+    "era": 4.03,
+    "ip": "169.2",
+    "k": 157,
+    "bb": 39,
+    "whip": 1.18,
+    "team": "Baltimore Orioles",
+    "erap": 101,
+    "bwar": 2.2
+   }
+  },
+  {
    "id": 621053,
    "name": "Tyler Ferguson",
    "pos": "P",
@@ -672,9 +686,71 @@
    "thr": "L",
    "age": 24,
    "status": "Active"
+  },
+  {
+   "id": 831664,
+   "name": "Teruaki Sato",
+   "pos": "3B",
+   "num": null,
+   "bats": "L",
+   "thr": "R",
+   "age": 27,
+   "status": "Active"
   }
  ],
  "sources": [
+  {
+   "title": "MLB transactions: Cubs sign Rogers, Sato (Nov. 25)",
+   "url": "https://statsapi.mlb.com/api/v1/transactions?teamId=112&startDate=2026-11-25&endDate=2026-11-25"
+  },
+  {
+   "title": "cleveland.com: Guardians bring back Foster Griffin (3 yr, $48M)",
+   "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
+  },
+  {
+   "title": "ClutchPoints: Rosenthal confirms Griffin to Cleveland",
+   "url": "https://clutchpoints.com/mlb/cleveland-guardians/guardians-news-cleveland-foster-griffin-kris-bubic-signing"
+  },
+  {
+   "title": "ESPN: Gausman, Tigers reach 1-year, $25M deal",
+   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
+  },
+  {
+   "title": "Sportsnaut: Wednesday's signings (Peterson to the Rockies, per Passan)",
+   "url": "https://sportsnaut.com/mlb/former-blue-jay-kevin-gausman-lands-free-agent-deal"
+  },
+  {
+   "title": "Padres Mission: Padres nearing deal for top starter (Acee)",
+   "url": "https://padresmission.com/san-diego-padres-rumors/padres-rumors/padres-nearing-deal-for-top-starting-pitcher-r333"
+  },
+  {
+   "title": "North Side Baseball: Matt Shaw to the Yankees?",
+   "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/matt-shaw-to-the-yankees-how-cubs-could-pursue-a-controllable-starter-in-a-surprise-trade-r3589"
+  },
+  {
+   "title": "Cubbies Crib: 3 targets to pursue, 2 to avoid",
+   "url": "https://cubbiescrib.com/3-new-targets-cubs-should-pursue-2-they-should-avoid-after-240-million-spending-spree"
+  },
+  {
+   "title": "MLB.com: Royals agree with Alec Bohm",
+   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
+  },
+  {
+   "title": "MLB.com: Robert returns to Orioles",
+   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles"
+  },
+  {
+   "title": "ESPN: MLB sues players' union",
+   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
+  },
+  {
+   "title": "MLB.com: Hot Stove rumors, Nov. 25",
+   "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-25"
+  },
+  {
+   "title": "Baseball-Reference: Trevor Rogers",
+   "url": "https://www.baseball-reference.com/players/r/rogertr01.shtml"
+  },
   {
    "title": "North Side Baseball (Trueblood): Cubs working to add one more starter, address catching before lockout",
    "url": "https://northsidebaseball.com/chicago-cubs-news/cubs/cubs-working-to-add-one-more-starter-address-catching-corps-before-lockout-hits-r3588"
@@ -802,79 +878,99 @@
   {
    "title": "MLBTR: Mets to sign Paul Goldschmidt",
    "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html"
-  },
-  {
-   "title": "Heavy: Yankees sign Brent Suter",
-   "url": "https://heavy.com/sports/mlb/new-york-yankees/new-york-yankees-latest-signing-throws-wrinkle-adrian-morejon-plans/"
-  },
-  {
-   "title": "Yahoo (Baseball Now): Cubs have had 'extensive talks' with Peralta",
-   "url": "https://sports.yahoo.com/articles/cubs-reportedly-had-extensive-talks-160036722.html"
-  },
-  {
-   "title": "Bleacher Report: Blue Jays turn to Freddy Peralta after Skubal (Morosi)",
-   "url": "https://bleacherreport.com/articles/25536700-new-mlb-rumors-reveal-blue-jays-top-free-agent-target-after-tarik-skubals-450m-mets-contract"
   }
  ],
  "stats": [
   {
-   "label": "Committed to Rogers (5 yr) and Sato (6 yr) in about 12 hours (Feinsand, MLB.com).",
-   "value": "$240M"
+   "value": "$240M",
+   "label": "Rogers (5 yr) and Sato (6 yr), both officially signed Nov. 25 (MLB transactions)."
   },
   {
-   "label": "Sato's homers in his 2026 Central League Triple Crown season, with a .306 average and 106 RBI.",
-   "value": "39"
+   "value": "3",
+   "label": "Cubs-linked starters who signed elsewhere Wednesday: Griffin (CLE, 3/$48M), Gausman (DET, 1/$25M), Peterson (COL, 2/$32M)."
   }
  ],
  "stove": {
   "items": [
    {
+    "kind": "Free agents",
+    "name": "Kevin Gausman (signed, Tigers: 1 yr, $25M)",
+    "id": 592332,
+    "date": "2026-11-25",
+    "heat": "Cold",
+    "detail": "Agreed Nov. 25, pending a physical (Jeff Passan, ESPN). 35, turns 36 in January. 9-12, 4.51 ERA, 184 K in 177 2/3 innings across 32 starts for Toronto and the Cubs in 2026; 4.83 ERA in nine Cubs starts, then three runs in 3 1/3 innings in the Wild Card loss. The only pitcher with 30-plus starts every season since 2021 (MLB.com). Toronto had 'mutual' interest in a reunion (Nicholson-Smith).",
+    "call": "Right to let him go at $25M. His xFIP said he was better than the ERA, but one year at that price is for teams with no other options. That's the next shoe for the Cubs if Itoh goes elsewhere."
+   },
+   {
+    "kind": "Ideas floated",
+    "name": "Matt Shaw for Will Warren (trade idea, Yankees)",
+    "id": 807713,
+    "date": "2026-11-25",
+    "heat": "Warm",
+    "detail": "Matthew Trueblood (North Side Baseball, Nov. 25): with Bohm gone to Kansas City, the Yankees still need a righty-hitting third baseman. He proposes Shaw (or Pedro Ramírez) plus a low-level prospect for RHP Will Warren, with New York dumping Ryan McMahon's $16M for 2027. Warren, 28 next June, made 32 appearances (29 starts) and 156 innings in 2026, is controlled through 2030 and still has options.",
+    "call": "Make the call. A controllable 156-inning starter for a third baseman blocked by Bregman is exactly the trade the Cubs need. Taking McMahon's money is fine if it gets it done."
+   },
+   {
+    "kind": "League moves",
+    "name": "Bohm to the Royals; Robert back to Baltimore; Sánchez to Miami",
+    "date": "2026-11-25",
+    "detail": "Alec Bohm agreed with Kansas City for two years, $20M (Feinsand, MLB.com). Luis Robert Jr. returns to the Orioles on one year, $12M (Heyman), after Baltimore declined his $20M option. Gary Sánchez to the Marlins, one year, $6.5M. JoJo Romero to the Padres, three years, $21M.",
+    "call": "Nothing here is a Cubs target. Bohm leaving the Yankees without a third baseman is the one that matters, because it makes Shaw a trade chip."
+   },
+   {
+    "kind": "Front office",
+    "name": "MLB sues the union before the lockout",
+    "date": "2026-11-25",
+    "detail": "MLB filed suit Wednesday in federal court in Manhattan asking a judge to declare the coming lockout legal under antitrust law, aiming to head off a union disclaimer. It names the MLBPA and the eight players on its executive subcommittee, including Tarik Skubal (ESPN; Front Office Sports). The union called it 'completely frivolous.' The CBA expires Dec. 1 at 11:59 p.m. ET.",
+    "call": "Treat Dec. 1 as a hard wall and assume a long winter. Whatever the Cubs don't buy by Tuesday may not be buyable until March."
+   },
+   {
+    "call": "Losing Griffin stings less than it looks: $16M a year for three years of a 91-mph lefty is full price. Martinez on one year is fine. Two years is the limit at 36.",
+    "date": "2026-11-25",
+    "detail": "Nov. 25: the Cubs were in on both, along with Itoh (Trueblood, North Side Baseball). That night Griffin agreed to return to Cleveland for three years and $48M, pending a physical (Robert Murray, FanSided, first; Ken Rosenthal confirmed). 31, 15-6, 3.60 ERA, 158 K in 172 2/3 innings in 2026; 5.19 ERA in nine starts after the trade. Martinez, 36, threw 180 innings for the pennant-winning Rays and started Game 1 of the World Series. Toronto also has him on its list (Nicholson-Smith, Sportsnet).",
+    "heat": "Warm",
     "kind": "Targets linked so far",
-    "name": "Nick Martinez, Foster Griffin (free agents)",
-    "date": "2026-11-25",
-    "heat": "Warm",
-    "call": "Griffin is the more interesting one: a lefty who misses bats. Martinez is a fine swingman at 36, but two or three years for him is a mistake.",
-    "detail": "Nov. 25: the Cubs are in on both, along with Itoh, sources tell Matthew Trueblood (North Side Baseball). All three want to sign before the lockout and are likely to get multi-year deals. Griffin is a lefty without premium velocity who has shown he can rack up strikeouts with his current stuff; Martinez and Itoh are command-and-mix guys."
+    "name": "Nick Martinez (free agent); Foster Griffin (signed, Guardians: 3 yr, $48M)"
    },
    {
-    "kind": "Free agents",
-    "id": 608348,
-    "name": "Carson Kelly (free agent)",
-    "date": "2026-11-25",
-    "heat": "Warm",
     "call": "Pay the third year. The market just emptied: Jeffers took the QO and Stephenson went home. Refusing three years on principle leaves Amaya and Bart as the starting pair, and that's the weakest spot on the roster.",
-    "detail": "Nov. 25: the Cubs are interested in a reunion but reluctant to give any catcher three years, so a return is unlikely (Trueblood, North Side Baseball). A rival exec says a three-year deal 'is out there for him'; the Angels, Yankees and Giants could go there. He's now the top catcher left after Stephenson re-signed with the Reds (SI). The Cubs had interest in Stephenson before he took three years, $30M from Cincinnati. Kelly: 97 OPS+ and 1.9 bWAR in 2026, .871 OPS vs. lefties."
-   },
-   {
-    "kind": "League moves",
-    "id": 663886,
-    "name": "Tyler Stephenson (re-signed, Reds: 3 yr, $30M)",
     "date": "2026-11-25",
-    "heat": "Cold",
-    "call": "The Cubs wanted him and wouldn't go to three years. That's the same line that will cost them Kelly. Wrong line for this market.",
-    "detail": "Agreed Nov. 24, pending a physical, with an opt-out after the second year (Passan, ESPN; Feinsand, MLB.com). 30; .241, 15 HR, 101 OPS+, career-high 2.5 bWAR in 2026; won 68% of his ABS challenges. The Cubs had interest (Trueblood, North Side Baseball)."
-   },
-   {
+    "detail": "Nov. 25: the Cubs are interested in a reunion but reluctant to give any catcher three years, so a return is unlikely (Trueblood, North Side Baseball). A rival exec says a three-year deal 'is out there for him'; the Angels, Yankees and Giants could go there. He's now the top catcher left after Stephenson re-signed with the Reds (SI). The Cubs had interest in Stephenson before he took three years, $30M from Cincinnati. Kelly: 97 OPS+ and 1.9 bWAR in 2026, .871 OPS vs. lefties. Nov. 25: Gary Sánchez, the other veteran bat-first catcher, signed with Miami (1 yr, $6.5M). Cubbies Crib's Jordan Campbell argues the Cubs are right to let Kelly go a year early.",
+    "heat": "Warm",
+    "id": 608348,
     "kind": "Free agents",
-    "id": 621438,
-    "name": "Tyrone Taylor (signed, White Sox: 2 yr, $17M)",
-    "date": "2026-11-24",
-    "heat": "Cold",
-    "call": "Fair for a righty bench outfielder coming off a career year. The Cubs had Shaw and Ramírez for those at-bats anyway. Fine to let him go.",
-    "detail": "Agreed Nov. 24 (Heyman first; Feinsand had the terms). .279/.325/.502, 11 HR, 128 OPS+ in 97 games for the Mets and Cubs; .351 with a 144 OPS+ in 30 games after the August trade. .921 OPS against lefties. His xwOBA (.309) and xSLG (.416) sat well under the results (South Side Sox)."
+    "name": "Carson Kelly (free agent)"
    },
    {
-    "kind": "League moves",
-    "name": "Seager open to the Phillies; Ha-Seong Kim to Detroit",
-    "date": "2026-11-24",
+    "call": "The Cubs wanted him and wouldn't go to three years. That's the same line that will cost them Kelly. Wrong line for this market.",
+    "date": "2026-11-25",
+    "detail": "Agreed Nov. 24, pending a physical, with an opt-out after the second year (Passan, ESPN; Feinsand, MLB.com). 30; .241, 15 HR, 101 OPS+, career-high 2.5 bWAR in 2026; won 68% of his ABS challenges. The Cubs had interest (Trueblood, North Side Baseball).",
     "heat": "Cold",
+    "id": 663886,
+    "kind": "League moves",
+    "name": "Tyler Stephenson (re-signed, Reds: 3 yr, $30M)"
+   },
+   {
+    "call": "Fair for a righty bench outfielder coming off a career year. The Cubs had Shaw and Ramírez for those at-bats anyway. Fine to let him go.",
+    "date": "2026-11-24",
+    "detail": "Agreed Nov. 24 (Heyman first; Feinsand had the terms). .279/.325/.502, 11 HR, 128 OPS+ in 97 games for the Mets and Cubs; .351 with a 144 OPS+ in 30 games after the August trade. .921 OPS against lefties. His xwOBA (.309) and xSLG (.416) sat well under the results (South Side Sox).",
+    "heat": "Cold",
+    "id": 621438,
+    "kind": "Free agents",
+    "name": "Tyrone Taylor (signed, White Sox: 2 yr, $17M)"
+   },
+   {
     "call": "Nothing here touches the Cubs. Seager moving would pull Philadelphia's money into the infield instead of the arms the Cubs want.",
-    "detail": "Corey Seager is willing to waive his no-trade clause for Philadelphia, which is open to moving Trea Turner off shortstop (NBC Sports Philadelphia, via CBS). He's owed $155M through 2031. The Tigers and Ha-Seong Kim agreed to one year, $5M (Passan). The Mets may add a short-term starter after Skubal (The Athletic, via CBS)."
+    "date": "2026-11-24",
+    "detail": "Corey Seager is willing to waive his no-trade clause for Philadelphia, which is open to moving Trea Turner off shortstop (NBC Sports Philadelphia, via CBS). He's owed $155M through 2031. The Tigers and Ha-Seong Kim agreed to one year, $5M (Passan). The Mets may add a short-term starter after Skubal (The Athletic, via CBS).",
+    "heat": "Cold",
+    "kind": "League moves",
+    "name": "Seager open to the Phillies; Ha-Seong Kim to Detroit"
    },
    {
     "call": "Good deal, and the deferrals make it a little better. The best lefty left at 29, for about the MLBTR number. The picks hurt but they're the price of the top tier. B+ now. It becomes an A only if a second starter follows by Dec. 1.",
-    "date": "2026-11-24",
-    "detail": "Agreed late Nov. 23, pending a physical; the club hasn't confirmed it. Jon Morosi (MLB Network) was first; Ken Rosenthal (The Athletic) confirmed and reported five years, $120M, a $24M AAV; Jesse Rogers (ESPN) and Jordan Bastian (MLB.com) confirmed. MLBTR had projected five years, $115M; The Athletic four years, $84M. He rejected Baltimore's $23.15M QO, so the Cubs forfeit their second- and fifth-highest 2027 picks and $1M in international pool money (ESPN). 2026: 10-11, 4.03 ERA, 169 2/3 innings over 30 starts, his first 30-start season. 6.84 ERA through May after a bout of the flu, then a 2.90 ERA and 2.89 FIP over his last 20 starts. 1.81 ERA in 18 starts in 2025. Fastball back up to 93.8 mph from 91.9 in 2024 after a Driveline rework; hitters are at .204 against it since 2025. 5.6% walk rate, 92nd percentile (MLB.com). Toronto had shown interest the same day (Nicholson-Smith). Nov. 24: Jeff Passan (ESPN) says the deal includes deferrals that bring the net present value down slightly. Baltimore gets a compensatory pick (Kubatko, MASN). It's the third-largest deal ever for a Cubs pitcher, behind Jon Lester ($155M) and Yu Darvish ($126M) (CBS). Sportsnet's David Singh calls it above market: Nicholson-Smith had predicted four years, $100M. The White Sox, Padres and Braves were among the other suitors.",
+    "date": "2026-11-25",
+    "detail": "Officially signed Nov. 25 (MLB transactions), two days after agreeing. Agreed late Nov. 23. Jon Morosi (MLB Network) was first; Ken Rosenthal (The Athletic) confirmed and reported five years, $120M, a $24M AAV; Jesse Rogers (ESPN) and Jordan Bastian (MLB.com) confirmed. MLBTR had projected five years, $115M; The Athletic four years, $84M. He rejected Baltimore's $23.15M QO, so the Cubs forfeit their second- and fifth-highest 2027 picks and $1M in international pool money (ESPN). 2026: 10-11, 4.03 ERA, 169 2/3 innings over 30 starts, his first 30-start season. 6.84 ERA through May after a bout of the flu, then a 2.90 ERA and 2.89 FIP over his last 20 starts. 1.81 ERA in 18 starts in 2025. Fastball back up to 93.8 mph from 91.9 in 2024 after a Driveline rework; hitters are at .204 against it since 2025. 5.6% walk rate, 92nd percentile (MLB.com). Toronto had shown interest the same day (Nicholson-Smith). Nov. 24: Jeff Passan (ESPN) says the deal includes deferrals that bring the net present value down slightly. Baltimore gets a compensatory pick (Kubatko, MASN). It's the third-largest deal ever for a Cubs pitcher, behind Jon Lester ($155M) and Yu Darvish ($126M) (CBS). Sportsnet's David Singh calls it above market: Nicholson-Smith had predicted four years, $100M. The White Sox, Padres and Braves were among the other suitors. 2026 on Baseball-Reference: 101 ERA+, 2.2 bWAR.",
     "heat": "Hot",
     "id": 669432,
     "kind": "Free agents",
@@ -915,8 +1011,8 @@
    },
    {
     "call": "Right player, right price. A 27-year-old with real power for $20M a year is the Suzuki replacement with five extra years of runway. The contact rate is the risk, and the Cubs' 21.1% team strikeout rate can absorb it. A-. It also means Suzuki is gone, and that's fine.",
-    "date": "2026-11-24",
-    "detail": "Agreed Nov. 24, pending a physical; the club hasn't confirmed it. Michael Cerami (Bleacher Nation) first reported it was being finalized; Jeff Passan (ESPN) had the terms; Mark Feinsand (MLB.com) and Ken Rosenthal (The Athletic) confirmed. It landed about 12 hours after Rogers. 27, a two-time Central League MVP and the 2026 Triple Crown winner: .306/.383/.609, 39 HR, 106 RBI in 143 games for Hanshin; 40 homers and a .924 OPS in 2025 (NBC Sports). .271/.337/.514 with 163 homers over six NPB seasons (Blue Jays Nation). Expected to play a corner outfield spot; FanGraphs' depth chart has him in right (North Side Baseball). The risks: a 66% contact rate against a 77% MLB average (CBS), a 17.3% swinging-strike rate, second-highest among qualified NPB hitters, and a nearly 36% chase rate (NBC Sports). The posting fee to Hanshin comes on top of the $120M. Tom Verducci (MLB Network) called him 'the best bat on the market' because of his age (via Heavy).",
+    "date": "2026-11-25",
+    "detail": "Officially signed Nov. 25 (MLB transactions). Agreed Nov. 24. Michael Cerami (Bleacher Nation) first reported it was being finalized; Jeff Passan (ESPN) had the terms; Mark Feinsand (MLB.com) and Ken Rosenthal (The Athletic) confirmed. It landed about 12 hours after Rogers. 27, a two-time Central League MVP and the 2026 Triple Crown winner: .306/.383/.609, 39 HR, 106 RBI in 143 games for Hanshin; 40 homers and a .924 OPS in 2025 (NBC Sports). .271/.337/.514 with 163 homers over six NPB seasons (Blue Jays Nation). Expected to play a corner outfield spot; FanGraphs' depth chart has him in right (North Side Baseball). The risks: a 66% contact rate against a 77% MLB average (CBS), a 17.3% swinging-strike rate, second-highest among qualified NPB hitters, and a nearly 36% chase rate (NBC Sports). The posting fee to Hanshin comes on top of the $120M. Tom Verducci (MLB Network) called him 'the best bat on the market' because of his age (via Heavy).",
     "heat": "Hot",
     "id": 831664,
     "kind": "Free agents",
@@ -932,9 +1028,9 @@
     "name": "Logan Webb (trade, Giants)"
    },
    {
-    "call": "Probably priced out now, and the Padres want him back. Don't chase him past four years.",
+    "call": "Headed back to San Diego, by the look of it. Fine. Don't chase him past four years.",
     "date": "2026-11-25",
-    "detail": "Nov. 24: MLB.com calls him 'likely the best starting pitcher still available' after Rogers, Peralta and Taira signed, with 'a handful of clubs in the mix,' the Cubs and Mets among those linked. Declined his player option. 3.21 ERA in 185 innings, but 21.0% K and 9.2% BB were career worsts (FanGraphs). Morosi (Nov. 13) called King-Cubs a 'pairing that many of us have forecasted'; on Nov. 20 he said the White Sox are in on King too (MLB.com). MLBTR projects four years, $92M. Morosi (Nov. 20) thinks King and Peralta won't sign until after Skubal decides (MLB.com). Nov. 22: MLB.com's AJ Cassavell calls King San Diego's 'most obvious pivot' after missing on Skubal; Preller has said there's 'a lot of interest' in a reunion, and King wants to return. Nov. 23: Nightengale says the Padres will 'do everything possible to bring back' King; they're also eyeing a Pivetta reunion. Toronto is interested too (Nicholson-Smith, via MLBTR). Nov. 25: Trueblood (North Side Baseball) says King, Mahle and Holmes may be priced past the Cubs' appetite after Rogers. MLB.com's belief is King signs with one of his suitors by the end of the week.",
+    "detail": "Nov. 24: MLB.com calls him 'likely the best starting pitcher still available' after Rogers, Peralta and Taira signed, with 'a handful of clubs in the mix,' the Cubs and Mets among those linked. Declined his player option. 3.21 ERA in 185 innings, but 21.0% K and 9.2% BB were career worsts (FanGraphs). Morosi (Nov. 13) called King-Cubs a 'pairing that many of us have forecasted'; on Nov. 20 he said the White Sox are in on King too (MLB.com). MLBTR projects four years, $92M. Morosi (Nov. 20) thinks King and Peralta won't sign until after Skubal decides (MLB.com). Nov. 22: MLB.com's AJ Cassavell calls King San Diego's 'most obvious pivot' after missing on Skubal; Preller has said there's 'a lot of interest' in a reunion, and King wants to return. Nov. 23: Nightengale says the Padres will 'do everything possible to bring back' King; they're also eyeing a Pivetta reunion. Toronto is interested too (Nicholson-Smith, via MLBTR). Nov. 25: Trueblood (North Side Baseball) says King, Mahle and Holmes may be priced past the Cubs' appetite after Rogers. MLB.com's belief is King signs with one of his suitors by the end of the week. Nov. 25: the Padres are 'closing in on a deal with at least one of the top remaining starting pitchers,' with King at the top of the list (Kevin Acee, San Diego Union-Tribune, via Padres Mission). Morosi 'wholeheartedly' expects him to sign by the end of the week (MLB.com).",
     "heat": "Cold",
     "id": 650633,
     "kind": "Targets linked so far",
@@ -1237,13 +1333,13 @@
     "name": "Matthew Boyd"
    },
    {
-    "call": "Still the cleanest fit on two years, but the Trueblood list doesn't include him. If Itoh signs elsewhere, Peterson is the fallback.",
-    "date": "2026-11-24",
-    "detail": "Nov. 24: Jesse Rogers (ESPN Chicago) says Peterson and Clay Holmes are both in play, and the Cubs will 'probably sign one more starter' before the lockout (via MLB.com). 114 ERA+ in 15 starts after the June trade, 4.06 FIP, 10.2% walk rate. Sharma reports the Cubs are working to bring him back. Robert Murray (FanSided) says several teams are interested, and the Banner's Kostka names him as a fit for lefty-hungry Baltimore (MLBTR, Nov. 16). MLBTR projects two years, $24M.",
-    "heat": "Hot",
+    "call": "Gone, and $16M a year is more than the Cubs should have paid. The problem is the fallback list is now Itoh, Martinez and Holmes.",
+    "date": "2026-11-25",
+    "detail": "Agreed Nov. 25: two years, $32M (Jeff Passan, ESPN). 31, grew up in the Denver area. 114 ERA+ in 15 starts for the Cubs after the June trade, 4.06 FIP, 10.2% walk rate. MLBTR had projected two years, $24M. Jesse Rogers (ESPN) had him in play for the Cubs as recently as Nov. 24.",
+    "heat": "Cold",
     "id": 656849,
     "kind": "Free agents",
-    "name": "David Peterson"
+    "name": "David Peterson (signed, Rockies: 2 yr, $32M)"
    },
    {
     "call": "The crosstown team just made Taira a real bidding war. Overpay by a year or a few million now. A Boras client with a hard deadline is the one time waiting costs you the player, not just the price.",
@@ -1281,11 +1377,11 @@
     "value": "$108.25M"
    },
    {
-    "label": "Rogers' AAV (5 yr, $120M; deferrals lower the tax hit slightly, per Passan)",
+    "label": "Rogers' AAV (5 yr, $120M; deferrals lower the tax hit slightly, per Passan). Signed Nov. 25.",
     "value": "$24M"
    },
    {
-    "label": "Sato's AAV (6 yr, $120M)",
+    "label": "Sato's AAV (6 yr, $120M). Signed Nov. 25.",
     "value": "$20M"
    },
    {
@@ -1305,7 +1401,7 @@
     "value": "Dec. 1"
    }
   ],
-  "summary": "Rogers (5 yr, $120M) and Sato (6 yr, $120M) are done, both pending physicals. The second arm is the job this week: Trueblood (North Side Baseball) has the Cubs in on Itoh, Nick Martinez and Foster Griffin, with a bigger one-year add likely after the lockout. Catcher got worse overnight: Stephenson went back to Cincinnati and the Cubs won't give Kelly the three years he can get elsewhere. The call: sign Itoh before he picks a three-year offer from someone else, then pay Kelly the third year. Amaya and Bart is not a contender's catching pair."
+  "summary": "Rogers (5 yr, $120M) and Sato (6 yr, $120M) went official Wednesday. Then the market ate the Cubs' second-starter list: Foster Griffin re-signed with Cleveland (3 yr, $48M), Kevin Gausman took $25M for one year in Detroit, and David Peterson went home to Colorado (2 yr, $32M). Itoh and Nick Martinez are left. The call: sign Itoh before the lockout, then pay Kelly the third year. Amaya and Bart is not a contender's catching pair."
  },
- "updatedAt": "2026-11-25T09:42-05:00"
+ "updatedAt": "2026-11-25T23:05-05:00"
 }
