@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T09:40-05:00",
+ "updatedAt": "2026-11-26T22:40-05:00",
  "date": "2026-11-26",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
@@ -8,14 +8,28 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "Thanksgiving pause, five days to the lockout: Wednesday's starter run ended with Colorado paying Patrick Sandoval $42 million, and King, Suzuki and Arozarena are still unsigned.",
+ "headline": "Thanksgiving pause, five days to the lockout: King, Suzuki, Arozarena and Morejon are still unsigned, and the belief is King goes before the weekend is out.",
  "news": [
   {
-   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
-   "source": "MLB Trade Rumors",
+   "title": "Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
+   "source": "ESPN (AP)",
    "date": "2026-11-25",
-   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html",
-   "note": "Jeff Passan had it. Colorado's second multi-year starter of the night after Peterson, for a lefty who missed all of 2025 after elbow surgery."
+   "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/",
+   "note": "The NL MVP topped Skenes' 2025 mark; Misiorowski and Schlittler were next. MLB proposes growing the $50M pool to $65M; the union wants $180M."
+  },
+  {
+   "title": "Twins sign Kevin Ginkel; Nationals add A.J. Puk",
+   "source": "Yahoo Sports",
+   "date": "2026-11-25",
+   "url": "https://ca.sports.yahoo.com/news/mlb-hot-stove-tracker-live-172657970.html",
+   "note": "Ginkel gets two years, $18M (Feinsand). Puk gets one year, $5M in Washington (Passan). The reliever tier is clearing out too."
+  },
+  {
+   "date": "2026-11-25",
+   "note": "Jeff Passan had it. Colorado's second multi-year starter of the night after Peterson, for a lefty who missed all of 2025 after elbow surgery.",
+   "source": "MLB Trade Rumors",
+   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
+   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
   },
   {
    "date": "2026-11-25",
@@ -37,46 +51,32 @@
    "source": "ESPN",
    "title": "MLB sues the players' union to protect the coming lockout",
    "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
-  },
-  {
-   "date": "2026-11-25",
-   "note": "Baltimore declined his $20 million option last month, then brought him back for less. He played three games for the O's before a hamstring strain.",
-   "source": "MLB.com",
-   "title": "Luis Robert Jr. returns to the Orioles: one year, $12 million",
-   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles"
-  },
-  {
-   "date": "2026-11-25",
-   "note": "Kansas City fills third base a week after trading Maikel Garcia. The Yankees and Phillies both lose an option.",
-   "source": "MLB.com",
-   "title": "Royals sign Alec Bohm: two years, $20 million",
-   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
   }
  ],
  "sources": [
   {
-   "title": "MLB Trade Rumors: Rockies sign Patrick Sandoval: three years, $42 million",
+   "title": "Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
+   "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/"
+  },
+  {
+   "title": "Twins sign Kevin Ginkel; Nationals add A.J. Puk",
+   "url": "https://ca.sports.yahoo.com/news/mlb-hot-stove-tracker-live-172657970.html"
+  },
+  {
+   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
    "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
   },
   {
-   "title": "cleveland.com: Guardians bring back Foster Griffin: three years, $48 million",
+   "title": "Guardians bring back Foster Griffin: three years, $48 million",
    "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
   },
   {
-   "title": "ESPN: Kevin Gausman to the Tigers: one year, $25 million",
+   "title": "Kevin Gausman to the Tigers: one year, $25 million",
    "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
   },
   {
-   "title": "ESPN: MLB sues the players' union to protect the coming lockout",
+   "title": "MLB sues the players' union to protect the coming lockout",
    "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
-  },
-  {
-   "title": "MLB.com: Luis Robert Jr. returns to the Orioles: one year, $12 million",
-   "url": "https://www.mlb.com/news/luis-robert-jr-contract-orioles"
-  },
-  {
-   "title": "MLB.com: Royals sign Alec Bohm: two years, $20 million",
-   "url": "https://www.mlb.com/royals/news/alec-bohm-royals-contract"
   }
  ]
 }

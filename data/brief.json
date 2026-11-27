@@ -173,7 +173,7 @@
    }
   ]
  },
- "headline": "Thanksgiving quiet after Wednesday's pitching run: Rogers and Sato are in, Griffin, Gausman and Peterson are gone, and Itoh is still the second starter the Cubs need before Tuesday night's lockout.",
+ "headline": "Thanksgiving was quiet: no Cubs move Thursday, Itoh is still unsigned, and the Cubs have five days to land the second starter before Tuesday night's lockout.",
  "injuries": [
   {
    "id": 690990,
@@ -700,6 +700,14 @@
  ],
  "sources": [
   {
+   "title": "ESPN/ABC7: Crow-Armstrong gets record $3.5M from pre-arb bonus pool",
+   "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/"
+  },
+  {
+   "title": "MLB.com: The latest rumors (King expected to sign before week's end)",
+   "url": "https://www.mlb.com/news/mlb-rumors-trades-and-signings"
+  },
+  {
    "title": "MLB transactions: Cubs sign Rogers, Sato (Nov. 25)",
    "url": "https://statsapi.mlb.com/api/v1/transactions?teamId=112&startDate=2026-11-25&endDate=2026-11-25"
   },
@@ -892,6 +900,15 @@
  ],
  "stove": {
   "items": [
+   {
+    "kind": "Awards",
+    "name": "Crow-Armstrong: record $3.5M from the pre-arb bonus pool",
+    "id": 691718,
+    "date": "2026-11-25",
+    "detail": "Figures finalized Wednesday by MLB and the union: $3,548,994, the most in the pool's history, topping Skenes' $3,436,343 from last year (AP, via ESPN). His three-year pool total is $5,097,329, more than double his $2,282,186 in salary from 2024-26. Misiorowski was second ($3.16M). The pool is $50M a year; MLB proposes $65M in 2027, the union $180M.",
+    "call": "Deserved, and it costs the Cubs nothing: the pool is league money. It's also the cleanest exhibit in the union's case before Tuesday. His $10M-a-year extension starts in 2027.",
+    "heat": "Warm"
+   },
    {
     "call": "Right to let him go at $25M. His xFIP said he was better than the ERA, but one year at that price is for teams with no other options. That's the next shoe for the Cubs if Itoh goes elsewhere.",
     "date": "2026-11-25",
@@ -1385,7 +1402,7 @@
     "value": "Dec. 1"
    }
   ],
-  "summary": "Rogers (5 yr, $120M) and Sato (6 yr, $120M) went official Wednesday. Then the market ate the Cubs' second-starter list: Foster Griffin re-signed with Cleveland (3 yr, $48M), Kevin Gausman took $25M for one year in Detroit, and David Peterson went home to Colorado (2 yr, $32M). Itoh and Nick Martinez are left. The call: sign Itoh before the lockout, then pay Kelly the third year. Amaya and Bart is not a contender's catching pair."
+  "summary": "Rogers (5 yr, $120M) and Sato (6 yr, $120M) went official Wednesday. Then the market ate the Cubs' second-starter list: Griffin to Cleveland (3 yr, $48M), Gausman to Detroit (1 yr, $25M), Peterson to Colorado (2 yr, $32M). Thanksgiving brought nothing. Itoh and Nick Martinez are left, and MLB.com's belief is King signs somewhere before the weekend is out. The call: sign Itoh before the lockout, then pay Kelly the third year. Amaya and Bart is not a contender's catching pair."
  },
- "updatedAt": "2026-11-26T09:55-05:00"
+ "updatedAt": "2026-11-26T22:50-05:00"
 }
