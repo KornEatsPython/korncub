@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-26T22:40-05:00",
- "date": "2026-11-26",
+ "updatedAt": "2026-11-27T09:40-05:00",
+ "date": "2026-11-27",
  "games": [],
  "kalshiNote": "Kalshi prices are the cost of a $1 Yes contract (yes ask) at refresh time; odds are the American-odds equivalent, before Kalshi fees.",
  "next": {
@@ -8,28 +8,35 @@
   "count": 17,
   "first": "Toronto Blue Jays at Pittsburgh Pirates"
  },
- "headline": "Thanksgiving pause, five days to the lockout: King, Suzuki, Arozarena and Morejon are still unsigned, and the belief is King goes before the weekend is out.",
+ "headline": "Four days to the lockout: King, Suzuki, Arozarena and Morejon are still unsigned, Suzuki wants more than Sato's $120M, and the second-tier starters are flying off the board.",
  "news": [
   {
-   "title": "Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
-   "source": "ESPN (AP)",
-   "date": "2026-11-25",
-   "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/",
-   "note": "The NL MVP topped Skenes' 2025 mark; Misiorowski and Schlittler were next. MLB proposes growing the $50M pool to $65M; the union wants $180M."
-  },
-  {
-   "title": "Twins sign Kevin Ginkel; Nationals add A.J. Puk",
-   "source": "Yahoo Sports",
-   "date": "2026-11-25",
-   "url": "https://ca.sports.yahoo.com/news/mlb-hot-stove-tracker-live-172657970.html",
-   "note": "Ginkel gets two years, $18M (Feinsand). Puk gets one year, $5M in Washington (Passan). The reliever tier is clearing out too."
-  },
-  {
-   "date": "2026-11-25",
-   "note": "Jeff Passan had it. Colorado's second multi-year starter of the night after Peterson, for a lefty who missed all of 2025 after elbow surgery.",
+   "title": "Suzuki wants to top Sato's $120 million",
    "source": "MLB Trade Rumors",
-   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
-   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
+   "date": "2026-11-26",
+   "url": "https://www.mlbtraderumors.com/2026/11/seiya-suzuki-reportedly-asking-for-more-than-120mm.html",
+   "note": "Heyman reports Suzuki's agency told suitors he wants more than Sato's guarantee; MLBTR projected four years, $105M. The Blue Jays, Padres and Phillies are linked to him and Arozarena."
+  },
+  {
+   "title": "Rangers sign Bryce Johnson to a minor-league deal",
+   "source": "MLB Trade Rumors",
+   "date": "2026-11-26",
+   "url": "https://www.mlbtraderumors.com/2026/11/rangers-sign-bryce-johnson-to-minor-league-deal.html",
+   "note": "A glove-first switch-hitting outfielder for depth while Evan Carter recovers from hip surgery. Texas still hasn't signed a major-league free agent this winter."
+  },
+  {
+   "date": "2026-11-25",
+   "note": "The NL MVP topped Skenes' 2025 mark; Misiorowski and Schlittler were next. MLB proposes growing the $50M pool to $65M; the union wants $180M.",
+   "source": "ESPN (AP)",
+   "title": "Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
+   "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/"
+  },
+  {
+   "date": "2026-11-25",
+   "note": "Ginkel gets two years, $18M (Feinsand). Puk gets one year, $5M in Washington (Passan). The reliever tier is clearing out too.",
+   "source": "Yahoo Sports",
+   "title": "Twins sign Kevin Ginkel; Nationals add A.J. Puk",
+   "url": "https://ca.sports.yahoo.com/news/mlb-hot-stove-tracker-live-172657970.html"
   },
   {
    "date": "2026-11-25",
@@ -40,43 +47,36 @@
   },
   {
    "date": "2026-11-25",
-   "note": "Jeff Passan reported it, pending a physical. Gausman is the only pitcher with 30-plus starts every season since 2021.",
-   "source": "ESPN",
-   "title": "Kevin Gausman to the Tigers: one year, $25 million",
-   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
-  },
-  {
-   "date": "2026-11-25",
-   "note": "The league wants a federal judge to rule a lockout legal under antitrust law. The union called the suit 'completely frivolous.'",
-   "source": "ESPN",
-   "title": "MLB sues the players' union to protect the coming lockout",
-   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
+   "note": "Jeff Passan had it. Colorado's second multi-year starter of the night after Peterson, for a lefty who missed all of 2025 after elbow surgery.",
+   "source": "MLB Trade Rumors",
+   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
+   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
   }
  ],
  "sources": [
   {
-   "title": "Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
+   "title": "MLB Trade Rumors: Suzuki wants to top Sato's $120 million",
+   "url": "https://www.mlbtraderumors.com/2026/11/seiya-suzuki-reportedly-asking-for-more-than-120mm.html"
+  },
+  {
+   "title": "MLB Trade Rumors: Rangers sign Bryce Johnson to a minor-league deal",
+   "url": "https://www.mlbtraderumors.com/2026/11/rangers-sign-bryce-johnson-to-minor-league-deal.html"
+  },
+  {
+   "title": "ESPN (AP): Crow-Armstrong sets the pre-arb bonus pool record: $3.55 million",
    "url": "https://abc7chicago.com/post/cubs-crow-armstrong-get-record-35m-pre-arbitration-bonus-pool/20082004/"
   },
   {
-   "title": "Twins sign Kevin Ginkel; Nationals add A.J. Puk",
+   "title": "Yahoo Sports: Twins sign Kevin Ginkel; Nationals add A.J. Puk",
    "url": "https://ca.sports.yahoo.com/news/mlb-hot-stove-tracker-live-172657970.html"
   },
   {
-   "title": "Rockies sign Patrick Sandoval: three years, $42 million",
-   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
-  },
-  {
-   "title": "Guardians bring back Foster Griffin: three years, $48 million",
+   "title": "cleveland.com: Guardians bring back Foster Griffin: three years, $48 million",
    "url": "https://www.cleveland.com/guardians/2026/11/guardians-bringing-back-left-hander-foster-griffin-on-three-year-48-million-deal-reports.html"
   },
   {
-   "title": "Kevin Gausman to the Tigers: one year, $25 million",
-   "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
-  },
-  {
-   "title": "MLB sues the players' union to protect the coming lockout",
-   "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
+   "title": "MLB Trade Rumors: Rockies sign Patrick Sandoval: three years, $42 million",
+   "url": "https://www.mlbtraderumors.com/2026/11/rockies-patrick-sandoval-agree-to-three-year-deal.html"
   }
  ]
 }
